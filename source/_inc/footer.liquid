@@ -1,0 +1,22 @@
+[EDIT THIS PAGE / CONTRIBUTE DOCS](#)
+
+{% unless options contains 'no-footer' %}
+<footer self="size-large" layout="columns bottom-center" style="min-height: 200px">
+
+    <div self="size-large" layout="rows center-justify" style="padding: 24px;">
+
+        <div self="left">
+            <a href="{{ '/feed/rss.xml' | url }}" layout="row center-left" style="gap: 8px">
+                <img src="{{ '/images/rss-feed.png' | url }}" width="24" height="24">
+                <strong>RSS feed</strong>
+            </a>
+        </div>
+
+        <div>
+            powered by <a href="https://zuixjs.org"><strong>zuix.js</strong></a>
+        </div>
+
+    </div>
+
+</footer>
+{% endunless %}
