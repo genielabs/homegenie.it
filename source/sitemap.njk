@@ -7,7 +7,11 @@ eleventyExcludeFromCollections: true
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 {%- for item in collections.all %}{% if item.data.title %}
   <url>
+    {%- if item.data.link %}
+    <loc>{{ app.siteMapUrl }}{{ item.data.link }}</loc>
+    {%- else %}
     <loc>{{ app.siteMapUrl }}{{ item.url }}</loc>
+    {%- endif %}
     <lastmod>{{ item.date | date("yyyy-MM-DD") }}</lastmod>
 {%- if item.data.sitemapChangefreq %}<changefreq>{{ item.data.sitemapChangefreq }}</changefreq>{% endif -%}
 {%- if item.data.sitemapPriority %}<priority>{{ item.data.sitemapPriority }}</priority>{% endif %}
