@@ -136,7 +136,12 @@ Enter the following command from terminal (`apt-get` is shown here, eventually r
 used in your system):
 
 ```bash
-sudo apt-get install mono-runtime libmono-corlib2.0-cil libmono-system-web4.0-cil libmono-system-numerics4.0-cil libmono-system-serviceprocess4.0-cil libmono-system-data4.0-cil libmono-system-core4.0-cil libmono-system-servicemodel4.0a-cil libmono-windowsbase4.0-cil libmono-system-runtime-serialization-formatters-soap4.0-cil libmono-system-runtime-serialization4.0-cil libmono-system-xml-linq4.0-cil mono-dmcs
+sudo apt-get install mono-runtime libmono-corlib4.5-cil libmono-system-web4.0-cil \
+     libmono-system-numerics4.0-cil libmono-system-serviceprocess4.0-cil \
+     libmono-system-data4.0-cil libmono-system-core4.0-cil libmono-system-servicemodel4.0a-cil \
+     libmono-windowsbase4.0-cil libmono-system-runtime-serialization-formatters-soap4.0-cil \
+     libmono-system-runtime-serialization4.0-cil libmono-system-xml-linq4.0-cil mono-mcs \
+     libusb-1.0-0 libusb-1.0-0-dev alsa-utils lame libv4l-0
 ```
 
 #### Optional dependencies

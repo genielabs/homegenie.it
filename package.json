@@ -33,6 +33,7 @@
   },
   "bugs": "https://github.com/zuixjs/zuix-web-starter/issues",
   "dependencies": {
+    "@chiiya/haven": "^0.7.0",
     "animate.css": "^4.1.1",
     "flex-layout-attribute": "^1.0.3",
     "fuse.js": "^6.6.2",

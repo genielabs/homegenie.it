@@ -59,7 +59,7 @@ languages:
 - Javascript
 - Python
 
-Despite of the selected language, all programs can use the same set of [Helper Classes](api/ape/annotated.html)
+Despite the selected language, all programs can use the same set of [Helper Classes](../../../api/ape/annotated.html)
 to access *HG* resources or external services in the same way.
 
 <div class="media-container">
@@ -68,7 +68,7 @@ to access *HG* resources or external services in the same way.
 
 ### Example - Turning off lights in a given group
 
-The following example is using the [ModulesManager](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html) helper class to turn off all lights in the *Porch* group:
+The following example is using the [ModulesManager](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html) helper class to turn off all lights in the *Porch* group:
 
 ```javascript
 // C#
@@ -91,13 +91,13 @@ so all of these are very similar, just using own language specific syntax.
 
 #### Remarks
 
-The **hg.** prefix, used to address *[Helper Classes](api/ape/annotated.html)*,
+The **hg.** prefix, used to address *[Helper Classes](../../../api/ape/annotated.html)*,
 can be omitted when using C# but must be used for all other languages.
 
 The **camelCase** coding practice can be adopted for *Javascript* programs
 when calling helper methods.
 
-Some *[Helper Class](api/ape/annotated.html)* methods may require a
+Some *[Helper Class](../../../api/ape/annotated.html)* methods may require a
 callback function as an argument.
 The following examples show how callbacks can be passed in the various
 language flavours.
@@ -105,7 +105,7 @@ language flavours.
 
 ### Example - Using callbacks in different languages
 
-The [When.SystemStarted](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#afcf0d379d8dd2da00c2adf1c3c9996f3) method
+The [When.SystemStarted](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#afcf0d379d8dd2da00c2adf1c3c9996f3) method
 requires a callback as argument:
 
 ```javascript
@@ -145,7 +145,7 @@ is the main code, and the *Startup Code*.
 
 *Startup Code* is a piece of code that can be used to set various program
 options and also to tell *HG* when to run the main program code by using
-the [Program.Run](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a34a937a2bc052615d27137c3663d10c6)
+the [Program.Run](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a34a937a2bc052615d27137c3663d10c6)
 instruction in it.
 
 When the program is idle (thus the program code is not running),
@@ -162,16 +162,16 @@ if (Scheduler.IsScheduling("0 7 * * *"))
 
 Other instructions commonly used in the *Startup Code* are:
 
-- [Program.Setup](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#aba65b477efba06ac22a4f908881bbece)
-- [Program.UseWidget](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ab4c0baea094fcf0f29c57cf1f157c68b)
-- [Program.AddOption](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a77342214dc230ce4eab47ffc4c10bd7f)
-- [Program.AddFeature](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b)
+- [Program.Setup](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#aba65b477efba06ac22a4f908881bbece)
+- [Program.UseWidget](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ab4c0baea094fcf0f29c57cf1f157c68b)
+- [Program.AddOption](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a77342214dc230ce4eab47ffc4c10bd7f)
+- [Program.AddFeature](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b)
 
 The use of these command is described later in this page.
 
 #### Remarks
 
-when [Program.Run](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a34a937a2bc052615d27137c3663d10c6)
+when [Program.Run](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a34a937a2bc052615d27137c3663d10c6)
 is called in the *Startup Code*,
 the program's code will run only after that *Startup Code* reaches it's
 end. So it's a good practice not to put any
@@ -179,10 +179,10 @@ long-time consuming operation or infinite loop in the *Startup Code*.
 
 *Startup Code* and *Program Code* are not running in the same scope.
 Data between them that can be shared by using
-[Modules parameters](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_module_helper.html#a016f9d7512c4407acbfc2d7c72d02a17)
+[Modules parameters](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_module_helper.html#a016f9d7512c4407acbfc2d7c72d02a17)
 and other structures such as
-[Program Store](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a111c3e247c9a22cf44e032bfb568f876)
-and [System Settings](api/ape/a00013.htmlapi/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_settings_helper.html).
+[Program Store](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a111c3e247c9a22cf44e032bfb568f876)
+and [System Settings](../../../api/ape/a00013.htmlapi/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_settings_helper.html).
 
 <a name="modules"></a>
 
@@ -216,9 +216,9 @@ Program.UseWidget("homegenie/generic/program");
 
 A program can also create and handle futher modules by using the following functions:
 
-- [Program.AddVirtualModules](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a6ce0c82ab9edb50be6689919cf29c1ca)
-- [Program.AddVirtualModule](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ad74a2a82101dd80e17244fd03eaf181f)
-- [Program.RemoveVirtualModule](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ac1c5f107619fed38f6cb9d9224fd3506)
+- [Program.AddVirtualModules](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a6ce0c82ab9edb50be6689919cf29c1ca)
+- [Program.AddVirtualModule](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ad74a2a82101dd80e17244fd03eaf181f)
+- [Program.RemoveVirtualModule](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ac1c5f107619fed38f6cb9d9224fd3506)
 
 ## Program Options
 
@@ -244,8 +244,8 @@ Program.AddOption(
 var location = Program.Option("Location").Value;
 ```
 
-The [Program.AddOption](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a77342214dc230ce4eab47ffc4c10bd7f) instruction is meant to be used inside
-the [Program.Setup](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#aba65b477efba06ac22a4f908881bbece) delegate.
+The [Program.AddOption](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a77342214dc230ce4eab47ffc4c10bd7f) instruction is meant to be used inside
+the [Program.Setup](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#aba65b477efba06ac22a4f908881bbece) delegate.
 
 ## Program Features
 
@@ -268,7 +268,7 @@ Program.AddFeature(
 Program.Run();
 ```
 
-The last parameter of the [Program.AddFeature](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b)
+The last parameter of the [Program.AddFeature](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b)
 function will select the type of control that will be displayed in the UI module options dialog.
 The following are the currently implemented UI field types:
 
@@ -292,8 +292,8 @@ The following are the currently implemented UI field types:
 ## Reacting to module events
 
 Each time a module parameter is updated a new event is raised in the system. By using either the
-[ModuleParameterIsChanging](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a2345d703592c2fe90284b13ce7ac2650) or the
-[ModuleParameterChanged](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a7e82383574aeff32db8d09d4eb916718)
+[ModuleParameterIsChanging](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a2345d703592c2fe90284b13ce7ac2650) or the
+[ModuleParameterChanged](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a7e82383574aeff32db8d09d4eb916718)
 function, a program can listen to the system event stream and react in consequence of a module event.
 The difference between *ModuleParameterIsChanging* and *ModuleParameterChanged*, is that the first one is called before the
 latter one. In most situations *ModuleParameterChanged* will be used.
@@ -355,14 +355,14 @@ hg.Program.GoBackground()
 ```
 
 Automation programs can also raise events, so the system (and other programs as well) will acknowledge when a module has been updated.
-The function [Program.RaiseEvent](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#af51db91ed13809da94337aac3c1053b7) is meant for that.
+The function [Program.RaiseEvent](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#af51db91ed13809da94337aac3c1053b7) is meant for that.
 
 <a name="commands"></a>
 
 
 ## Reacting to commands
 
-When the user click a button or any other control of a module widget, an [API](api/mig/overview.html) command request is
+When the user click a button or any other control of a module widget, an [API](../../../api/mig/overview.html) command request is
 sent to *HG*. A standard HTTP API request, follows the syntax:<br/>
 `/api/<module_domain>/<module_address>/<command>[/<option_1>/../<option_n>]`<br/>
 For example when clicking **On** and **Off** buttons on the widget of a **Z-Wave** switch with node id **5**, the following
@@ -372,7 +372,7 @@ HTTP requests are made:
 /api/HomeAutomation.ZWave/5/Control.On
 /api/HomeAutomation.ZWave/5/Control.Off
 ```
-So if an automation program creates a [virtual module](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ad74a2a82101dd80e17244fd03eaf181f) of switch type in the domain *MyProgram.Domain*
+So if an automation program creates a [virtual module](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#ad74a2a82101dd80e17244fd03eaf181f) of switch type in the domain *MyProgram.Domain*
 
 ```csharp
 Program.AddVirtualModule(
@@ -383,7 +383,7 @@ Program.AddVirtualModule(
 ```
 
 it will be able to handle commands addressed to this module by listening to API calls going to the *MyProgram.Domain* domain.
-The [When.WebServiceCallReceived](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a58515455945c35783cde47d21f844663) helper function is used for this purpose:
+The [When.WebServiceCallReceived](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_events_helper.html#a58515455945c35783cde47d21f844663) helper function is used for this purpose:
 
 #### CSharp
 ```csharp
@@ -446,7 +446,7 @@ hg.Program.GoBackground()
 
 ## Common operations on modules
 
-See the [ModulesManager](api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html) helper class documentation to find out all available functions and properties.
+See the [ModulesManager](../../../api/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html) helper class documentation to find out all available functions and properties.
 
 ### Example - Selecting modules
 
