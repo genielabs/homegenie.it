@@ -3,7 +3,7 @@ options: highlight ext-links
 title: The programmable automation system
 date: Last Modified
 release_name: v1.4
-release_tag: 1.4.0-beta.23
+release_tag: 1.4.0-beta.24
 download_link: "https://github.com/genielabs/HomeGenie/releases/download/v{{release_tag}}/homegenie_{{release_tag}}"
 architectures:
 - win-x64
@@ -151,7 +151,7 @@ architectures:
                         Integrated smart home drivers:<br>
                         &nbsp;&nbsp;<em>KNX</em>, <em>X10</em>, <em>ZigBee</em>, <em>Z-Wave</em>
                     </li>
-                    <li>Integrated scheduler with extended crontab expressions and scripting</li>
+                    <li>Scheduler with extended crontab expressions and scripting</li>
                 </ul>
             </div>
 
@@ -228,9 +228,9 @@ architectures:
 
         <h3>HomeGenie {{ release_name }}</h3>
 
-        <select class="button"
+        <h4 style="margin: 0; opacity: 0.7">Select architecture:</h4>
+        <select class="button" style="width: 200px;"
                 onchange="setTargetArchitecture(this.value)">
-            <option>(select architecture)</option>
             <option value="win-x64">
                 Windows 64-bit
             </option>
