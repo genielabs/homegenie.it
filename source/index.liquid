@@ -18,7 +18,7 @@ architectures:
     {% include "layouts/common/theme.css.liquid" %}
 
     body {
-        font-size: 120%;
+        font-size: 110%;
         height: 100vh;
         background-color: #f3f3f3;
         color: #333;
@@ -104,16 +104,17 @@ architectures:
 
 <body layout="column start-center">
 
-    <div class="section" style="padding-top:24px;"
+    <div class="section" style="padding-top:24px;padding-bottom: 0"
          layout="row start-justify">
         <div>
             <h1 aria-description="HomeGenie, the programmable automation system, logo"
-                 class="animate__animated animate__fadeInLeft animate__faster">
+                 class="animate__animated animate__fadeInLeft animate__faster"
+                 style="margin: 0; padding:0">
                 <style>
                     svg {
                         width: 272px;
                         height: 72px;
-                        fill: #2372cc;
+                        fill: #3aa3f1;
                     }
                 </style>
                 <span style="max-height: 0; overflow: hidden; display: block">HomeGenie</span>
@@ -122,22 +123,33 @@ architectures:
         </div>
 
         <div layout="row center-right">
+            <!--
             <a href="https://github.com/genielabs/HomeGenie/"
                title="Source code on GitHub.com"
                style="padding:6px;opacity: 0.5;overflow: hidden">
                 <img alt="GitHub logo" src="images/github-mark.png" width="48" height="48"
                      class="animate__animated animate__fadeInRight animate__faster">
             </a>
+            -->
+            <span style="font-size: 48px;line-height: 56px"
+                  class="animate__animated animate__fadeInRight animate__faster">🧞</span>
         </div>
 
     </div>
 
-    <div layout="column center-stretch" class="section" style="gap: 12px;">
-        <p style="margin: 0; font-size: 130%; line-height: 130%;">
-            The programmable automation system
-        </p>
+    <div layout="row center-spread">
+        <div self="size-x1" style="border:solid 1px; height: 1px; opacity:.1"></div>
+        <div style="border-radius: 24px; border: 1px solid #ddd; padding-bottom: 4px;">
+            <p style="margin: 0; font-size: 90%; opacity: 0.75;text-align: center; padding-left: 16px; padding-right: 16px">
+                the programmable automation intelligence
+            </p>
+        </div>
+        <div self="size-x1" style="border:solid 1px;height: 1px; opacity:.1"></div>
+    </div>
 
-        <div layout="rows top-justify" style="margin-bottom: 48px">
+    <div layout="column center-stretch" class="section" style="gap: 12px;">
+
+        <div layout="rows top-justify" style="margin-top: 48px; margin-bottom: 48px">
 
             <div -class="features-box">
                 <h2>Scalable, customizable and portable</h2>
@@ -159,7 +171,7 @@ architectures:
                     <li>Customizable client UI presets</li>
                     <li>Package system to quickly add/remove extra features</li>
                     <li>
-                        Integrated smart home drivers:<br>
+                        Integrated <strong>smart home</strong> drivers:<br>
                         &nbsp;&nbsp;<em>KNX</em>, <em>X10</em>, <em>ZigBee</em>, <em>Z-Wave</em>
                     </li>
                 </ul>
