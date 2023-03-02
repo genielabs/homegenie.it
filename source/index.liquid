@@ -21,7 +21,7 @@ architectures:
         font-size: 120%;
         height: 100vh;
         background-color: #f3f3f3;
-        color: #222222;
+        color: #333;
         margin:0;
         padding:0;
     }
@@ -29,11 +29,18 @@ architectures:
     p {
         line-height: 160%;
     }
+    a {
+        color: #005591;
+    }
     em {
         opacity: 0.75;
     }
     h2 {
+        color: #444;
         margin-top: 24px;
+    }
+    h3 {
+        color: #666;
     }
 
     ul {
@@ -44,14 +51,14 @@ architectures:
         line-height: 130%;
         list-style: none;
         position: relative;
-        padding: 12px 0 2px 25px;
+        padding: 12px 0 2px 20px;
     }
 
     ul li::before {
-        content: '*';
-        opacity: 0.65;
+        content: '\2022';
+        opacity: 0.3;
         position: absolute;
-        top: 16px;
+        top: 13px;
         left: 0;
     }
     ul.flat-list {
@@ -106,12 +113,10 @@ architectures:
                     svg {
                         width: 272px;
                         height: 72px;
-                        fill: #588ac0;
-                    }
-                    a {
-                        color: #275870;
+                        fill: #2372cc;
                     }
                 </style>
+                <span style="max-height: 0; overflow: hidden; display: block">HomeGenie</span>
                 {% include './images/homegenie-text-logo.svg' %}
             </h1>
         </div>
@@ -129,20 +134,26 @@ architectures:
 
     <div layout="column center-stretch" class="section" style="gap: 12px;">
         <p style="margin: 0; font-size: 130%; line-height: 130%;">
-            The programmable automation system for smart devices and applications
+            The programmable automation system
         </p>
-
-        <div style="font-size: 80%; margin-top: 0; margin-bottom: 40px; opacity: 0.75">
-            (runs on <strong>Windows</strong>, <strong>Mac</strong>, <strong>Linux</strong>
-                and ARM-based computers such as <strong>Raspberry Pi</strong>)
-        </div>
 
         <div layout="rows top-justify" style="margin-bottom: 48px">
 
             <div -class="features-box">
-                <h2>Fully-featured, yet easy</h2>
+                <h2>Scalable, customizable and portable</h2>
 
                 <ul>
+                    <li>
+                        Runs on <strong>Windows</strong>, <strong>Mac</strong>, <strong>Linux</strong>
+                        and ARM-based computers
+                        <small>(such as <strong>Raspberry Pi</strong>)</small>
+                    </li>
+                    <li>
+                        Self-contained application and optimized code for the target architecture
+                    </li>
+                    <li>
+                        Deploy easily with a single <em>.zip</em> archive with everything it needs to run
+                    </li>
                     <li>Setup Wizard</li>
                     <li>Configuration Backup/Restore</li>
                     <li>Customizable client UI presets</li>
@@ -151,7 +162,6 @@ architectures:
                         Integrated smart home drivers:<br>
                         &nbsp;&nbsp;<em>KNX</em>, <em>X10</em>, <em>ZigBee</em>, <em>Z-Wave</em>
                     </li>
-                    <li>Scheduler with extended crontab expressions and scripting</li>
                 </ul>
             </div>
 
@@ -186,7 +196,7 @@ architectures:
             <div class="features-box">
                 <h3>Automation IDE</h3>
                 <ul>
-                    <li>Supports <em></em>C#</em>, <em>JavaScript</em>, <em>Python</em> and visual programming with <em>Blockly</em></li>
+                    <li>Supports <em></em>C#</em>, <em>JavaScript</em>, <em>Python</em> and visual programming</li>
                     <li>Direct access to <em>GPIO</em>, <em>I2C</em>, <em>SPI</em> and serial ports</li>
                     <li>
                         Includes
@@ -203,6 +213,11 @@ architectures:
             </div>
 
             <div class="features-box">
+                <h3>Scheduler</h3>
+                <ul>
+                    <li>Extended crontab expressions</li>
+                    <li>Scripting</li>
+                </ul>
                 <h3>Examples included</h3>
                 <ul>
                     <li>Weather Widget</li>
@@ -210,8 +225,6 @@ architectures:
                     <li>Energy Monitor</li>
                     <li>Smart Thermostat</li>
                     <li>Raspberry Pi: <em>DHTxx</em> temperature/humidity sensing and <em>GPIO</em> control</li>
-                    <li>Sensor data simulator</li>
-                    <li>Virtual modules</li>
                     <li>... and more!</li>
                 </ul>
             </div>
