@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Thu, 02 Mar 2023 12:02:40 +0100</lastBuildDate>
-    <pubDate>Thu, 02 Mar 2023 12:02:40 +0100</pubDate>
+    <lastBuildDate>Thu, 02 Mar 2023 15:41:48 +0100</lastBuildDate>
+    <pubDate>Thu, 02 Mar 2023 15:41:48 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://zuixjs.org//images/icons/icon-152x152.png</url>
@@ -19,7 +19,7 @@
         <link>https://zuixjs.org//search/</link>
         <guid isPermaLink="true">https://zuixjs.org//search/</guid>
         <description>Search this website</description>
-        <pubDate>Thu, 02 Mar 2023 12:02:40 +0100</pubDate>
+        <pubDate>Thu, 02 Mar 2023 15:41:48 +0100</pubDate>
         <atom:link href="https://zuixjs.org//search/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -28,7 +28,7 @@
         <link>https://zuixjs.org//content/docs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/docs/</guid>
         <description>Documentation section</description>
-        <pubDate>Thu, 02 Mar 2023 12:02:40 +0100</pubDate>
+        <pubDate>Thu, 02 Mar 2023 15:41:48 +0100</pubDate>
         <atom:link href="https://zuixjs.org//content/docs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -128,7 +128,7 @@
         <link>https://zuixjs.org//google7f8debac56a66e22.html</link>
         <guid isPermaLink="true">https://zuixjs.org//google7f8debac56a66e22.html</guid>
         <description></description>
-        <pubDate>Thu, 02 Mar 2023 12:02:40 +0100</pubDate>
+        <pubDate>Thu, 02 Mar 2023 15:41:48 +0100</pubDate>
         <atom:link href="https://zuixjs.org//google7f8debac56a66e22.html" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -220,7 +220,7 @@
         <link>https://zuixjs.org//content/devs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
         <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Thu, 02 Mar 2023 12:02:40 +0100</pubDate>
+        <pubDate>Thu, 02 Mar 2023 15:41:48 +0100</pubDate>
         <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -229,7 +229,7 @@
         <link>https://zuixjs.org//</link>
         <guid isPermaLink="true">https://zuixjs.org//</guid>
         <description></description>
-        <pubDate>Thu, 02 Mar 2023 12:02:40 +0100</pubDate>
+        <pubDate>Thu, 02 Mar 2023 15:41:48 +0100</pubDate>
         <atom:link href="https://zuixjs.org//" rel="self" />
         <dc:creator></dc:creator>
     </item>
