@@ -412,8 +412,8 @@ function configure(eleventyConfig) {
   /*
   || Eleventy plugins
   */
-  const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-  eleventyConfig.addPlugin(syntaxHighlight);
+//  const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+//  eleventyConfig.addPlugin(syntaxHighlight);
 
   /*
   || Add data collections
