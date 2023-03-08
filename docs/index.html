@@ -479,7 +479,7 @@ unzip homegenie_1.4.0-beta.25_linux-arm64.zip
 </code></pre></div><div class="docs"><h3>Running in a terminal</h3><p>Set the current directory to <code>homegenie</code> and run the <code>./HomeGenie</code> command:<pre><code class="language-bash">cd homegenie
 ./HomeGenie
 </code></pre><p>To stop the application press <code>CTRL + C</code><h3>Running as a system service</h3><p>HomeGenie can be installed as a service. The procedure is different depending on the hosting operating system.<h4>Recommended procedure for Linux</h4><ol><li>Add a specific user for the service and copy the content of <code>homegenie</code> folder to the new user home directory:</ol><pre><code class="language-bash">sudo useradd homegenie
-sudo cp ./path-to-extracted-folder/homegenie/* /home/homegenie/
+sudo cp -ar ./path-to-extracted-folder/homegenie/* /home/homegenie/
 sudo chown -R homegenie:homegenie /home/homegenie
 </code></pre><ol start="2"><li>Create the file <code>/etc/systemd/system/homegenie.service</code> with the following content:</ol><pre><code class="language-bash">[Unit]
 Description=HomeGenie
