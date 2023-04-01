@@ -11,7 +11,7 @@
         "browserconfig.xml",
         "manifest.json",
         "humans.txt",
-        "favicon.ico",
+        "favicon.svg",
         "robots.txt",
         "content/**/*.jpg",
         "content/**/*.png",
