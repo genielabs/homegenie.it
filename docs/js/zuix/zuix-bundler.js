@@ -1,4 +1,4 @@
-/* zUIx v1.1.0 22.05.12 11:57:28 */
+/* zuix.js v1.1.27 23.05.18 18:03:16 */
 
 var zuix;
 /******/ (function() { // webpackBootstrap
@@ -11,8 +11,9 @@ var zuix;
 /* eslint-disable */
 /*!
  * @license
- * Copyright 2015-2022 G-Labs. All Rights Reserved.
- *         https://zuixjs.github.io/zuix
+ * Copyright 2015-2023 G-Labs. All Rights Reserved.
+ *
+ *           https://zuixjs.org
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +31,7 @@ var zuix;
 /**
  *
  *  zUIx, Javascript library for component-based development.
- *        https://zuixjs.github.io/zuix
+ *        https://zuixjs.org
  *
  * @author Generoso Martello  -  https://github.com/genemars
  */
@@ -61,8 +62,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/* FileSaver.js
 
 /* global self */
 /* jslint bitwise: true, indent: 4, laxbreak: true, laxcomma: true, smarttabs: true, plusplus: true */
-
-/*! @source http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js */
 
 var saveAs = saveAs || (function(view) {
 	"use strict";
@@ -369,8 +368,9 @@ module.exports = function serialize(obj, options) {
 
 "use strict";
 /*
- * Copyright 2015-2022 G-Labs. All Rights Reserved.
- *         https://zuixjs.github.io/zuix
+ * Copyright 2015-2023 G-Labs. All Rights Reserved.
+ *
+ *           https://zuixjs.org
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -389,7 +389,7 @@ module.exports = function serialize(obj, options) {
  *
  *  This file is part of
  *  zUIx, Javascript library for component-based development.
- *        https://zuixjs.github.io/zuix
+ *        https://zuixjs.org
  *
  * @author Generoso Martello  -  https://github.com/genemars
  */
@@ -468,6 +468,7 @@ module.exports = function() {
     return;
   }
   zuix.saveBundle = saveBundle;
+  zuix.saveBlob = fileSaver.saveAs;
   return zuix;
 };
 
@@ -478,8 +479,9 @@ module.exports = function() {
 /***/ (function(module) {
 
 /*
- * Copyright 2015-2022 G-Labs. All Rights Reserved.
- *         https://zuixjs.github.io/zuix
+ * Copyright 2015-2023 G-Labs. All Rights Reserved.
+ *
+ *           https://zuixjs.org
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -498,44 +500,46 @@ module.exports = function() {
  *
  *  This file is part of
  *  zUIx, Javascript library for component-based development.
- *        https://zuixjs.github.io/zuix
+ *        https://zuixjs.org
  *
  * @author Generoso Martello  -  https://github.com/genemars
  */
 
 const OptionAttributes = Object.freeze({
   zModel:
-        'z-model',
+    'z-model',
   zBind:
-        'z-bind',
+    'z-bind',
   zBehavior:
-        'z-behavior',
+    'z-behavior',
   zOn:
-        'z-on',
+    'z-on',
+  zCss:
+    'z-css',
   zComponent:
-        'z-component',
+    'z-component',
   zContext:
-        'z-context',
+    'z-context',
   zField:
-        'z-field',
-  zInclude:
-        'z-include',
+    'z-field',
   zLazy:
-        'z-lazy',
+    'z-lazy',
   zLoad:
-        'z-load',
+    'z-load',
   zLoaded:
-        'z-loaded',
+    'z-loaded',
   zOptions:
-        'z-options',
+    'z-options',
+  zUsing:
+    'z-using',
   zPriority:
-        'z-priority',
+    'z-priority',
   zView:
-        'z-view',
+    'z-view',
   zuixLoaded:
-        'zuix-loaded',
+    'zuix-loaded',
   zReady:
-        'z-ready',
+    'z-ready',
   // Types attributes
   resourceType: {
     view: 'view',
@@ -544,7 +548,7 @@ const OptionAttributes = Object.freeze({
   },
   // Identifiers attributes
   cssIdPrefix:
-      'z-css-'
+    'z-css-'
 });
 
 module.exports = OptionAttributes;
