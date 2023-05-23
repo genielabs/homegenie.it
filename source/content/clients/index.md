@@ -53,7 +53,7 @@ Specifically designed to be a Control Panel for the end-user, **HomeGenie Plus**
 #### Screenshots - Phone
 
 <div class="media-container visible-on-ready" ctrl z-load="@lib/controllers/view-pager" z-lazy="false"
-    data-o-slide="true" data-o-paging="true">
+    :auto-slide="true" :paging="true">
     <!--img self="size-medium" src="images/hgplus/hg_phone_00.jpg" /-->
     <img self="size-medium" src="images/hgplus/hg_phone_01.jpg" />
     <img self="size-medium" src="images/hgplus/hg_phone_02.jpg" />
@@ -68,7 +68,7 @@ Specifically designed to be a Control Panel for the end-user, **HomeGenie Plus**
 #### Screenshots - Tablet
 
 <div class="media-container visible-on-ready" ctrl z-load="@lib/controllers/view-pager" z-lazy="false"
-    data-o-slide="true" data-o-paging="true">
+    :auto-slide="true" :paging="true">
     <img self="size-medium" src="images/hgplus/hgplus_13.jpg" />
     <img self="size-medium" src="images/hgplus/hg_tablet_01.jpg" />
     <img self="size-medium" src="images/hgplus/hg_tablet_02.jpg" />

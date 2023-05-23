@@ -7,28 +7,19 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Mon, 22 May 2023 12:36:36 +0200</lastBuildDate>
-    <pubDate>Mon, 22 May 2023 12:36:36 +0200</pubDate>
+    <lastBuildDate>Tue, 23 May 2023 19:09:25 +0200</lastBuildDate>
+    <pubDate>Tue, 23 May 2023 19:09:25 +0200</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://zuixjs.org//images/icons/icon-152x152.png</url>
         <link>https://zuixjs.org/</link>
     </image>
     <item>
-        <title>Search</title>
-        <link>https://zuixjs.org//search/</link>
-        <guid isPermaLink="true">https://zuixjs.org//search/</guid>
-        <description>Search this website</description>
-        <pubDate>Mon, 22 May 2023 12:36:36 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//search/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Documentation</title>
         <link>https://zuixjs.org//content/docs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/docs/</guid>
         <description>Documentation section</description>
-        <pubDate>Mon, 22 May 2023 12:36:36 +0200</pubDate>
+        <pubDate>Tue, 23 May 2023 19:09:25 +0200</pubDate>
         <atom:link href="https://zuixjs.org//content/docs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -85,19 +76,6 @@
         <media:description></media:description>
     </item>
     <item>
-        <title>Configuration</title>
-        <link>https://zuixjs.org//content/docs/configure/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/configure/</guid>
-        <description>Configuring HomeGenie</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/configure/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/configure/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
         <title>Scenarios</title>
         <link>https://zuixjs.org//content/docs/scenarios/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/docs/scenarios/</guid>
@@ -111,39 +89,13 @@
         <media:description></media:description>
     </item>
     <item>
-        <title>UPnP / DLNA</title>
-        <link>https://zuixjs.org//content/docs/upnp_dlna/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/upnp_dlna/</guid>
-        <description>Controlling media servers and players</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/upnp_dlna/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/upnp_dlna/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
         <title></title>
         <link>https://zuixjs.org//google7f8debac56a66e22.html</link>
         <guid isPermaLink="true">https://zuixjs.org//google7f8debac56a66e22.html</guid>
         <description></description>
-        <pubDate>Mon, 22 May 2023 12:36:36 +0200</pubDate>
+        <pubDate>Tue, 23 May 2023 19:09:25 +0200</pubDate>
         <atom:link href="https://zuixjs.org//google7f8debac56a66e22.html" rel="self" />
         <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Widgets</title>
-        <link>https://zuixjs.org//content/devs/widgets/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/devs/widgets/</guid>
-        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/devs/widgets/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/devs/widgets/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
     </item>
     <item>
         <title>Get started</title>
@@ -203,6 +155,37 @@
         <dc:creator></dc:creator>
     </item>
     <item>
+        <title>Developing</title>
+        <link>https://zuixjs.org//content/devs/</link>
+        <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
+        <description>HomeGenie widgets, programs and web API</description>
+        <pubDate>Tue, 23 May 2023 19:09:25 +0200</pubDate>
+        <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Search</title>
+        <link>https://zuixjs.org//search/</link>
+        <guid isPermaLink="true">https://zuixjs.org//search/</guid>
+        <description>Search this website</description>
+        <pubDate>Tue, 23 May 2023 19:09:25 +0200</pubDate>
+        <atom:link href="https://zuixjs.org//search/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Configuration</title>
+        <link>https://zuixjs.org//content/docs/configure/</link>
+        <guid isPermaLink="true">https://zuixjs.org//content/docs/configure/</guid>
+        <description>Configuring HomeGenie</description>
+        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
+        <atom:link href="https://zuixjs.org//content/docs/configure/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://zuixjs.org//content/docs/configure/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
         <title>Clients</title>
         <link>https://zuixjs.org//content/clients/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/clients/</guid>
@@ -216,20 +199,37 @@
         <media:description></media:description>
     </item>
     <item>
-        <title>Developing</title>
-        <link>https://zuixjs.org//content/devs/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
-        <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Mon, 22 May 2023 12:36:36 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
-        <dc:creator></dc:creator>
+        <title>UPnP / DLNA</title>
+        <link>https://zuixjs.org//content/docs/upnp_dlna/</link>
+        <guid isPermaLink="true">https://zuixjs.org//content/docs/upnp_dlna/</guid>
+        <description>Controlling media servers and players</description>
+        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
+        <atom:link href="https://zuixjs.org//content/docs/upnp_dlna/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://zuixjs.org//content/docs/upnp_dlna/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Widgets</title>
+        <link>https://zuixjs.org//content/devs/widgets/</link>
+        <guid isPermaLink="true">https://zuixjs.org//content/devs/widgets/</guid>
+        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
+        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
+        <atom:link href="https://zuixjs.org//content/devs/widgets/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://zuixjs.org//content/devs/widgets/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
     </item>
     <item>
         <title>The programmable automation system</title>
         <link>https://zuixjs.org//</link>
         <guid isPermaLink="true">https://zuixjs.org//</guid>
         <description></description>
-        <pubDate>Mon, 22 May 2023 12:36:36 +0200</pubDate>
+        <pubDate>Tue, 23 May 2023 19:09:25 +0200</pubDate>
         <atom:link href="https://zuixjs.org//" rel="self" />
         <dc:creator></dc:creator>
     </item>

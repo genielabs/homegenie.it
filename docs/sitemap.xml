@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://zuixjs.org//search/</loc>
-    <lastmod>2022-05-07</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//content/docs/</loc>
     <lastmod>2022-05-10</lastmod>
   </url>
@@ -26,19 +22,7 @@
     <lastmod>2022-05-10</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//content/docs/configure/</loc>
-    <lastmod>2022-05-10</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//content/docs/scenarios/</loc>
-    <lastmod>2022-05-10</lastmod>
-  </url>
-  <url>
-    <loc>https://zuixjs.org//content/docs/upnp_dlna/</loc>
-    <lastmod>2022-05-10</lastmod>
-  </url>
-  <url>
-    <loc>https://zuixjs.org//content/devs/widgets/</loc>
     <lastmod>2022-05-10</lastmod>
   </url>
   <url>
@@ -62,15 +46,31 @@
     <lastmod>2023-02-27</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//content/clients/</loc>
-    <lastmod>2023-02-27</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//content/devs/</loc>
     <lastmod>2023-02-27</lastmod>
   </url>
   <url>
+    <loc>https://zuixjs.org//search/</loc>
+    <lastmod>2023-05-23</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//content/docs/configure/</loc>
+    <lastmod>2023-05-23</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//content/clients/</loc>
+    <lastmod>2023-05-23</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//content/docs/upnp_dlna/</loc>
+    <lastmod>2023-05-23</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//content/devs/widgets/</loc>
+    <lastmod>2023-05-23</lastmod>
+  </url>
+  <url>
     <loc>https://zuixjs.org//</loc>
-    <lastmod>2023-04-21</lastmod>
+    <lastmod>2023-05-23</lastmod>
   </url>
 </urlset>

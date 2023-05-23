@@ -48,7 +48,7 @@ functionality or manually by using *[UPnP API](api/mig/mig_api_upnp.html)*
 and then recalled within a *[scenario](#/docs/scenarios)*.
 
 <div class="media-container" ctrl z-load="@lib/controllers/view-pager"
-    data-o-slide="true" data-o-paging="true">
+    :auto-slide="true" :paging="true">
     <img self="size-small" title="Android Phone Client - Media Server Widget" src="images/hg_phone_media_server.jpg" alt="" loading="lazy">
     <img self="size-small" title="Android Phone Client - Media Player Widget" src="images/hg_phone_media_player.jpg" alt="" loading="lazy">
     <img self="size-medium" title="Web UI - Media Server Widget" src="images/media_server_widget_00.jpg" alt="" loading="lazy">

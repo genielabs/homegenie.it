@@ -72,7 +72,7 @@ panel where the widget is actually displayed and that we can use to
 test its functionality.
 
 <div class="media-container" data-ui-load="@lib/controllers/view_pager"
-    data-o-slide="true" data-o-paging="true">
+    :auto-slide="true" :paging="true">
     <img self="size-medium" src="images/widgets_editor_html.jpg" alt="" loading="lazy">
     <img self="size-medium" src="images/widgets_editor_js.jpg" alt="" loading="lazy">
     <!--img self="size-medium" src="images/widgets_editor_params.jpg" alt="" loading="lazy"-->

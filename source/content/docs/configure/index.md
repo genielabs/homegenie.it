@@ -33,7 +33,7 @@ From this page we can add/sort *modules* in the group, change the wallpaper, ren
 delete it.
 
 <div class="media-container visible-on-ready" ctrl z-load="@lib/controllers/view-pager" z-lazy="false"
-    data-o-slide="true" data-o-paging="true">
+    :auto-slide="true" :paging="true">
     <img self="size-medium" src="images/configure_menu.jpg" alt="Configuration menu" loading="lazy">
     <img self="size-medium" src="images/groups_add_group.jpg" alt="Groups editor" loading="lazy">
     <img self="size-medium" src="images/groups_add_module.jpg" alt="Group modules editor" loading="lazy">
