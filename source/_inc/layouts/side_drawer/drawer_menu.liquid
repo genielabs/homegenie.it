@@ -1,10 +1,17 @@
 <ul>
-    {% assign posts = collections.main | sort: 'data.pubDate' | reverse | sort: 'data.order' %}
+    {% assign posts = collections.main | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
     {%- for post in posts -%}
-        {%- if post.url -%}
+        {%- if post.url and post.data.major == major -%}
             {% assign match = page.url | split:post.url %}
             <li {% if match[0] == blank and match.size == 0 %} aria-current="page"{% endif %}>
-                <a href="{{ post.url | url }}" class="mdl-js-ripple-effect">
+                {% assign link = post.url | url %}
+                {% if post.data.wip == true %}
+                    {% assign link = '#' %}
+                    {% assign class = 'disabled' %}
+                {% else %}
+                    {% assign class = '' %}
+                {% endif %}
+                <a href="{{ link | url}}" class="mdl-js-ripple-effect {{ class }}">
                     <div layout="row center-left">
                         <i class="material-icons">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>
@@ -16,18 +23,25 @@
     {%- endfor -%}
 </ul>
 
-{% assign sections = collections.sections | sort: 'data.pubDate' | reverse | sort: 'data.order' %}
+{% assign sections = collections.sections | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
 {%- for section in sections -%}
-    {% if collections[section.data.group] %}
+    {% if section.data.major == major and collections[section.data.group] %}
 
         <label>{{ section.data.title }}</label>
         <ul>
-            {% assign posts = collections[section.data.group] | sort: 'data.pubDate' | reverse | sort: 'data.order' %}
+            {% assign posts = collections[section.data.group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
             {%- for post in posts -%}
-            {%- if post.url -%}
+            {%- if post.url and post.data.major == major -%}
             {% assign match = page.url | split:post.url %}
             <li {% if match[0] == blank %} aria-current="page"{% endif %}>
-                <a href="{{ post.url | url }}" class="mdl-js-ripple-effect">
+                {% assign link = post.url | url %}
+                {% if post.data.wip == true %}
+                    {% assign link = '#' %}
+                    {% assign class = 'disabled' %}
+                {% else %}
+                    {% assign class = '' %}
+                {% endif %}
+                <a href="{{ link | url }}" class="mdl-js-ripple-effect {{ class }}">
                     <div layout="row center-left">
                         <i class="material-icons">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>
@@ -35,7 +49,7 @@
                     <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
                 </a>
             </li>
-            {% elsif post.data.link %}
+            {% elsif post.data.link and post.data.major == major %}
             <li>
                 <a href="{{ post.data.link | url }}" class="mdl-js-ripple-effect">
                     <div layout="row center-left">
@@ -51,7 +65,8 @@
 
     {% endif %}
 {% endfor %}
-<!--
+
+{% if major == "1.4" %}
 <ul>
     <li {% if page.url == '/search/' %} aria-current="page"{% endif %}>
         <a href="{{ '/search' | url }}" class="mdl-js-ripple-effect">
@@ -63,4 +78,4 @@
         </a>
     </li>
 </ul>
--->
+{% endif %}

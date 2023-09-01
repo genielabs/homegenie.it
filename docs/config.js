@@ -2,7 +2,7 @@
 (function() {
   zuix.store('config', {
     "title": "HomeGenie",
-    "subtitle": "Programmable smart home server.",
+    "subtitle": "Documentation",
     "language": "en",
     "baseUrl": "/",
     "resourcePath": "/app/",

@@ -421,7 +421,8 @@ function configure(eleventyConfig) {
 
   // this is used by the searchFilter
   eleventyConfig.addCollection('posts_searchIndex', (collection) => {
-    return [...collection.getFilteredByGlob(path.join(zuixConfig.build.input, contentFolder, '**/*.md'))];
+    return [...collection.getFilteredByGlob(path.join(zuixConfig.build.input, contentFolder, '**/*.md'))]
+      .filter((item) => item.data.wip !== true);
   });
 
   /*

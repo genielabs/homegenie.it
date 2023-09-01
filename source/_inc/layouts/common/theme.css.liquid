@@ -1,20 +1,20 @@
 :root {
     --lite-color: #fff;
     --lite-color-text: #000;
-    --lite-nav-color: #007ca7;
+    --lite-nav-color: #3c4487;
     --lite-nav-color-text: #fff;
     --lite-color--accent: #e10c57;
-    --lite-color--primary: #3954be;
+    --lite-color--primary: #236fbc;
     --lite-color--code: #005000;
     --lite-font--weigth: 400;
 
-    --dark-color: #141414;
+    --dark-color: #1d1d1d;
     --dark-color-text: #d2d2d2;
-    --dark-nav-color: rgb(9, 84, 162);
+    --dark-nav-color: #543369; /* #4b2d4b; */ /* #014b76; */ /* #60142d; */
     --dark-nav-color-text: #ccc;
-    --dark-color--accent: #f6d549;
-    --dark-color--primary: #7dcc55;
-    --dark-color--code: #8fc563;
+    --dark-color--accent: #d5c262;
+    --dark-color--primary: #88c963;
+    --dark-color--code: #a0bf85;
     --dark-font--weigth: 400;
 }
 
@@ -33,7 +33,7 @@ body{{ tc -}} {
     font-weight: var(--{{ theme }}-font--weigth);
 }
 {{ tc -}}
-nav, {{ tc -}} footer {
+nav, {{ tc -}} footer, {{ tc -}} header {
     background-color: var(--{{ theme }}-nav-color);
     color: var(--{{ theme }}-nav-color-text);
     fill: var(--{{ theme }}-nav-color-text);
@@ -149,6 +149,12 @@ button {
     border: solid 1px var(--lite-color);
     background-color: var(--lite-nav-color)!important;
     fill: var(--lite-nav-color-text)!important;
+}
+[z-load*="/components/menu-overlay"] .circle-button .material-icons {
+    color: var(--lite-nav-color-text);
+}
+.theme-dark [z-load*="/components/menu-overlay"] .circle-button .material-icons {
+    color: var(--dark-nav-color-text);
 }
 .theme-dark [z-load*="/components/menu-overlay"] .circle-button {
     border: solid 1px var(--dark-color);

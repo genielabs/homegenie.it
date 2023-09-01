@@ -127,6 +127,11 @@
 .drawer-content a {
    color: #24333e;
 }
+
+a.disabled {
+    opacity: 0.5;
+}
+
 [z-context="menu-drawer"]:focus {
     outline: none;
 }

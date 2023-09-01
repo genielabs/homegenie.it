@@ -1,11 +1,11 @@
 {% if group and collections[group] %}
 
-    {% assign prevPost = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | getPreviousCollectionItem: page %}
-    {% assign nextPost = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | getNextCollectionItem: page %}
+    {% assign prevPost = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' | getPreviousCollectionItem: page %}
+    {% assign nextPost = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' | getNextCollectionItem: page %}
 
     <div layout="rows center-spread" style="margin-top: 112px; gap:12px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%">
 
-        {% if prevPost %}
+        {% if prevPost and prevPost.data.major == major and prevPost.data.wip != true %}
             {% if prevPost.data.link %}
                 {% assign url=prevPost.data.link %}
             {% else %}
@@ -22,7 +22,7 @@
             <div>&nbsp;</div>
         {% endif %}
 
-        {% if nextPost %}
+        {% if nextPost and nextPost.data.major == major and nextPost.data.wip != true %}
             {% if nextPost.data.link %}
                 {% assign url=nextPost.data.link %}
             {% else %}
