@@ -287,3 +287,8 @@
         transition: opacity 10ms ease-in-out;
     }
     {% include 'layouts/side_drawer/drawer.css' %}
+
+    {% include 'fragments/big-button.css' %}
+    .button-85 {
+        font-size: 110%;
+    }

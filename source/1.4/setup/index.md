@@ -23,17 +23,6 @@ When opening HomeGenie UI after the installation (or after a factory reset),
 the Setup Wizard will walk you through a couple of simple steps to set the
 base configuration of your system.
 
-<!--
-
-<div class="media-container visible-on-ready" ctrl z-load="@lib/controllers/view-pager" z-lazy="false"
-    :auto-slide="false" :paging="true">
-    <img self="size-medium" src="images/setup_wizard_01.png" title="Setup Wizard 1/3" />
-    <img self="size-medium" src="images/setup_wizard_02.png" title="Setup Wizard 2/3" />
-    <img self="size-medium" src="images/setup_wizard_03.png" title="Setup Wizard 3/3" />
-</div>
-
--->
-
 Here you can enable built-in drivers for Raspberry Pi or other single board computers,
 and smart home dongles.
 
@@ -114,7 +103,6 @@ In the video below an example setup using both *ZigBee* and *Z-Wave* hardware.
 
   <video src="images/homegenie_setup_wizard.webm"
        controls muted
-       poster_dis="images/homegenie_setup_wizard.png"
        poster="images/setup_wizard_03.png"
        style="max-width:100%;"></video>
 

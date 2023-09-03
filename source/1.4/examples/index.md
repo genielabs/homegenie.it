@@ -6,7 +6,7 @@ tags: main
 group: main
 order: 50
 coverPreview: https://picsum.photos/seed/docs!install/256/256
-title: Example Applications
+title: Example applications
 description: Example HomeGenie applications
 icon: tips_and_updates
 keywords:
