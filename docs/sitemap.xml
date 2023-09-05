@@ -98,10 +98,6 @@
     <lastmod>2023-09-01</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//1.4/getting-started/</loc>
-    <lastmod>2023-09-01</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//</loc>
     <lastmod>2023-09-03</lastmod>
   </url>
@@ -112,5 +108,9 @@
   <url>
     <loc>https://zuixjs.org//1.4/panel/</loc>
     <lastmod>2023-09-03</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/getting-started/</loc>
+    <lastmod>2023-09-05</lastmod>
   </url>
 </urlset>

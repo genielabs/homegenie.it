@@ -1,7 +1,7 @@
 <div layout="rows top-spread">
     {% assign itemsList = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' -%}
     {%- for post in itemsList -%}
-    {% if post.data.major == major and post.data.group == group and post.url != page.url %}
+    {% if post.data.wip != true and post.data.major == major and post.data.group == group and post.url != page.url %}
 
         {% if post.data.link %}
             {% assign postUrl = post.data.link | url %}
