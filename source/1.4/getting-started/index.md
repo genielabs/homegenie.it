@@ -26,7 +26,7 @@ keywords:
 - rpi
 - 1.4
 release_name: 1.4
-release_tag: 1.4.0-beta.44
+release_tag: 1.4.0-beta.45
 download_link: "https://github.com/genielabs/HomeGenie/releases/download/v{{release_tag}}/homegenie_{{release_tag}}"
 architectures:
   - win-x64
