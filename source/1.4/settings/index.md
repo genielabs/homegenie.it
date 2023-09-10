@@ -26,6 +26,7 @@ drivers and other options implemented by automation programs such as
 Depending on installed packages and custom programs, a different number of configuration
 options will be available.
 
+<a name="packages"></a>
 
 ## Packages
 

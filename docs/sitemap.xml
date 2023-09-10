@@ -94,15 +94,7 @@
     <lastmod>2023-09-01</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//1.4/settings/</loc>
-    <lastmod>2023-09-01</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//</loc>
-    <lastmod>2023-09-03</lastmod>
-  </url>
-  <url>
-    <loc>https://zuixjs.org//1.4/setup/</loc>
     <lastmod>2023-09-03</lastmod>
   </url>
   <url>
@@ -110,7 +102,19 @@
     <lastmod>2023-09-03</lastmod>
   </url>
   <url>
+    <loc>https://zuixjs.org//1.4/settings/</loc>
+    <lastmod>2023-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/setup/</loc>
+    <lastmod>2023-09-10</lastmod>
+  </url>
+  <url>
     <loc>https://zuixjs.org//1.4/getting-started/</loc>
-    <lastmod>2023-09-06</lastmod>
+    <lastmod>2023-09-10</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/automation/features/</loc>
+    <lastmod>2023-09-10</lastmod>
   </url>
 </urlset>

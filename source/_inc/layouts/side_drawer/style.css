@@ -292,3 +292,13 @@
     .button-85 {
         font-size: 110%;
     }
+
+    .note-box {
+        margin: 12px;
+        margin-bottom: 24px;
+        margin-top: 0;
+        padding: 12px;
+        font-size: 100%;
+        background-color: rgba(200,200,200,0.1);
+        border-left: dashed 4px var(--accent-color);
+    }

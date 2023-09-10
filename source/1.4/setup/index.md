@@ -57,9 +57,9 @@ how to create a program for making the LED blink indefinitely.
 
 </div>
 <script type="text/javascript">
-const video= document.getElementById('video1');       
-video.addEventListener('ended',function(){
-    video.load();     
+const video1= document.getElementById('video1');       
+video1.addEventListener('ended',function(){
+    video1.load();     
 },false);
 </script>
 
@@ -101,12 +101,19 @@ In the video below an example setup using both *ZigBee* and *Z-Wave* hardware.
 
 <div class="media-container">
 
-  <video src="images/homegenie_setup_wizard.webm"
+  <video id="video2" src="images/homegenie_setup_wizard.webm"
        controls muted
        poster="images/setup_wizard_03.png"
        style="max-width:100%;"></video>
 
 </div>
+<script type="text/javascript">
+const video2= document.getElementById('video2');       
+video2.addEventListener('ended',function(){
+    video2.load();     
+},false);
+</script>
+
 
 
 
