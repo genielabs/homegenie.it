@@ -36,11 +36,13 @@ architectures:
   - linux-arm64
 ---
 
+## Installing HomeGenie {{ release_name }}
+
 {% unpre %}
 ```html
-<div style="padding-top: 80px">
+<div style="padding-top: 24px; padding-bottom: 48px">
    <strong>Select target architecture:</strong><br>
-   <select class="button" style="width: 200px;" onchange="setTargetArchitecture(this.value)">
+   <select class="button" onchange="setTargetArchitecture(this.value)">
       <option value="win-x64">
          Windows 64-bit
       </option>
@@ -58,53 +60,50 @@ architectures:
       </option>
    </select>
 </div>
+<style>
+.button {
+    width: 280px;
+    font-size: 150%;
+    font-weight: bold;
+    color: var(--accent-color);        
+}
+</style>
 <script>
   function setTargetArchitecture(arch) {
-    document.querySelectorAll('.setup-code').forEach((c) => {
+    document.querySelectorAll('.setup-code pre').forEach((c) => {
       c.style.display = 'none';
     });
     document.querySelector('#' + arch).style.display='';
   }
 </script>
-```
-{% endunpre %}
 
-## Installing HomeGenie {{ release_name }}
 
-<div id="win-x64" class="setup-code" style="display: none">
+<div class="setup-code">
     <p>Enter the following commands in a terminal:</p>
-<pre><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_win-x64.zip
+
+<pre id="win-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_win-x64.zip
 tar -xf homegenie_{{ release_tag }}_win-x64.zip
 </code></pre>
-</div>
 
-<div id="osx-x64" class="setup-code" style="display: none">
-    <p>Enter the following commands in a terminal:</p>
-<pre><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_osx-x64.zip
+<pre id="osx-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_osx-x64.zip
 unzip homegenie_{{ release_tag }}_osx-x64.zip
 </code></pre>
-</div>
 
-<div id="linux-x64" class="setup-code" style="display: none">
-    <p>Enter the following commands in a terminal:</p>
-<pre><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_linux-x64.zip
+<pre id="linux-x64" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_linux-x64.zip
 unzip homegenie_{{ release_tag }}_linux-x64.zip
 </code></pre>
-</div>
 
-<div id="linux-arm" class="setup-code" style="display: none">
-    <p>Enter the following commands in a terminal:</p>
-<pre><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_linux-arm.zip
+<pre id="linux-arm" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_linux-arm.zip
 unzip homegenie_{{ release_tag }}_linux-arm.zip
 </code></pre>
-</div>
 
-<div id="linux-arm64" class="setup-code">
-    <p>Enter the following commands in a terminal:</p>
-<pre><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_linux-arm64.zip
+<pre id="linux-arm64"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v{{ release_tag }}/homegenie_{{ release_tag }}_linux-arm64.zip
 unzip homegenie_{{ release_tag }}_linux-arm64.zip
 </code></pre>
+
 </div>
+```
+{% endunpre %}
 
 
 ### Running in a terminal

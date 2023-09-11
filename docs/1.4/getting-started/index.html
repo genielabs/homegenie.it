@@ -476,9 +476,11 @@ a.disabled {
     /* CSS */
 .button-85 {
     margin: 48px;
+    margin-left: 12px;
+    margin-right: 12px;
     font-size: 150%;
     font-weight: bold;
-    padding: 0.6em 2em;
+    padding: 0.6em 1.5em;
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
@@ -878,15 +880,20 @@ button {
 }
 .theme-dark [z-load*="/components/menu-overlay"] div[z-field="menu_overlay"] {
     background: radial-gradient(circle at bottom, black, #000000dd, #00000077, transparent)!important;
-}</style><!-- zUIx.js inline resources bundle --><script src="index.bundle.js"></script></head><!-- scroll helper is used to show/hide the header when scrolling --><body ctrl="" z-load="@lib/controllers/header-auto-hide" z-lazy="scroll" :header="'header'" :show-end="'false'" data-theme="indigo-deep_purple" layout="column stretch-stretch"><nav #header="" layout="row center-start"><div self="stretch" layout="row center-start"><button onclick="menuDrawer.open()" class="header-menu-button mdl-button mdl-button--icon"><i class="material-icons">menu_open</i></button><h1 self="size-x1" class="title">Getting started</h1></div></nav><main layout="column top-center"><div self="size-x1" class="content"><div style="padding-top: 80px"><strong>Select target architecture:</strong><br><select class="button" style="width: 200px;" onchange="setTargetArchitecture(this.value)"><option value="win-x64">Windows 64-bit<option value="osx-x64">Mac OSX 64-bit<option value="linux-x64">Linux 64-bit<option value="linux-arm">Linux ARM 32-bit<option value="linux-arm64" selected>Linux ARM 64-bit</select></div><script>function setTargetArchitecture(e){document.querySelectorAll(".setup-code").forEach(e=>{e.style.display="none"}),document.querySelector("#"+e).style.display=""}</script><h2>Installing HomeGenie 1.4</h2><div id="win-x64" class="setup-code" style="display: none"><p>Enter the following commands in a terminal:<pre><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_win-x64.zip
+}</style><!-- zUIx.js inline resources bundle --><script src="index.bundle.js"></script></head><!-- scroll helper is used to show/hide the header when scrolling --><body ctrl="" z-load="@lib/controllers/header-auto-hide" z-lazy="scroll" :header="'header'" :show-end="'false'" data-theme="indigo-deep_purple" layout="column stretch-stretch"><nav #header="" layout="row center-start"><div self="stretch" layout="row center-start"><button onclick="menuDrawer.open()" class="header-menu-button mdl-button mdl-button--icon"><i class="material-icons">menu_open</i></button><h1 self="size-x1" class="title">Getting started</h1></div></nav><main layout="column top-center"><div self="size-x1" class="content"><h2>Installing HomeGenie 1.4</h2><div style="padding-top: 24px; padding-bottom: 48px"><strong>Select target architecture:</strong><br><select class="button" onchange="setTargetArchitecture(this.value)"><option value="win-x64">Windows 64-bit<option value="osx-x64">Mac OSX 64-bit<option value="linux-x64">Linux 64-bit<option value="linux-arm">Linux ARM 32-bit<option value="linux-arm64" selected>Linux ARM 64-bit</select></div><style>.button {
+width: 280px;
+font-size: 150%;
+font-weight: bold;
+color: var(--accent-color);
+}</style><script>function setTargetArchitecture(e){document.querySelectorAll(".setup-code pre").forEach(e=>{e.style.display="none"}),document.querySelector("#"+e).style.display=""}</script><div class="setup-code"><p>Enter the following commands in a terminal:<pre id="win-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_win-x64.zip
 tar -xf homegenie_1.4.0-beta.46_win-x64.zip
-</code></pre></div><div id="osx-x64" class="setup-code" style="display: none"><p>Enter the following commands in a terminal:<pre><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_osx-x64.zip
+</code></pre><pre id="osx-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_osx-x64.zip
 unzip homegenie_1.4.0-beta.46_osx-x64.zip
-</code></pre></div><div id="linux-x64" class="setup-code" style="display: none"><p>Enter the following commands in a terminal:<pre><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_linux-x64.zip
+</code></pre><pre id="linux-x64" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_linux-x64.zip
 unzip homegenie_1.4.0-beta.46_linux-x64.zip
-</code></pre></div><div id="linux-arm" class="setup-code" style="display: none"><p>Enter the following commands in a terminal:<pre><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_linux-arm.zip
+</code></pre><pre id="linux-arm" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_linux-arm.zip
 unzip homegenie_1.4.0-beta.46_linux-arm.zip
-</code></pre></div><div id="linux-arm64" class="setup-code"><p>Enter the following commands in a terminal:<pre><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_linux-arm64.zip
+</code></pre><pre id="linux-arm64"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.46/homegenie_1.4.0-beta.46_linux-arm64.zip
 unzip homegenie_1.4.0-beta.46_linux-arm64.zip
 </code></pre></div><h3>Running in a terminal</h3><p>Set the current directory to <code>homegenie</code> and run the <code>./HomeGenie</code> command:<pre><code class="language-shell">cd homegenie
 ./HomeGenie

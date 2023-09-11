@@ -1,9 +1,11 @@
 /* CSS */
 .button-85 {
     margin: 48px;
+    margin-left: 12px;
+    margin-right: 12px;
     font-size: 150%;
     font-weight: bold;
-    padding: 0.6em 2em;
+    padding: 0.6em 1.5em;
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
