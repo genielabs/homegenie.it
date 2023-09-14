@@ -885,16 +885,16 @@ width: 280px;
 font-size: 150%;
 font-weight: bold;
 color: var(--accent-color);
-}</style><script>function setTargetArchitecture(e){document.querySelectorAll(".setup-code pre").forEach(e=>{e.style.display="none"}),document.querySelector("#"+e).style.display=""}</script><div class="setup-code"><p>Enter the following commands in a terminal:<pre id="win-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.47/homegenie_1.4.0-beta.47_win-x64.zip
-tar -xf homegenie_1.4.0-beta.47_win-x64.zip
-</code></pre><pre id="osx-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.47/homegenie_1.4.0-beta.47_osx-x64.zip
-unzip homegenie_1.4.0-beta.47_osx-x64.zip
-</code></pre><pre id="linux-x64" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.47/homegenie_1.4.0-beta.47_linux-x64.zip
-unzip homegenie_1.4.0-beta.47_linux-x64.zip
-</code></pre><pre id="linux-arm" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.47/homegenie_1.4.0-beta.47_linux-arm.zip
-unzip homegenie_1.4.0-beta.47_linux-arm.zip
-</code></pre><pre id="linux-arm64"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.47/homegenie_1.4.0-beta.47_linux-arm64.zip
-unzip homegenie_1.4.0-beta.47_linux-arm64.zip
+}</style><script>function setTargetArchitecture(e){document.querySelectorAll(".setup-code pre").forEach(e=>{e.style.display="none"}),document.querySelector("#"+e).style.display=""}</script><div class="setup-code"><p>Enter the following commands in a terminal:<pre id="win-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.48/homegenie_1.4.0-beta.48_win-x64.zip
+tar -xf homegenie_1.4.0-beta.48_win-x64.zip
+</code></pre><pre id="osx-x64" style="display: none"><code class="language-bash">curl https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.48/homegenie_1.4.0-beta.48_osx-x64.zip
+unzip homegenie_1.4.0-beta.48_osx-x64.zip
+</code></pre><pre id="linux-x64" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.48/homegenie_1.4.0-beta.48_linux-x64.zip
+unzip homegenie_1.4.0-beta.48_linux-x64.zip
+</code></pre><pre id="linux-arm" style="display: none"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.48/homegenie_1.4.0-beta.48_linux-arm.zip
+unzip homegenie_1.4.0-beta.48_linux-arm.zip
+</code></pre><pre id="linux-arm64"><code class="language-bash">wget https://github.com/genielabs/HomeGenie/releases/download/v1.4.0-beta.48/homegenie_1.4.0-beta.48_linux-arm64.zip
+unzip homegenie_1.4.0-beta.48_linux-arm64.zip
 </code></pre></div><h3>Running in a terminal</h3><p>Set the current directory to <code>homegenie</code> and run the <code>./HomeGenie</code> command:<pre><code class="language-shell">cd homegenie
 ./HomeGenie
 </code></pre><p>To stop the application press <code>CTRL + C</code><p>The video below shows the installation procedure of HomeGenie on a <em>Raspberry Pi Zero 2 W</em> with SD card prepared using official <a href="https://www.raspberrypi.com/software/">Raspberry Pi Imager</a> application and configured with <em>Raspberry Pi OS Lite (32 bit)</em>, WI-FI connectivity, and SSH enabled.<div class="media-container"><p><video id="video1" src="images/homegenie_install.m4v" controls muted poster="images/homegenie_install.png" style="max-width:100%;"></video></div><script>const video=document.getElementById("video1");video.addEventListener("ended",function(){video.load()},!1)</script><h3>Running as a system service</h3><p>HomeGenie can be installed as a service. The procedure is different depending on the hosting operating system.<h4>Recommended procedure for Linux</h4><ol><li>Add a specific user for the service and copy the content of <code>homegenie</code> folder to the new user home directory:</ol><pre><code class="language-shell">sudo useradd homegenie

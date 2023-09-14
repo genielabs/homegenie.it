@@ -14,26 +14,52 @@ keywords:
 wip: true
 ---
 
-## Raspberry Pi Recipes 🍰
+## Raspberry Pi recipes 🍰
 
 
-### Creating your own Smart-Thermostat 🌡️
+### Creating a Smart-Thermostat 🌡️
 
 Ingredients:
 
-- a Raspberry Pi with [HomeGenie installed](../getting-started) (a model [Zero 2W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) is cheap and perfect for this)
-- a DHT-11 or DHT-22 sensor
+- a Raspberry Pi with [HomeGenie installed](../getting-started) (a model [Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) is cheap and perfect for this)
+- a DHT-xx humidity and temperature sensor (DHT-10, DHT-11, DHT-12, DHT-21, DHT-22)
 - a Relay Switch
 
-Once we got all ingredients it will be just a matter of few minutes
-to get a fully featured smart thermostat that has even more functionality
-than any other smart thermostat you will find in the market.
+#### Step 1 - connecting components
 
-#### Step 1 - wiring components
+Connect components as shown in the following schema:
 
-(pictures)
+<div class="media-container">
+    <img src="images/smart_thermostat_03.png">
+</div>
 
-#### Step 2 - configuring the Smart Thermostat automation program
+**DHT-xx** (1-wire)<sup>*</sup>
+
+- Pin 1 (**VCC**)  -> to GPIO pin 1  (**3V3**)
+- Pin 2 (**DATA**) -> to GPIO pin 11 (**GPIO17**) 
+- Pin 4 (**GND**)  -> to GPIO pin 9  (**GND**)
+
+<small>
+    <strong><sup>*</sup></strong>
+    DHT-10 and DHT-12 can also use <strong>I2C</strong> protocol, in
+    which case a different wiring is required. See DHT-xx project
+    <a href="https://github.com/dotnet/iot/tree/main/src/devices/Dhtxx#i2c-protocol-circuit">documentation</a>
+    for further info.
+</small><br><br>
+
+**Relay Module**
+
+- Pin 1 (**VCC**)  -> to GPIO pin 4  (**5V**)
+- Pin 2 (**GND**)  -> to GPIO pin 34 (**GND**)
+- Pin 3 (**IN**)   -> to GPIO pin 36 (**GPIO16**)
+
+
+#### Step 2 - configuring DHT-xx and relay switch
+
+...
+
+
+#### Step 3 - configuring the Smart Thermostat automation program
 
 (pictures UI)
 
@@ -51,7 +77,7 @@ gateway with support for ZigBee, Z-Wave and X10, UPnP/DLNA control point...
 
 
 
-## Smart Home
+## Smart Home recipes 🏠
 
 
 ### Remote control ZigBee and Z-Wave using an X10 RF remote
