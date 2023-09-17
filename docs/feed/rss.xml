@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Thu, 14 Sep 2023 23:50:06 +0200</lastBuildDate>
-    <pubDate>Thu, 14 Sep 2023 23:50:06 +0200</pubDate>
+    <lastBuildDate>Sun, 17 Sep 2023 19:14:21 +0200</lastBuildDate>
+    <pubDate>Sun, 17 Sep 2023 19:14:21 +0200</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://zuixjs.org//images/icons/icon-152x152.png</url>
@@ -19,7 +19,7 @@
         <link>https://zuixjs.org//google7f8debac56a66e22.html</link>
         <guid isPermaLink="true">https://zuixjs.org//google7f8debac56a66e22.html</guid>
         <description></description>
-        <pubDate>Thu, 14 Sep 2023 23:50:06 +0200</pubDate>
+        <pubDate>Sun, 17 Sep 2023 19:14:21 +0200</pubDate>
         <atom:link href="https://zuixjs.org//google7f8debac56a66e22.html" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -121,7 +121,7 @@
         <link>https://zuixjs.org//content/devs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
         <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Thu, 14 Sep 2023 23:50:06 +0200</pubDate>
+        <pubDate>Sun, 17 Sep 2023 19:14:21 +0200</pubDate>
         <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -169,7 +169,7 @@
         <link>https://zuixjs.org//content/docs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/docs/</guid>
         <description>Documentation section</description>
-        <pubDate>Thu, 14 Sep 2023 23:50:06 +0200</pubDate>
+        <pubDate>Sun, 17 Sep 2023 19:14:21 +0200</pubDate>
         <atom:link href="https://zuixjs.org//content/docs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -282,7 +282,7 @@
         <link>https://zuixjs.org//search/</link>
         <guid isPermaLink="true">https://zuixjs.org//search/</guid>
         <description>Search this website</description>
-        <pubDate>Thu, 14 Sep 2023 23:50:06 +0200</pubDate>
+        <pubDate>Sun, 17 Sep 2023 19:14:21 +0200</pubDate>
         <atom:link href="https://zuixjs.org//search/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -343,7 +343,7 @@
         <link>https://zuixjs.org//</link>
         <guid isPermaLink="true">https://zuixjs.org//</guid>
         <description></description>
-        <pubDate>Thu, 14 Sep 2023 23:50:06 +0200</pubDate>
+        <pubDate>Sun, 17 Sep 2023 19:14:21 +0200</pubDate>
         <atom:link href="https://zuixjs.org//" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -357,6 +357,32 @@
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
                        url="https://zuixjs.org//1.4/getting-started/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Example applications</title>
+        <link>https://zuixjs.org//1.4/examples/</link>
+        <guid isPermaLink="true">https://zuixjs.org//1.4/examples/</guid>
+        <description>Example HomeGenie applications</description>
+        <pubDate>Invalid date</pubDate>
+        <atom:link href="https://zuixjs.org//1.4/examples/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://zuixjs.org//1.4/examples/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Creating a Smart Thermostat 🌡️</title>
+        <link>https://zuixjs.org//1.4/create/smart-thermostat/</link>
+        <guid isPermaLink="true">https://zuixjs.org//1.4/create/smart-thermostat/</guid>
+        <description>How to create a Smart Thermostat with Raspberry Pi and HomeGenie in three simple steps</description>
+        <pubDate>Invalid date</pubDate>
+        <atom:link href="https://zuixjs.org//1.4/create/smart-thermostat/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://zuixjs.org//1.4/create/smart-thermostat/https://picsum.photos/seed/docs!install/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>

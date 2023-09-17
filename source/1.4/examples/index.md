@@ -11,81 +11,34 @@ description: Example HomeGenie applications
 icon: tips_and_updates
 keywords:
 - homegenie
-wip: true
+wip: false
 ---
 
 ## Raspberry Pi recipes 🍰
 
+{% assign subposts = collections.example %}
+{% if subposts.size > 0 %}
+  {%- for subpost in subposts -%}
+    {% assign sublink = subpost.url | url %}
+    <h3>
+    <a href="{{ sublink }}">
+    {{ subpost.data.title }}
+    </a>
+    </h3>
+  {% endfor %}
+{% endif %}
 
-### Creating a Smart-Thermostat 🌡️
-
-Ingredients:
-
-- a Raspberry Pi with [HomeGenie installed](../getting-started) (a model [Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) is cheap and perfect for this)
-- a DHT-xx humidity and temperature sensor (DHT-10, DHT-11, DHT-12, DHT-21, DHT-22)
-- a Relay Switch
-
-#### Step 1 - connecting components
-
-Connect components as shown in the following schema:
-
-<div class="media-container">
-    <img src="images/smart_thermostat_03.png">
-</div>
-
-**DHT-xx** (1-wire)<sup>*</sup>
-
-- Pin 1 (**VCC**)  -> to GPIO pin 1  (**3V3**)
-- Pin 2 (**DATA**) -> to GPIO pin 11 (**GPIO17**) 
-- Pin 4 (**GND**)  -> to GPIO pin 9  (**GND**)
-
-<small>
-    <strong><sup>*</sup></strong>
-    DHT-10 and DHT-12 can also use <strong>I2C</strong> protocol, in
-    which case a different wiring is required. See DHT-xx project
-    <a href="https://github.com/dotnet/iot/tree/main/src/devices/Dhtxx#i2c-protocol-circuit">documentation</a>
-    for further info.
-</small><br><br>
-
-**Relay Module**
-
-- Pin 1 (**VCC**)  -> to GPIO pin 4  (**5V**)
-- Pin 2 (**GND**)  -> to GPIO pin 34 (**GND**)
-- Pin 3 (**IN**)   -> to GPIO pin 36 (**GPIO16**)
-
-
-#### Step 2 - configuring DHT-xx and relay switch
-
-...
-
-
-#### Step 3 - configuring the Smart Thermostat automation program
-
-(pictures UI)
-
-
-#### What you will get
-
-A smart thermostat that **works 100% offline** and where **your own your data**,
-with logging, statistics, powerful scheduler, automation engine, smart-home ready
-gateway with support for ZigBee, Z-Wave and X10, UPnP/DLNA control point...
-**all for less than $25** !  😁
-
-
-
-### GroveRGB rainbow
+<h3 class="link-disabled">GroveRGB rainbow music visualizer</h3>
 
 
 
 ## Smart Home recipes 🏠
 
 
-### Remote control ZigBee and Z-Wave using an X10 RF remote
+<h3 class="link-disabled">Remote control ZigBee and Z-Wave using an X10 RF remote</h3>
 
-### Env light/motion controlled lights - Smart Device features
+<h3 class="link-disabled">Env light/motion controlled lights - Smart Device feature program</h3>
 
-### Thermostat with generic temperature sensor and a generic switch
+<h3 class="link-disabled">Thermostat with generic temperature sensor and a generic switch</h3>
 
-### Lights synchronization with Linked Lights program &mdash; HomeGenie Panel
-
-### Quick activation using Pinned Shortcuts &mdash; HomeGenie Panel
+<h3 class="link-disabled">Lights synchronization with Linked Lights program &mdash; HomeGenie Panel</h3>

@@ -11,7 +11,7 @@
                 {% else %}
                     {% assign class = '' %}
                 {% endif %}
-                <a href="{{ link | url}}" class="mdl-js-ripple-effect {{ class }}">
+                <a href="{{ link }}" class="mdl-js-ripple-effect {{ class }}">
                     <div layout="row center-left">
                         <i class="material-icons">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>
@@ -41,7 +41,7 @@
                 {% else %}
                     {% assign class = '' %}
                 {% endif %}
-                <a href="{{ link | url }}" class="mdl-js-ripple-effect {{ class }}">
+                <a href="{{ link }}" class="mdl-js-ripple-effect {{ class }}">
                     <div layout="row center-left">
                         <i class="material-icons">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>

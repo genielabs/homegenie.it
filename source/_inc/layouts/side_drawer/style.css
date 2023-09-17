@@ -302,3 +302,8 @@
         background-color: rgba(200,200,200,0.1);
         border-left: dashed 4px var(--accent-color);
     }
+
+    .link-disabled {
+        color: gray;
+        cursor: not-allowed;
+    }
