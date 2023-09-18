@@ -102,10 +102,6 @@
     <lastmod>2023-09-08</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//1.4/setup/</loc>
-    <lastmod>2023-09-10</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//1.4/automation/features/</loc>
     <lastmod>2023-09-10</lastmod>
   </url>
@@ -123,6 +119,10 @@
   </url>
   <url>
     <loc>https://zuixjs.org//1.4/create/smart-thermostat/</loc>
+    <lastmod>2023-09-18</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/setup/</loc>
     <lastmod>2023-09-18</lastmod>
   </url>
 </urlset>

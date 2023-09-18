@@ -70,8 +70,8 @@ video1.addEventListener('ended',function(){
 
 Built-in automation engine takes advantage of *.NET IoT* and *RaspberrySharp* libraries,
 through which is possible to integrate [thousands of components](https://github.com/dotnet/iot/blob/main/src/devices/README.md) (such as sensors,
-motors, controllers, and displays) for building any kind of projects, maybe even an AI-driven
-robot 🤖 if that's what you were thinking about 😀  
+motors, controllers, and displays) for building any kind of projects, also complex ones
+such as a drone or a robot.  
 The integrated program editor alongside **C#** also supports **JavaScript** and
 **Python** languages, so it's possible to access a wider range of libraries, examples and
 applications.
