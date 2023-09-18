@@ -28,7 +28,7 @@ wip: false
 A smart thermostat that **works 100% offline** and where **your own your data**,
 with logging, statistics, powerful scheduler, automation engine, smart-home-ready
 gateway with support for ZigBee, Z-Wave and X10, UPnP/DLNA control point...
-**all for less than $25** !  😁
+**all for less than $25**.
 
 
 
@@ -39,7 +39,8 @@ gateway with support for ZigBee, Z-Wave and X10, UPnP/DLNA control point...
 Connect components as shown in the following schema:
 
 <div class="media-container">
-    <img src="images/smart_thermostat_01.png">
+    <img alt="Components connection schema" src="images/smart_thermostat_01.png">
+    <figcaption><strong>1.1</strong> Components connection schema</figcaption>
 </div>
 
 **DHT-xx**
@@ -57,39 +58,43 @@ Connect components as shown in the following schema:
 
 ### Step 2 - configuring DHT-xx and relay switch
 
-Enable **DHT-XX** and **GPIO Pin** programs from the *Automation Programs* page.  
-Once enabled you can configure both programs from the *System Settings* page as
-shown in the pictures below.
-
-<div class="media-container">
-    <img src="images/smart_thermostat_02a.png">
-</div>
+Enable **DHT-XX** and **GPIO Pin** programs from the *Automation Programs* page,  
+then you can configure both programs from the *System Settings* page as shown in
+the pictures below.
 
 
 <div class="media-container">
-    <img src="images/smart_thermostat_02b.png">
+    <img alt="Configuring DHT-xx Sensor program to read data from DHT-11 sensor connected to GPIO17 (pin 11)" src="images/smart_thermostat_02a.png">
+    <figcaption><strong>2.1</strong> Configuring DHT-xx Sensor program to read data from DHT-11 sensor connected to GPIO17 (pin 11)</figcaption>
 </div>
 
+<div class="media-container">
+    <img alt="Configuring GPIO Pin program to control a switch connected to GPIO16 (pin 36)" src="images/smart_thermostat_02b.png">
+    <figcaption><strong>2.2</strong> Configuring GPIO Pin program to control a switch connected to GPIO16 (pin 36)</figcaption>
+</div>
 
 ### Step 3 - configuring the Smart Thermostat
 
-Open the *Settings* page of the *Thermostat* widget in the default *Dashboard*
-and set the device to read the temperature from (the DHT-xx device) and the
-switch to be used to activate the heating (the GPIO Pin switch).
+Open the default dashboard and click the menu button {% zx 'icon' %}thermostat{% endzx %}
+of the *Thermostat* widget and select *"Settings"* to set the device to read the temperature
+from (DHTxx 17) and the switch to be used to activate the heating (GPIO 16).
 
 <div class="media-container">
-    <img src="images/smart_thermostat_03a.png">
+    <img alt="Configuring thermostat sensor and switch" src="images/smart_thermostat_03a.png">
+    <figcaption><strong>3.1</strong> Configuring thermostat sensor and switch</figcaption>
 </div>
 
 The *Smart Thermostat* is now ready to be used. You can change the schedules or
 show statistics and use all other features available in *HomeGenie*.
 
 <div class="media-container">
-    <img src="images/smart_thermostat_03b.png">
+    <img alt="Thermostat schedules" src="images/smart_thermostat_03b.png">
+    <figcaption><strong>3.2</strong> Thermostat schedules</figcaption>
 </div>
 
 
 <div class="media-container">
-    <img src="images/smart_thermostat_03c.png">
+    <img alt="Thermostat statistics" src="images/smart_thermostat_03c.png">
+    <figcaption><strong>3.3</strong> Thermostat statistics</figcaption>
 </div>
 
