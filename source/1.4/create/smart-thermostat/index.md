@@ -27,8 +27,8 @@ wip: false
 
 A smart thermostat that **works 100% offline** and where **your own your data**,
 with logging, statistics, powerful scheduler, automation engine, smart-home-ready
-gateway with support for ZigBee, Z-Wave and X10, UPnP/DLNA control point...
-**all for less than $25**.
+gateway with support for ZigBee, Z-Wave and X10, UPnP/DLNA control point,
+and more... **all for less than $25**.
 
 
 
