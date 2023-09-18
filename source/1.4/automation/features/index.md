@@ -16,7 +16,7 @@ wip: false
 
 ## More than just Smart Home
 
-Despite the name, HomeGenie is not just as a *Smart Home* server.
+Despite the name, HomeGenie is not just a *Smart Home* server.
 HomeGenie is a **general-purpose automation server** that routes and processes "signals"
 and that integrates a series of tools to customize the user interface and the system
 *intelligence* by the mean of small *automation programs* and *widgets* that can be
