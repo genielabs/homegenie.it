@@ -14,6 +14,15 @@ keywords:
 wip: true
 ---
 
-## Implementing scenes with visual programming
+## Implementing scenes with Visual Programming
+
+...
+
+## Implementing scenes on HomeGenie Panel
+
+```
+Example script recording -- UPnP media server and tv with
+light effects scene
+```
 
 ....

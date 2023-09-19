@@ -29,7 +29,7 @@ a *Smart Thermostat*, or even a *Robot* :)
 
 For example if HomeGenie were installed on a single board computer (such as Raspberry Pi)
 with a temperature sensor, a switch relay and a display, it that case it would specifically
-implement a *smart thermostat*.  
+implement a *[smart thermostat](../../create/smart-thermostat)*.  
 A multiple HomeGenie installation on an interconnected
 system of single board computers with sensors, actuators, motors and such, in that case it
 would be probably about implementing some kind of *robot* 🤖
