@@ -14,22 +14,49 @@ keywords:
 wip: true
 ---
 
-Even if *HomeGenie* is a fully programmable automation server, you don't need
-to learn or use any programming language at all to customize your automation
-system.
+## Easy and effective   
 
-Actually, with *HomeGenie* there are a couple of ways to create *scenes* and
-basic automation programs without writing any code.
+With *HomeGenie*, you can create common automation tasks and scenes effortlessly.
+No need to learn or use any programming language to customize your smart system.
+
+## Visual Program editor
 
 
-## Scenes with Visual Programs
+{% layout 'row top-justify' 'style="gap: 24px"' %}
 
-(server side)
+<div>
+    {%- renderTemplate 'md' -%}
+    With the *Visual Program* editor, you can create a scene by just dragging
+and dropping commands from ...
+    {%- endrenderTemplate -%}
+</div>
+
+<div>
+    <img src="images/visual_editor_02.png" width="280">
+</div>
+
+{% endlayout %}
+
+---
+
+{% layout 'rows top-justify reverse' %}
+
+<div>
+    {%- renderTemplate 'md' -%}
+    With the *Visual Program* editor, creating a scene it's just a matter of ...
+    {%- endrenderTemplate -%}
+</div>
+
+<div class="media-container">
+    <img src="images/visual_editor_02.png" width="280">
+</div>
+
+{% endlayout %}
 
 (*script recording* actually only available in *HomeGenie Panel*, it's planned to be implemented for visual script as well )
 ...
 
-## Scenes with HomeGenie Panel
+## Client side scenes with HomeGenie Panel
 
 (client side)
 
