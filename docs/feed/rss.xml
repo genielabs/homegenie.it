@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Fri, 29 Sep 2023 14:04:25 +0200</lastBuildDate>
-    <pubDate>Fri, 29 Sep 2023 14:04:25 +0200</pubDate>
+    <lastBuildDate>Mon, 02 Oct 2023 09:54:32 +0200</lastBuildDate>
+    <pubDate>Mon, 02 Oct 2023 09:54:32 +0200</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://zuixjs.org//images/icons/icon-152x152.png</url>
@@ -19,7 +19,7 @@
         <link>https://zuixjs.org//google7f8debac56a66e22.html</link>
         <guid isPermaLink="true">https://zuixjs.org//google7f8debac56a66e22.html</guid>
         <description></description>
-        <pubDate>Fri, 29 Sep 2023 14:04:25 +0200</pubDate>
+        <pubDate>Mon, 02 Oct 2023 09:54:32 +0200</pubDate>
         <atom:link href="https://zuixjs.org//google7f8debac56a66e22.html" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -121,7 +121,7 @@
         <link>https://zuixjs.org//content/devs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
         <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Fri, 29 Sep 2023 14:04:25 +0200</pubDate>
+        <pubDate>Mon, 02 Oct 2023 09:54:32 +0200</pubDate>
         <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -169,7 +169,7 @@
         <link>https://zuixjs.org//content/docs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/docs/</guid>
         <description>Documentation section</description>
-        <pubDate>Fri, 29 Sep 2023 14:04:25 +0200</pubDate>
+        <pubDate>Mon, 02 Oct 2023 09:54:32 +0200</pubDate>
         <atom:link href="https://zuixjs.org//content/docs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -282,7 +282,7 @@
         <link>https://zuixjs.org//search/</link>
         <guid isPermaLink="true">https://zuixjs.org//search/</guid>
         <description>Search this website</description>
-        <pubDate>Fri, 29 Sep 2023 14:04:25 +0200</pubDate>
+        <pubDate>Mon, 02 Oct 2023 09:54:32 +0200</pubDate>
         <atom:link href="https://zuixjs.org//search/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -311,15 +311,6 @@
                        url="https://zuixjs.org//1.4/settings/https://picsum.photos/seed/docs!install/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
-    </item>
-    <item>
-        <title>automation intelligence and&lt;br&gt; control panel for your smart projects</title>
-        <link>https://zuixjs.org//</link>
-        <guid isPermaLink="true">https://zuixjs.org//</guid>
-        <description></description>
-        <pubDate>Fri, 29 Sep 2023 14:04:25 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//" rel="self" />
-        <dc:creator></dc:creator>
     </item>
     <item>
         <title>Example applications</title>
@@ -385,6 +376,15 @@
                        url="https://zuixjs.org//1.4/getting-started/https://picsum.photos/seed/docs!install/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
+    </item>
+    <item>
+        <title>automation intelligence and&lt;br&gt; control panel for your smart projects</title>
+        <link>https://zuixjs.org//</link>
+        <guid isPermaLink="true">https://zuixjs.org//</guid>
+        <description></description>
+        <pubDate>Mon, 02 Oct 2023 09:54:32 +0200</pubDate>
+        <atom:link href="https://zuixjs.org//" rel="self" />
+        <dc:creator></dc:creator>
     </item>
 </channel>
 </rss>
