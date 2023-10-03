@@ -64,7 +64,7 @@ Program.AddFeature(
 );
 ```
 
-With this `Program.AddFeature` API method, the program is adding to the
+With this [`Program.AddFeature`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b) API method, the program is adding to the
 system a new feature that will show up in the *Settings* dialog of every 
 device, matching the given domain/type filter, with a *"checkbox"* input
 to enable or disable the *Blink* feature as shown in the following image:
@@ -87,7 +87,7 @@ while (Program.IsRunning) {
 }
 ```
 
-where the `Modules` helper class is used to select all devices with
+where the [`Modules`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html#details) helper class is used to select all devices with
 the *"Blink"* feature enabled and toggle them.  
 
 So, basically, whenever the feature *Blink* is enabled on a device, it will start to blink as
@@ -118,9 +118,9 @@ program, and so they can be enabled, disabled or even edited and customized!
 
 ## Common interface for all things
 
-In the previous example we've seen the `Modules` helper class
+In the previous example we've seen the [`Modules`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html#details) helper class
 used to select all devices with the *Blink* feature enabled and
-to make them blink using the `.Toggle()` command.
+to make them blink using the [`.Toggle()`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html#a6e17d66132823deca0a16a4e9c32db7b) command.
 This will work on all devices despite the brand or different
 protocols used. 
 
@@ -152,7 +152,7 @@ var dhtModule = Modules
 ```
 
 With the instructions above, the program is adding a new module that will be used
-to signal new values read from the *DHT-22* sensor using the `Emit(..)` API method:
+to signal new values read from the *DHT-22* sensor using the [`Emit(..)`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_module_helper.html#a554c7b868f68ad3a4d87933ac74288d5) API method:
 
 ```csharp
 // [code to read values from sensor omitted]
@@ -192,7 +192,8 @@ video2.addEventListener('ended',function(){
 Also data processing and visualization can be customized using automation programs, and it's
 possible to add custom data filters or new kind of charts.
 
-For this purpose the API methods `Program.Implements(..)` and `Api.Handle(...)` can be used
+For this purpose the API methods [`Program.Implements(..)`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a504d4d516ed4181d4afca1b51f64cec3)
+and [`Api.Handle(...)`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_api_helper.html#aab4a561a61000e27a186c39f566f66ba) can be used
 as described in the *Data Processing* page later in this guide.
 
 

@@ -30,9 +30,23 @@ release:
   date: Sept 10, 2020
 ---
 
-## Download HomeGenie Server
+<div style="border-radius: 12px; border: dotted 2px var(--accent-color); padding: 12px; padding-top: 48px; margin-top: 24px; text-align: center">
 
-<div align="center" class="content-margin">Current release is <strong>v{{ release.version }}</strong> <em>({{ release.date }})</em></div>
+You reached the download page of an older version of HomeGenie.
+A new exciting release is now available!
+
+<div style="font-size: 150%; color: var(--accent-color); font-weight: bold;">
+
+🧞 <a href="../../">HomeGenie 1.4</a> 💡
+
+</div>
+
+</div>
+
+
+## Download HomeGenie 1.3
+
+<div align="center" class="content-margin"><strong>v{{ release.version }}</strong> <em>({{ release.date }})</em></div>
 
 <div self="size-small center" layout="rows top-spread">
 
