@@ -68,17 +68,16 @@ to record the scene's script in real time by interacting with widgets.
     <img src="images/visual_editor_07.png">
 </div>
 
-When the *Capture commands* functionality is enabled any command performed on a widget
-in the preview area will be automatically added to the program's *Main* block adding a
-user-configurable pause between each performed commands.
+When the *Capture commands* functionality is enabled any command executed on a widget
+in the preview area will automatically be added to the program's *Main* block with the
+addition of a user-configurable pause between each command.
 
 <!--
-TODO: 
 
-### Using the blocks toolbox
+### Using the Blocks toolbox
 
 
----
+...
 
 
 ## Client side scenes with HomeGenie Panel
