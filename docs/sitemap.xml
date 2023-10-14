@@ -114,15 +114,19 @@
     <lastmod>2023-10-02</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//1.4/automation/features/</loc>
-    <lastmod>2023-10-02</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//content/getting-started/</loc>
     <lastmod>2023-10-03</lastmod>
   </url>
   <url>
     <loc>https://zuixjs.org//1.4/getting-started/</loc>
     <lastmod>2023-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/automation/features/</loc>
+    <lastmod>2023-10-14</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/automation/visual/</loc>
+    <lastmod>2023-10-14</lastmod>
   </url>
 </urlset>

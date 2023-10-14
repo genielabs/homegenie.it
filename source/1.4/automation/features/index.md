@@ -64,9 +64,9 @@ Program.AddFeature(
 );
 ```
 
-With this [`Program.AddFeature`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b) API method, the program is adding to the
-system a new feature that will show up in the *Settings* dialog of every 
-device, matching the given domain/type filter, with a *"checkbox"* input
+With the [`Program.AddFeature`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a59e041d4aa2ea5fcd00d4a8b5efacc6b) API method, the program is adding to the
+system a new feature that will shows up in the *Settings* dialog of every 
+device matching the given domain/type filter, with a *"checkbox"* input
 to enable or disable the *Blink* feature as shown in the following image:
 
 
@@ -74,7 +74,7 @@ to enable or disable the *Blink* feature as shown in the following image:
     <img src="images/add_feature_01.png">
 </div>
 
-To actually make blink all devices with the option enabled, the program
+To actually blink all devices with the *"Blink"* option enabled, the program
 will use the following code:
 
 ```csharp
@@ -90,8 +90,8 @@ while (Program.IsRunning) {
 where the [`Modules`](../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_modules_manager.html#details) helper class is used to select all devices with
 the *"Blink"* feature enabled and toggle them.  
 
-So, basically, whenever the feature *Blink* is enabled on a device, it will start to blink as
-shown in the following video.
+So, basically, whenever the feature *Blink* is enabled on a device, it will start to
+toggle on and off every half a second as shown in the following video.
 
 <div class="media-container">
 
@@ -109,11 +109,11 @@ video1.addEventListener('ended',function(){
 </script>
 
 
-So, as we can see in the video above, other features are already available in
-HomeGenie such as *Events logging*, *Remote Control*, *Security Alarm System*,
-*Smart Device* &mdash;
-all of them are implemented using small automation programs like the *Blink*
-program, and so they can be enabled, disabled or even edited and customized!
+So, as just seen in the video above, other features such as *Events logging*,
+*Remote Control*, *Security Alarm System*, *Smart Device* are also
+available in HomeGenie &mdash; they all are implemented using small automation
+programs like the *Blink* program, and therefore they can be enabled, disabled
+or even edited and customized!
 
 
 ## Common interface for all things
