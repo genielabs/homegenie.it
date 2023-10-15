@@ -13,3 +13,13 @@ keywords:
 - homegenie
 wip: true
 ---
+
+## Scheduler ...
+
+...
+
+<div class="media-container">
+    <img src="images/automation_scheduler_01.png">
+</div>
+
+...

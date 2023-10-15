@@ -10,10 +10,6 @@
     <lastmod>2023-08-05</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//1.4/automation/</loc>
-    <lastmod>2023-08-17</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//1.4/dashboards/</loc>
     <lastmod>2023-08-17</lastmod>
   </url>
@@ -127,6 +123,10 @@
   </url>
   <url>
     <loc>https://zuixjs.org//1.4/automation/visual/</loc>
-    <lastmod>2023-10-14</lastmod>
+    <lastmod>2023-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/automation/features</loc>
+    <lastmod>2023-10-15</lastmod>
   </url>
 </urlset>
