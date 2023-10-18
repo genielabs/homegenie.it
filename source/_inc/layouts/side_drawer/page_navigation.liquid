@@ -4,7 +4,7 @@
     {% assign nextPost = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' | getNextCollectionItem: page %}
 
     {% if nextPost == null and group == 'main' %}
-        {%  assign nextPost = collections.sections[0] %}
+        {%  assign nextPost = collections.sections[3] %}
     {% endif %}
 
     <div layout="rows center-spread" style="margin-top: 112px; gap:12px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%">
