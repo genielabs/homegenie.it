@@ -136,16 +136,6 @@ cd homegenie
 To stop the application press `CTRL + C`
 
 
-
-
-
-The video below shows the installation procedure of HomeGenie on a
-*Raspberry Pi Zero 2 W* with SD card prepared using official
-[Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-application and configured with *Raspberry Pi OS Lite (32 bit)*, WI-FI connectivity,
-and SSH enabled.
-
-
 <div class="media-container">
 
    <video id="video1" src="images/homegenie_install.m4v"
@@ -161,93 +151,15 @@ video.addEventListener('ended',function(){
 },false);
 </script>
 
+The video above shows the installation procedure of HomeGenie on a
+*Raspberry Pi Zero 2 W* with SD card prepared using official
+[Raspberry Pi Imager](https://www.raspberrypi.com/software/)
+application and configured with *Raspberry Pi OS Lite (32 bit)*, WI-FI connectivity,
+and SSH enabled.
 
 
-
-
-
-### Running as a system service
-
-HomeGenie can be installed as a service. The procedure is different depending on the
-hosting operating system.
-
-#### Recommended procedure for Linux
-
-1) Add a specific user for the service and copy the content of `homegenie` folder
-   to the new user home directory:
-
-```shell
-sudo useradd homegenie
-sudo cp -ar ./path-to-extracted-folder/homegenie /home/homegenie
-sudo chown -R homegenie:homegenie /home/homegenie
-```
-
-2) Create the file `/etc/systemd/system/homegenie.service` with the following content:
-```shell
-[Unit]
-Description=HomeGenie
-
-[Service]
-Type=notify
-User=homegenie
-WorkingDirectory=/home/homegenie/
-ExecStart=/home/homegenie/HomeGenie
-Restart=on-failure
-
-[Install]
-WantedBy=multi-user.target
-```
-
-3) Refresh `SystemD` configuration
-```shell
-sudo systemctl daemon-reload
-```
-
-4) Start the service and enable <em>HomeGenie</em> to auto-start on next system boot:
-```shell
-sudo systemctl start homegenie.service
-sudo systemctl enable homegenie.service
-```
-
-Other possible commands are `status`, `stop` and `disable`.
-
-
-See also:
-- [Create Linux Service](https://devblogs.microsoft.com/dotnet/net-core-and-systemd/#create-unit-files) (SystemD)
-- [Create Windows Service](https://learn.microsoft.com/en-us/dotnet/core/extensions/windows-service#create-the-windows-service)
-
-
-### Optional post-installation steps
-
-Depending on the hosting operating system, it might be required to run additional steps
-in order to allow the service to access the **Serial port**, **USB** devices and **GPIO** hardware.
-
-#### Enabling **audio playback** and **voice synthesis**:
-```shell
-# Audio playback utilities
-sudo apt-get install alsa-utils lame
-# Embedded speech synthesis engine
-sudo apt-get install libttspico-utils
-```
-
-#### Granting access to the **Serial port** and/or **GPIO** to the *homegenie* user:
-```shell
-sudo gpasswd -a homegenie dialout
-sudo gpasswd -a homegenie gpio
-```
-
-#### Enabling CM15/CM19 USB controller for X10 home automation:
-```shell
-sudo apt-get install libusb-1.0-0 libusb-1.0-0-dev
-```
-then, to grant access to **CM15/CM19** USB devices to the *homegenie* user, create a new text file
-with the name `/etc/udev/rules.d/98-cm15_cm19.rules` and add the following lines to it:
-```shell
-# CM15 AND CM19 X10 controllers
-ATTRS{idVendor}=="0bc7", ATTRS{idProduct}=="0001", MODE="0660", GROUP="homegenie"
-ATTRS{idVendor}=="0bc7", ATTRS{idProduct}=="0002", MODE="0660", GROUP="homegenie"
-```
-save the file and unplug and plug the device again.
+For instructions on how to install *HomeGenie* as a system service and other advanced
+settings, also read the [optional post-installation steps](./optional-steps) note.
 
 
 ## Accessing the UI
@@ -269,7 +181,3 @@ cat serviceaddress.txt
 The `port` settings can be changed either from the maintenance page
 or editing the `systemconfig.xml` file located in the application folder.
 The service must be stopped when editing the configuration file manually.
-
-
-
-
