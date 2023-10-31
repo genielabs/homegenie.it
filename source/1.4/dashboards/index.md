@@ -18,17 +18,15 @@ keywords:
 
 ## Managing dashboards
 
-It is possible to have a summary and navigate through the dashboards by opening
-the side drawer, clicking the menu button
-{% zx 'icon' %}menu{% endzx %}
-on the application bar.  
+Clicking the menu button {% zx 'icon' %}menu{% endzx %} on the application bar
+you can open the side drawer and have a summary of dashboards and navigate through them.
 The side drawer can eventually be fixed by clicking the push pin button
 {% zx 'icon' %}push_pin{% endzx %}
-located in the bottom right.
+located at the bottom right.
 
-Next to the drawer button, the dashboard menu button
+Next to the drawer button, the dashboard menu
 {% zx 'icon' %}dashboard{% endzx %}
-will show options for adding new dashboards and managing the current one.
+can be used to add new dashboards and managing the current one.
 
 
 <div class="media-container">
@@ -46,16 +44,16 @@ video.addEventListener('ended',function(){
 
 ### Dashboard Widgets
 
-From the dashboard menu is also possible to add new widgets
+From the dashboard menu you can also add new widgets
 {% zx 'icon' %}dashboard_customize{% endzx %}
-or charts {% zx 'icon' %}auto_graph{% endzx %} to the current dashboard.
+and charts {% zx 'icon' %}auto_graph{% endzx %} to the current dashboard.
 
 #### Arranging widgets
 
 A long press on a widget will activate drag mode, where you can
 sort widgets by dragging them.  
-It is also possible to group widgets on the dashboard by "logical" sections
-using the "Section Label" widget.  
+Dashboard widgets can also be arranged into sections using the "Section Label"
+widget to separate each group of widgets.
 
 The *Section Label* widget also adds toggle buttons as a quick shortcut to turn on/off
 all lights or switches in that section. 

@@ -22,7 +22,7 @@ Using pinned shortcuts, just one tap away from your phone's home screen, you can
 activate lights or run scenarios just as quick as tapping a physical button in reach.
 
 
-<div class="media-container" style="height: auto">
+<div class="media-container" style="height: auto; aspect-ratio: 16/9">
 {% zx 'media-browser' %}
 
 media:
@@ -68,7 +68,7 @@ options:
 
 *HomeGenie Panel* features voice control, customizable dashboards, large buttons and indicators
 to easily monitor and operate your smart devices such as lights, switches, thermostats, sensors,
-media servers and smart TVs, and can handle multiple connections to different *HomeGenie* servers
+media servers and smart TVs, and can handle multiple connections to *HomeGenie* servers
 and *UPnP* devices.
 
 Runs 24/7 flawlessly and does not require any Internet access to work!

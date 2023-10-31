@@ -19,8 +19,8 @@ keywords:
 
 ## Initial setup
 
-When opening HomeGenie UI after the installation (or after a factory reset),
-the Setup Wizard will walk you through a couple of simple steps to set the
+When you open HomeGenie UI after the installation (or after a factory reset),
+the *Setup Wizard* will walk you through a couple of simple steps to set the
 base configuration of your system.
 
 Here you can enable built-in drivers for Raspberry Pi or other single board computers,
@@ -30,18 +30,21 @@ If at this time you just want to try HomeGenie without using additional drivers 
 hardware, you can choose to install the **demo** package which includes virtual devices
 such as smart thermostats, switches, color lights, and a device activity simulator.
 
+
+<div class="media-container">
+    <img src="images/setup_wizard_01.png">
+</div>
+
+
 However, all these settings can also be changed later, after the initial setup,
-from the *System settings* page.
-
-
-
+from the system [settings](../settings) page.
 
 
 ### GPIO / SPI / I2C
 
-When you enable the GPIO package, some sample programs will be installed such as
+When you enable the GPIO package some sample programs will be installed such as
 the *DHT-11 sensor* and *GPIO Pin* programs.
-The **GPIO Pin** program allows to configure a GPIO pin as a switch to turn on an LED
+The **GPIO Pin** program allows you to configure a GPIO pin as a switch to turn on an LED
 or a relay, or as an input sensor, for instance, to detect when a button is pressed.
 
 The following video demonstrates the initial setup procedure on a *Raspberry Pi Zero 2 W*
@@ -68,10 +71,10 @@ video1.addEventListener('ended',function(){
 #### Limitless applications
 
 
-Built-in automation engine takes advantage of *.NET IoT* and *RaspberrySharp* libraries,
-through which is possible to integrate [thousands of components](https://github.com/dotnet/iot/blob/main/src/devices/README.md) (such as sensors,
-motors, controllers, and displays) for building any kind of projects, also complex ones
-such as a drone or a robot.  
+The HomeGenie automation engine utilizes the *.NET IoT* and *RaspberrySharp* libraries,
+through which it is possible to integrate [thousands of components](https://github.com/dotnet/iot/blob/main/src/devices/README.md) (such as sensors,
+motors, controllers, and displays) and build any kind of projects, even as complex as
+a drone or a robot.  
 The integrated program editor alongside **C#** also supports **JavaScript** and
 **Python** languages, so it's possible to access a wider range of libraries, examples and
 applications.
@@ -80,20 +83,19 @@ applications.
 ### Smart Home
 
 The following built-in smart home hardware can be enabled either in the initial setup, or later
-from the system settings page:
+from the system [settings](../settings) page:
 
 #### X10
 
 CM11 (Serial), CM15 (USB), CM19 (USB)
 
-#### Z-Wave
-
-Most Z-Wave serial controllers
-
 #### ZigBee
 
 CC25XX (Texas Instruments), XBee (Digi), Ember (Silicon Labs), ConBee (Dresden Elektronik)
 
+#### Z-Wave
+
+Most Z-Wave serial controllers
 
 
 In the video below an example setup using both *ZigBee* and *Z-Wave* hardware.
@@ -123,16 +125,16 @@ video2.addEventListener('ended',function(){
 #### Additional drivers and features
 
 Additional drivers and features can be integrated later via the package manager
-or can be written ad hoc using the integrated program editor.
-A few examples are already included in the package manager: *Philips Hue Bridge V1*,
-*Crestron/KNX*, *WeMo* and more.  
+or written ad hoc using the integrated program editor.
+Some examples are already included and can be installed from the [package manager](../settings/#packages),
+such as *Philips Hue Bridge V1*, *Crestron/KNX*, *WeMo* and others.  
 
 
 ### Manual setup and backup restore
 
-With the manual setup it is possible to install just the base system and then
-access the *System Settings* page to manually configure and customize every
-single aspect of your automation project.
+With manual setup you can install just the base system and then access the system
+[settings](../settings) page to manually configure and customize every single
+aspect of your automation project.
 
-You can also quickly restore a fully preconfigured system using a previously
-exported backup file from the *System Maintenance* page.
+You can also quickly restore a fully preconfigured system using a *backup file*
+previously exported from the system [maintenance](../settings/#maintenance) page.

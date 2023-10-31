@@ -26,7 +26,7 @@ keywords:
 - rpi
 - 1.4
 release_name: 1.4
-release_tag: 1.4.0-beta.60
+release_tag: 1.4.0-beta.64
 download_link: "https://github.com/genielabs/HomeGenie/releases/download/v{{release_tag}}/homegenie_{{release_tag}}"
 architectures:
   - win-x64
@@ -178,6 +178,6 @@ To find out which port number the service is running on, enter the following com
 cat serviceaddress.txt
 ```
 
-The `port` settings can be changed either from the maintenance page
+The `port` settings can be changed either from the [maintenance](../settings/#maintenance) page
 or editing the `systemconfig.xml` file located in the application folder.
 The service must be stopped when editing the configuration file manually.

@@ -12,6 +12,7 @@ icon: tips_and_updates
 keywords:
 - homegenie
 wip: false
+eleventyExcludeFromCollections: all
 ---
 
 {% raw %}
@@ -40,6 +41,7 @@ h3 {
 
 ## Smart Home recipes 🏠
 
+<h3 class="link-disabled">- Adding custom notifications when an appliance starts/stops</h3>
 
 <h3 class="link-disabled">- Remote control ZigBee and Z-Wave using an X10 RF remote</h3>
 
