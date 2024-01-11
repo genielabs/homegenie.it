@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Tue, 31 Oct 2023 20:23:35 +0100</lastBuildDate>
-    <pubDate>Tue, 31 Oct 2023 20:23:35 +0100</pubDate>
+    <lastBuildDate>Thu, 11 Jan 2024 19:57:41 +0100</lastBuildDate>
+    <pubDate>Thu, 11 Jan 2024 19:57:41 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://zuixjs.org//images/icons/icon-152x152.png</url>
@@ -19,7 +19,7 @@
         <link>https://zuixjs.org//google7f8debac56a66e22.html</link>
         <guid isPermaLink="true">https://zuixjs.org//google7f8debac56a66e22.html</guid>
         <description></description>
-        <pubDate>Tue, 31 Oct 2023 20:23:35 +0100</pubDate>
+        <pubDate>Thu, 11 Jan 2024 19:57:41 +0100</pubDate>
         <atom:link href="https://zuixjs.org//google7f8debac56a66e22.html" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -86,7 +86,7 @@
         <link>https://zuixjs.org//content/devs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
         <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Tue, 31 Oct 2023 20:23:35 +0100</pubDate>
+        <pubDate>Thu, 11 Jan 2024 19:57:41 +0100</pubDate>
         <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -134,7 +134,7 @@
         <link>https://zuixjs.org//content/docs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/docs/</guid>
         <description>Documentation section</description>
-        <pubDate>Tue, 31 Oct 2023 20:23:35 +0100</pubDate>
+        <pubDate>Thu, 11 Jan 2024 19:57:41 +0100</pubDate>
         <atom:link href="https://zuixjs.org//content/docs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -221,7 +221,7 @@
         <link>https://zuixjs.org//search/</link>
         <guid isPermaLink="true">https://zuixjs.org//search/</guid>
         <description>Search this website</description>
-        <pubDate>Tue, 31 Oct 2023 20:23:35 +0100</pubDate>
+        <pubDate>Thu, 11 Jan 2024 19:57:41 +0100</pubDate>
         <atom:link href="https://zuixjs.org//search/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -243,7 +243,7 @@
         <link>https://zuixjs.org//</link>
         <guid isPermaLink="true">https://zuixjs.org//</guid>
         <description></description>
-        <pubDate>Tue, 31 Oct 2023 20:23:35 +0100</pubDate>
+        <pubDate>Thu, 11 Jan 2024 19:57:41 +0100</pubDate>
         <atom:link href="https://zuixjs.org//" rel="self" />
         <dc:creator></dc:creator>
     </item>
