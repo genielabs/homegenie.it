@@ -2,109 +2,118 @@
 layout: homepage.liquid
 options: highlight ext-links
 order: 0
-title: automation intelligence and<br> control panel for your smart projects
+title: Integrated solution for smart projects 🪄
 date: Last Modified
 ---
 
-{% layout 'rows center-stretch' %}
+{% layout 'rows top-stretch' 'style="margin-top: 72px; gap:12px"' %}
 
-<div style="min-width: 400px; padding: 12px; margin-top: 32px;">
+<div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
+{%- renderTemplate "md" -%}
 
+# Control Panel
+
+**[HomeGenie Panel](panel)**
+is a standalone app with action scheduler, script recording, voice control, capable
+of controlling media servers and smart TVs and of course any HomeGenie Mini and Server devices.
+
+With the built-in automation engine, automation API and JavaScript editor, *HomeGenie Panel* can work 24/7 and
+act as *always-on* smart panel with server/gateway features.
+    
+{%- endrenderTemplate -%}
+</div>
+
+<div style="min-width: 400px;max-width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/10">
+{% zx 'media-browser' %}
+
+media:
+
+- type: image
+  preview: panel/images/hg_panel_dashboard_03.jpg
+  url: panel/images/hg_panel_dashboard_03.jpg
+
+- type: image
+  preview: panel/images/hg_panel_dashboard_02.jpg
+  url: panel/images/hg_panel_dashboard_02.jpg
+
+- type: image
+  preview: panel/images/hg_panel_dashboard_04.jpg
+  url: panel/images/hg_panel_dashboard_04.jpg
+
+- type: image
+  preview: panel/images/hg_panel_upnp_media_control_07.jpg
+  url: panel/images/hg_panel_upnp_media_control_07.jpg
+
+- type: image
+  preview: panel/images/hg_panel_upnp_media_control_05.jpg
+  url: panel/images/hg_panel_upnp_media_control_05.jpg
+
+options:
+- name: slide
+  value: 5000
+- name: inline
+  value: true
+
+{% endzx %}
+</div></div>
+
+{% endlayout %}
+
+
+
+{% layout 'rows center-stretch' 'style="margin-top: 56px; gap:12px"' %}
+
+<div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
+{%- renderTemplate "md" -%}
+
+# Smart Device
+
+**[HomeGenie Mini](mini)**
+is an open source library for creating firmware for smart devices based on **ESP32**
+or **ESP8266** SoCs. 
+HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie Panel* app.  
+
+The source code includes examples for implementing a smart temperature and luminance sensor,
+a smart shutter, an RF transceiver, and more.
+
+    
+{%- endrenderTemplate -%}
+</div>
+
+<div style="min-width: 400px;max-width: 100%;padding-top:24px;">
+    <img src="images/esp32-overview.png" width="420" style="max-width: 80%">
+</div>
+
+{% endlayout %}
+
+<!--
+> Have you got a spare ESP32 chip? HomeGenie-it now! =))
+-->
+
+
+
+{% layout 'rows top-stretch' 'style="margin-top: 56px; gap:12px"' %}
+
+<div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
+{%- renderTemplate "md" -%}
+
+# Automation Server
+
+**[HomeGenie Server](server)**
+is an open source and general purpose automation server featuring powerful scheduler and automation engine, data processing
+and analysis, package system, widgets editor and an integrated development environment with API that includes GPIO / SPI / I2C
+programming.
+
+With examples and widgets for a quick *Smart Home* setup, and built-in drivers for **X10**, **ZigBee**, **Z-Wave**,
+*HomeGenie Server* is available for **Windows**, **Mac**, **Linux** and ARM-based computers.
+
+
+
+{%- endrenderTemplate -%}
+</div>
+
+<div class="media-container" style="min-width: 400px;max-width: 100%;">
     <img style="max-width: 100%; width: 640px" src="images/home/homegenie_dashboard_01.jpg" title="HomeGenie Demo Dashboard" />
-
-</div>
-
-<div style="min-width: 400px; max-width: 640px; padding: 12px;margin-left: auto;margin-right: auto">
-    {%- renderTemplate "md" -%}
-
-## Portable, customizable and embeddable
-
-- Runs on **Windows**, **Mac**, **Linux** and ARM-based computers
-  *(such as **Raspberry Pi**)*
-- Self-contained application with libraries optimized for each architecture
-- Deploy easily with a single (zipped) folder - ready to run anywhere
-- Setup Wizard
-- Configuration Backup/Restore
-- Customizable client UI presets
-- Package system to quickly add/remove extra features
-- Integrated **smart home** drivers:
-  *KNX*, *X10*, *ZigBee*, *Z-Wave*
-
-    {%- endrenderTemplate -%}
 </div>
 
 {% endlayout %}
-
-
-
-
-
-
-
-
-
-{% layout 'rows center-stretch reverse' %}
-
-<div style="min-width: 400px; padding: 12px; margin-top: 32px;">
-
-    <img style="max-width: 100%; width: 640px" src="images/home/automation_visual_program_01.jpg" title="HomeGenie Visual Programming" />
-
-</div>
-
-<div style="min-width: 400px; max-width: 640px; padding: 12px;margin-left: auto;margin-right: auto">
-    {%- renderTemplate "md" -%}
-
-## Powerful Automation Engine
-
-- Supports *C#*, *JavaScript*, *Python* and visual programming
-- Direct access to *GPIO*, *I2C*, *SPI* and serial ports
-- Includes [.NET IoT Libraries](https://learn.microsoft.com/en-us/dotnet/iot/) with bindings
-  for [thousands of components](https://github.com/dotnet/iot/blob/main/src/devices/README.md)
-- Fluent [API](./api/1.4/ape/annotated.html) for handling devices, events and data
-- Realtime data processing and analysis
-- Custom widgets using [zuix.js](https://zuixjs.org/) web components
-- Scheduler with extended crontab expressions and scripting
-
-    {%- endrenderTemplate -%}
-</div>
-
-{% endlayout %}
-
-
-
-<div layout="column center-center">
-
-<a href="./1.4/getting-started" class="button-85">Get Started</a>
-
-</div>
-
-
-
-<div layout="column center-stretch" class="section" style="gap: 12px;">
-
-    <div layout="rows top-justify">
-
-        <div style="min-width: 400px; padding: 12px;">
-
-            <h3>Examples included</h3>
-            <ul>
-                <li>Weather Widget</li>
-                <li>Security Alarm System</li>
-                <li>Energy Monitor</li>
-                <li>Smart Thermostat</li>
-                <li>Raspberry Pi: <em>DHTxx</em> temperature/humidity sensing and <em>GPIO</em> control</li>
-                <li>... and more!</li>
-            </ul>
-
-            <h3>Documentation</h3>
-            <ul>
-                <li><a href="./1.4/getting-started">HomeGenie 1.4</a> <strong>(latest)</strong></li>
-                <li><a href="./content/intro/">HomeGenie 1.3</a></li>
-            </ul>
-
-        </div>
-
-
-    </div>
-
-</div>

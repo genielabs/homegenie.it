@@ -16,25 +16,18 @@
 
     <header layout="column start-center">
 
-        <div>
-            <img alt="HomeGenie Logo" src="{{ '/images/homegenie-text-logo.svg' | url }}" class="logo">
+        <div layout="row center-center">
+            <div>
+                <img alt="HomeGenie Logo" src="{{ '/images/homegenie-text-logo.svg' | url }}" class="logo">
+            </div>
+            <div>
+                <img alt="Genie" src="{{ '/images/genie.svg' | url }}" class="genie">
+            </div>
         </div>
         <div self="size-x1" layout="column justify-center">
             <h1>
                 {{ title }}
             </h1>
-
-
-            <a href="./1.4/getting-started" class="button-85">Get Started</a>
-
-
-            <h2 self="size-medium">
-                open source,
-                powerful scheduler and automation engine,
-                data processing and analysis, custom widgets,
-                integrated development environment:
-                <strong>more than just smart home</strong>
-            </h2>
         </div>
 
     </header>
@@ -42,9 +35,15 @@
     <nav layout="row center-center">
         <div self="size-large" layout="row center-stretch">
             <div>
-                <a class="icon-button" href="https://github.com/genielabs/homegenie" aria-label="GitHub repository">
+                {% if page.url == "/" %}
+                <a class="icon-button" href="https://github.com/genielabs" aria-label="GitHub repository" title="GitHub repository">
                     <img src="{{ '/images/github-mark-white.png' | url }}" alt="GitHub logo" width="32" height="32">
                 </a>
+                {% else %}
+                <a class="icon-button" href="/" aria-label="Home" title="Home">
+                    {%  zx 'icon'  %}home{% endzx %}
+                </a>
+                {% endif %}
             </div>
             <div self="size-x1"></div>
             <div layout="row center-right" style="gap: 8px; padding-right: 4px">

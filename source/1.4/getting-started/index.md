@@ -37,7 +37,7 @@ architectures:
   - linux-all-mono
 ---
 
-## Installing HomeGenie {{ release_name }}
+## Installing HomeGenie Server {{ release_name }}
 
 {% unpre %}
 ```html

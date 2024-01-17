@@ -6,7 +6,7 @@ header {
     display: block;
     width: 100%;
 /*    min-height: 50vh;*/
-    padding-top: 64px;
+    padding-top: 48px;
     padding-bottom: 48px;
 }
 header a {
@@ -15,13 +15,22 @@ header a {
 header .logo {
     padding: 4px;
     width: 420px;
-    height: 200px;
+    height: 160px;
+}
+header .genie {
+    padding: 4px;
+    width: 88px;
+    height: 88px;
 }
 header h1, .theme-dark header h1 {
     margin: 24px;
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 500;
     text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+}
+.theme-dark header h1 {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #a972e3, 0 0 82px #8c00ff,0 0 92px #0fa;
 }
 header h2, .theme-dark header h2 {
     margin: 24px;
@@ -44,31 +53,67 @@ nav, .theme-dark nav {
     position: absolute;
 }
 
+main {
+    min-height: calc(100vh - 64px - 369px) !important;
+}
+
+main h1 {
+    margin: 0;
+    margin-bottom: 56px;
+}
+
 pre {
     border-radius: 4px;
 }
 
 footer {
-    background: transparent!important;
+    width: 100% !important;
+    max-width: 100% !important;
     box-shadow: none!important;
 }
-footer, footer a {
-    color: black!important;
+footer a {
+    color: white!important;
+    font-weight: bold;
+}
+
+.media-container {
+    text-align: center;
+    margin: 48px auto;
+    max-width: 720px !important;
+    box-shadow: #44444455 1px 1px 8px;
+}
+.media-container img {
+    max-width: 100% !important;
+}
+
+.home-footer {
+    
+    width: 100%;
 }
 
 @media screen and (max-width: 520px) {
     header, .theme-dark header {
-        padding-bottom: 32px;
+        padding-top: 64px;
+        padding-bottom: 12px;
     }
     header .logo {
-        width: 280px;
-        height: 140px;
+        width: 260px;
+        height: 110px;
+    }
+    header .genie {
+        padding: 4px;
+        width: 64px;
+        height: 64px;
     }
     header h1, .theme-dark header h1 {
-        font-size: 125%;
+        font-size: 100%;
+        margin-top: 12px;
     }
     header h2, .theme-dark header h2 {
         font-size: 90%;
+    }
+    main h1 {
+        font-size: 2em !important;
     }
 }
 

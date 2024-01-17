@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content=""><meta name="viewport" content="width=device-width,initial-scale=1"><title>HomeGenie — automation intelligence and control panel for your smart projects</title><link rel="author" href="humans.txt"><link rel="alternate" type="application/rss+xml" title="RSS Feed for automation intelligence and control panel for your smart projects" href="/feed/rss.xml"><!-- Disable tap highlight on IE --><meta name="msapplication-tap-highlight" content="no"><!-- Progressive Web App --><meta name="theme-color" content="white"><link rel="manifest" href="/manifest.json"><!-- Add to home screen for Chrome on Android --><meta name="mobile-web-app-capable" content="yes"><link rel="icon" sizes="192x192" href="/images/icons/desktop/android-chrome-192x192.png"><link rel="icon" sizes="512x512" href="/images/icons/desktop/android-chrome-512x512.png"><!-- Add to home screen for Safari on iOS --><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="A zUIx website"><link rel="apple-touch-icon-precomposed" href="/images/icons/desktop/apple-touch-icon.png"><link rel="mask-icon" href="/images/icons/desktop/safari-pinned-tab.svg" color="#5bbad5"><!-- Tile color for Windows --><meta name="msapplication-TileImage" content="/images/icons/desktop/mstile-150x150.png"><meta name="msapplication-TileColor" content="#ffc40d"><!-- Place favicon.ico in the root directory --><link rel="icon" type="image/png" sizes="32x32" href="/images/icons/desktop/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/icons/desktop/favicon-16x16.png"><!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones --><!--
+<!DOCTYPE html><html lang="en"><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content=""><meta name="viewport" content="width=device-width,initial-scale=1"><title>HomeGenie — Integrated solution for smart projects 🪄</title><link rel="author" href="humans.txt"><link rel="alternate" type="application/rss+xml" title="RSS Feed for Integrated solution for smart projects 🪄" href="/feed/rss.xml"><!-- Disable tap highlight on IE --><meta name="msapplication-tap-highlight" content="no"><!-- Progressive Web App --><meta name="theme-color" content="white"><link rel="manifest" href="/manifest.json"><!-- Add to home screen for Chrome on Android --><meta name="mobile-web-app-capable" content="yes"><link rel="icon" sizes="192x192" href="/images/icons/desktop/android-chrome-192x192.png"><link rel="icon" sizes="512x512" href="/images/icons/desktop/android-chrome-512x512.png"><!-- Add to home screen for Safari on iOS --><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="A zUIx website"><link rel="apple-touch-icon-precomposed" href="/images/icons/desktop/apple-touch-icon.png"><link rel="mask-icon" href="/images/icons/desktop/safari-pinned-tab.svg" color="#5bbad5"><!-- Tile color for Windows --><meta name="msapplication-TileImage" content="/images/icons/desktop/mstile-150x150.png"><meta name="msapplication-TileColor" content="#ffc40d"><!-- Place favicon.ico in the root directory --><link rel="icon" type="image/png" sizes="32x32" href="/images/icons/desktop/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/images/icons/desktop/favicon-16x16.png"><!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones --><!--
     <link rel="canonical" href="https://www.example.com/">
     --><style z-ref="/css/fla/flex-layout-attribute.min.css">/**
  * Flex layout attribute
@@ -198,7 +198,6 @@ blockquote span {
     -webkit-tap-highlight-color: transparent;
 }
 .icon-button:hover {
-
 }
 .icon-button:before {
     content: "";
@@ -222,6 +221,9 @@ blockquote span {
 }
 .icon-button:active svg {
     transform: scale(97%);
+}
+.icon-button .material-icons {
+    font-size: 40px!important;
 }
 
     /* forms */
@@ -321,7 +323,7 @@ blockquote span {
     :root {
     --lite-color: #fff;
     --lite-color-text: #000;
-    --lite-nav-color: #3c4487;
+    --lite-nav-color: #1a237e;
     --lite-nav-color-text: #fff;
     --lite-color--accent: #e10c57;
     --lite-color--primary: #236fbc;
@@ -548,7 +550,7 @@ header {
     display: block;
     width: 100%;
 /*    min-height: 50vh;*/
-    padding-top: 64px;
+    padding-top: 48px;
     padding-bottom: 48px;
 }
 header a {
@@ -557,13 +559,22 @@ header a {
 header .logo {
     padding: 4px;
     width: 420px;
-    height: 200px;
+    height: 160px;
+}
+header .genie {
+    padding: 4px;
+    width: 88px;
+    height: 88px;
 }
 header h1, .theme-dark header h1 {
     margin: 24px;
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 500;
     text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+}
+.theme-dark header h1 {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #a972e3, 0 0 82px #8c00ff,0 0 92px #0fa;
 }
 header h2, .theme-dark header h2 {
     margin: 24px;
@@ -586,31 +597,67 @@ nav, .theme-dark nav {
     position: absolute;
 }
 
+main {
+    min-height: calc(100vh - 64px - 369px) !important;
+}
+
+main h1 {
+    margin: 0;
+    margin-bottom: 56px;
+}
+
 pre {
     border-radius: 4px;
 }
 
 footer {
-    background: transparent!important;
+    width: 100% !important;
+    max-width: 100% !important;
     box-shadow: none!important;
 }
-footer, footer a {
-    color: black!important;
+footer a {
+    color: white!important;
+    font-weight: bold;
+}
+
+.media-container {
+    text-align: center;
+    margin: 48px auto;
+    max-width: 720px !important;
+    box-shadow: #44444455 1px 1px 8px;
+}
+.media-container img {
+    max-width: 100% !important;
+}
+
+.home-footer {
+    
+    width: 100%;
 }
 
 @media screen and (max-width: 520px) {
     header, .theme-dark header {
-        padding-bottom: 32px;
+        padding-top: 64px;
+        padding-bottom: 12px;
     }
     header .logo {
-        width: 280px;
-        height: 140px;
+        width: 260px;
+        height: 110px;
+    }
+    header .genie {
+        padding: 4px;
+        width: 64px;
+        height: 64px;
     }
     header h1, .theme-dark header h1 {
-        font-size: 125%;
+        font-size: 100%;
+        margin-top: 12px;
     }
     header h2, .theme-dark header h2 {
         font-size: 90%;
+    }
+    main h1 {
+        font-size: 2em !important;
     }
 }
 
@@ -691,7 +738,7 @@ footer, footer a {
 }
 .theme-dark .button-85 {
     color: white!important;
-}</style><body layout="column stretch-center"><header layout="column start-center"><div><img alt="HomeGenie Logo" src="/images/homegenie-text-logo.svg" class="logo"></div><div self="size-x1" layout="column justify-center"><h1>automation intelligence and<br>control panel for your smart projects</h1><a href="./1.4/getting-started" class="button-85">Get Started</a><h2 self="size-medium">open source, powerful scheduler and automation engine, data processing and analysis, custom widgets, integrated development environment: <strong>more than just smart home</strong></h2></div></header><nav layout="row center-center"><div self="size-large" layout="row center-stretch"><div><a class="icon-button" href="https://github.com/genielabs/homegenie" aria-label="GitHub repository"><img src="/images/github-mark-white.png" alt="GitHub logo" width="32" height="32"></a></div><div self="size-x1"></div><div layout="row center-right" style="gap: 8px; padding-right: 4px"><!--
+}</style><!-- zUIx.js inline resources bundle --><script src="index.bundle.js"></script><body layout="column stretch-center"><header layout="column start-center"><div layout="row center-center"><div><img alt="HomeGenie Logo" src="/images/homegenie-text-logo.svg" class="logo"></div><div><img alt="Genie" src="/images/genie.svg" class="genie"></div></div><div self="size-x1" layout="column justify-center"><h1>Integrated solution for smart projects 🪄</h1></div></header><nav layout="row center-center"><div self="size-large" layout="row center-stretch"><div><a class="icon-button" href="https://github.com/genielabs" aria-label="GitHub repository" title="GitHub repository"><img src="/images/github-mark-white.png" alt="GitHub logo" width="32" height="32"></a></div><div self="size-x1"></div><div layout="row center-right" style="gap: 8px; padding-right: 4px"><!--
                 <div>
                     <a class="icon-button" aria-label="Search" href="/search">
                         
@@ -702,7 +749,9 @@ footer, footer a {
 
                     </a>
                 </div>
-                --><div style="padding-top: 4px"><input class="theme-toggle" type="checkbox" aria-label="Toggle theme" checked></div></div></div></nav><main self="size-large"><div layout="rows center-stretch" undefined=""><div style="min-width: 400px; padding: 12px; margin-top: 32px;"><img style="max-width: 100%; width: 640px" src="images/home/homegenie_dashboard_01.jpg" title="HomeGenie Demo Dashboard"></div><div style="min-width: 400px; max-width: 640px; padding: 12px;margin-left: auto;margin-right: auto"><h2>Portable, customizable and embeddable</h2><ul><li>Runs on <strong>Windows</strong>, <strong>Mac</strong>, <strong>Linux</strong> and ARM-based computers <em>(such as <strong>Raspberry Pi</strong>)</em><li>Self-contained application with libraries optimized for each architecture<li>Deploy easily with a single (zipped) folder - ready to run anywhere<li>Setup Wizard<li>Configuration Backup/Restore<li>Customizable client UI presets<li>Package system to quickly add/remove extra features<li>Integrated <strong>smart home</strong> drivers: <em>KNX</em>, <em>X10</em>, <em>ZigBee</em>, <em>Z-Wave</em></ul></div></div><div layout="rows center-stretch reverse" undefined=""><div style="min-width: 400px; padding: 12px; margin-top: 32px;"><img style="max-width: 100%; width: 640px" src="images/home/automation_visual_program_01.jpg" title="HomeGenie Visual Programming"></div><div style="min-width: 400px; max-width: 640px; padding: 12px;margin-left: auto;margin-right: auto"><h2>Powerful Automation Engine</h2><ul><li>Supports <em>C#</em>, <em>JavaScript</em>, <em>Python</em> and visual programming<li>Direct access to <em>GPIO</em>, <em>I2C</em>, <em>SPI</em> and serial ports<li>Includes <a href="https://learn.microsoft.com/en-us/dotnet/iot/">.NET IoT Libraries</a> with bindings for <a href="https://github.com/dotnet/iot/blob/main/src/devices/README.md">thousands of components</a><li>Fluent <a href="./api/1.4/ape/annotated.html">API</a> for handling devices, events and data<li>Realtime data processing and analysis<li>Custom widgets using <a href="https://zuixjs.org/">zuix.js</a> web components<li>Scheduler with extended crontab expressions and scripting</ul></div></div><div layout="column center-center"><a href="./1.4/getting-started" class="button-85">Get Started</a></div><div layout="column center-stretch" class="section" style="gap: 12px;"><div layout="rows top-justify"><div style="min-width: 400px; padding: 12px;"><h3>Examples included</h3><ul><li>Weather Widget<li>Security Alarm System<li>Energy Monitor<li>Smart Thermostat<li>Raspberry Pi: <em>DHTxx</em> temperature/humidity sensing and <em>GPIO</em> control<li>... and more!</ul><h3>Documentation</h3><ul><li><a href="./1.4/getting-started">HomeGenie 1.4</a> <strong>(latest)</strong><li><a href="./content/intro/">HomeGenie 1.3</a></ul></div></div></div></main><footer self="size-large" layout="columns bottom-center" style="min-height: 120px"><div self="size-large" layout="rows center-justify" style="padding: 24px;"><div self="left" style="margin-bottom: 24px"><a href="/feed/rss.xml" layout="row center-left" style="gap: 8px"><img src="/images/rss-feed.png" width="24" height="24"> <strong>RSS feed</strong></a></div><div self="right" style="margin-bottom: 24px">© 2012-to-infinity-and-beyond by <a class="accent" href="https://glabs.it">G-Labs</a></div></div></footer><!--
+                --><div style="padding-top: 4px"><input class="theme-toggle" type="checkbox" aria-label="Toggle theme" checked></div></div></div></nav><main self="size-large"><div layout="rows top-stretch" style="margin-top: 72px; gap:12px"><div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;"><h1>Control Panel</h1><p><strong><a href="panel">HomeGenie Panel</a></strong> is a standalone app with action scheduler, script recording, voice control, capable of controlling media servers and smart TVs and of course any HomeGenie Mini and Server devices.<p>With the built-in automation engine, automation API and JavaScript editor, <em>HomeGenie Panel</em> can work 24/7 and act as <em>always-on</em> smart panel with server/gateway features.</div><div style="min-width: 400px;max-width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/10"><div z-load="components/media-browser" class="visible-on-ready" style="width: 100%; height: 100%; aspect-ratio: auto!important; overflow: hidden" :slide="'5000'" :inline="'true'"><div #media=""><article data-type="image" slide-interval=""><h1 #title=""></h1><h2 #description=""></h2><img #preview="" src="panel/images/hg_panel_dashboard_03.jpg" alt="" loading="lazy"><br><a #url="" href="panel/images/hg_panel_dashboard_03.jpg">Open media</a></article><article data-type="image" slide-interval=""><h1 #title=""></h1><h2 #description=""></h2><img #preview="" src="panel/images/hg_panel_dashboard_02.jpg" alt="" loading="lazy"><br><a #url="" href="panel/images/hg_panel_dashboard_02.jpg">Open media</a></article><article data-type="image" slide-interval=""><h1 #title=""></h1><h2 #description=""></h2><img #preview="" src="panel/images/hg_panel_dashboard_04.jpg" alt="" loading="lazy"><br><a #url="" href="panel/images/hg_panel_dashboard_04.jpg">Open media</a></article><article data-type="image" slide-interval=""><h1 #title=""></h1><h2 #description=""></h2><img #preview="" src="panel/images/hg_panel_upnp_media_control_07.jpg" alt="" loading="lazy"><br><a #url="" href="panel/images/hg_panel_upnp_media_control_07.jpg">Open media</a></article><article data-type="image" slide-interval=""><h1 #title=""></h1><h2 #description=""></h2><img #preview="" src="panel/images/hg_panel_upnp_media_control_05.jpg" alt="" loading="lazy"><br><a #url="" href="panel/images/hg_panel_upnp_media_control_05.jpg">Open media</a></article></div></div></div></div></div><div layout="rows center-stretch" style="margin-top: 56px; gap:12px"><div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;"><h1>Smart Device</h1><p><strong><a href="mini">HomeGenie Mini</a></strong> is an open source library for creating firmware for smart devices based on <strong>ESP32</strong> or <strong>ESP8266</strong> SoCs. HomeGenie-Mini devices are easy to set up, control and automate using <em>HomeGenie Panel</em> app.<p>The source code includes examples for implementing a smart temperature and luminance sensor, a smart shutter, an RF transceiver, and more.</div><div style="min-width: 400px;max-width: 100%;padding-top:24px;"><img src="images/esp32-overview.png" width="420" style="max-width: 80%"></div></div><!--
+> Have you got a spare ESP32 chip? HomeGenie-it now! =))
+--><div layout="rows top-stretch" style="margin-top: 56px; gap:12px"><div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;"><h1>Automation Server</h1><p><strong><a href="server">HomeGenie Server</a></strong> is an open source and general purpose automation server featuring powerful scheduler and automation engine, data processing and analysis, package system, widgets editor and an integrated development environment with API that includes GPIO / SPI / I2C programming.<p>With examples and widgets for a quick <em>Smart Home</em> setup, and built-in drivers for <strong>X10</strong>, <strong>ZigBee</strong>, <strong>Z-Wave</strong>, <em>HomeGenie Server</em> is available for <strong>Windows</strong>, <strong>Mac</strong>, <strong>Linux</strong> and ARM-based computers.</div><div class="media-container" style="min-width: 400px;max-width: 100%;"><img style="max-width: 100%; width: 640px" src="images/home/homegenie_dashboard_01.jpg" title="HomeGenie Demo Dashboard"></div></div></main><footer self="size-large" layout="columns bottom-center"><div self="size-large" layout="rows center-justify" style="padding: 24px;max-width: 960px; width: 100%;"><div self="left" style="margin-bottom: 24px"><a href="/feed/rss.xml" layout="row center-left" style="gap: 8px"><img src="/images/rss-feed.png" width="24" height="24"> <strong>RSS feed</strong></a></div><div self="right" style="margin-bottom: 24px">© 2012-to-infinity-and-beyond by <a class="accent" href="https://glabs.it">G-Labs</a></div></div></footer><!--
     <div z-load="@lib/components/menu-overlay"
          z-context="menu-overlay"
          :position="'center'" :before="'footer'">

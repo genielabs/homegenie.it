@@ -157,7 +157,6 @@ blockquote span {
     -webkit-tap-highlight-color: transparent;
 }
 .icon-button:hover {
-
 }
 .icon-button:before {
     content: "";
@@ -181,4 +180,7 @@ blockquote span {
 }
 .icon-button:active svg {
     transform: scale(97%);
+}
+.icon-button .material-icons {
+    font-size: 40px!important;
 }

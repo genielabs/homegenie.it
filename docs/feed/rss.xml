@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Sat, 13 Jan 2024 20:17:41 +0100</lastBuildDate>
-    <pubDate>Sat, 13 Jan 2024 20:17:41 +0100</pubDate>
+    <lastBuildDate>Wed, 17 Jan 2024 13:25:02 +0100</lastBuildDate>
+    <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://zuixjs.org//images/icons/icon-152x152.png</url>
@@ -69,16 +69,12 @@
     </item>
     <item>
         <title>HomeGenie Panel</title>
-        <link>https://zuixjs.org//1.4/panel/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/panel/</guid>
-        <description>HomeGenie Panel app for Android tablets and phones</description>
+        <link>https://zuixjs.org/false</link>
+        <guid isPermaLink="true">https://zuixjs.org/false</guid>
+        <description></description>
         <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/panel/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/panel/https://picsum.photos/seed/docs!install/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
+        <atom:link href="https://zuixjs.org/false" rel="self" />
+        <dc:creator></dc:creator>
     </item>
     <item>
         <title>Setup</title>
@@ -185,17 +181,8 @@
         <link>https://zuixjs.org//search/</link>
         <guid isPermaLink="true">https://zuixjs.org//search/</guid>
         <description>Search this website</description>
-        <pubDate>Sat, 13 Jan 2024 20:17:41 +0100</pubDate>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
         <atom:link href="https://zuixjs.org//search/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>automation intelligence and&lt;br&gt; control panel for your smart projects</title>
-        <link>https://zuixjs.org//</link>
-        <guid isPermaLink="true">https://zuixjs.org//</guid>
-        <description></description>
-        <pubDate>Sat, 13 Jan 2024 20:17:41 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
@@ -203,7 +190,7 @@
         <link>https://zuixjs.org//content/devs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
         <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Sat, 13 Jan 2024 20:17:41 +0100</pubDate>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
         <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -282,7 +269,7 @@
         <link>https://zuixjs.org//content/docs/</link>
         <guid isPermaLink="true">https://zuixjs.org//content/docs/</guid>
         <description>Documentation section</description>
-        <pubDate>Sat, 13 Jan 2024 20:17:41 +0100</pubDate>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
         <atom:link href="https://zuixjs.org//content/docs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -395,7 +382,7 @@
         <link>https://zuixjs.org//google7f8debac56a66e22.html</link>
         <guid isPermaLink="true">https://zuixjs.org//google7f8debac56a66e22.html</guid>
         <description></description>
-        <pubDate>Sat, 13 Jan 2024 20:17:41 +0100</pubDate>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
         <atom:link href="https://zuixjs.org//google7f8debac56a66e22.html" rel="self" />
         <dc:creator></dc:creator>
     </item>
@@ -411,6 +398,51 @@
                        url="https://zuixjs.org//1.4/getting-started/https://picsum.photos/seed/docs!install/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
+    </item>
+    <item>
+        <title>Control Panel</title>
+        <link>https://zuixjs.org//panel/</link>
+        <guid isPermaLink="true">https://zuixjs.org//panel/</guid>
+        <description>HomeGenie Panel app for Android tablets and phones</description>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
+        <atom:link href="https://zuixjs.org//panel/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart Device</title>
+        <link>https://zuixjs.org//mini/</link>
+        <guid isPermaLink="true">https://zuixjs.org//mini/</guid>
+        <description>...</description>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
+        <atom:link href="https://zuixjs.org//mini/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Automation Server</title>
+        <link>https://zuixjs.org//server/</link>
+        <guid isPermaLink="true">https://zuixjs.org//server/</guid>
+        <description>...</description>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
+        <atom:link href="https://zuixjs.org//server/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title></title>
+        <link>https://zuixjs.org//1.4/panel/</link>
+        <guid isPermaLink="true">https://zuixjs.org//1.4/panel/</guid>
+        <description></description>
+        <pubDate>Invalid date</pubDate>
+        <atom:link href="https://zuixjs.org//1.4/panel/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Integrated solution for smart projects 🪄</title>
+        <link>https://zuixjs.org//</link>
+        <guid isPermaLink="true">https://zuixjs.org//</guid>
+        <description></description>
+        <pubDate>Wed, 17 Jan 2024 13:25:02 +0100</pubDate>
+        <atom:link href="https://zuixjs.org//" rel="self" />
+        <dc:creator></dc:creator>
     </item>
 </channel>
 </rss>
