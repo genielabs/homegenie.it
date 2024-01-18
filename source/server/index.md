@@ -13,7 +13,7 @@ keywords:
 
 **HomeGenie Server**
 is an open source and general-purpose automation server featuring powerful scheduler and automation engine, data processing
-and analysis, package system, widgets editor and an integrated development environment with API that includes GPIO / SPI / I2C
+and analysis, package system, widgets editor and programs editor with API that includes GPIO / SPI / I2C
 programming.
 
 With examples and widgets for a quick *Smart Home* setup, and built-in drivers for **X10**, **ZigBee**, **Z-Wave**,

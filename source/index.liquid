@@ -6,14 +6,25 @@ title: Integrated solution for smart projects 🪄
 date: Last Modified
 ---
 
-{% layout 'rows top-stretch' 'style="margin-top: 72px; gap:12px"' %}
+<script>
+  customElements.define('mdl-button', class extends HTMLElement {
+    connectedCallback() {
+      zuix.loadComponent(this, '@lib/controllers/mdl-button', 'ctrl', {
+        container: this.attachShadow({mode: 'closed'})
+      });
+    }
+  });
+</script>
+
+
+{% layout 'rows center-stretch' 'style="margin-top: 72px; gap:12px"' %}
 
 <div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
 {%- renderTemplate "md" -%}
 
 # Control Panel
 
-**[HomeGenie Panel](panel)**
+[HomeGenie Panel](panel)
 is a standalone app with action scheduler, script recording, voice control, capable
 of controlling media servers and smart TVs and of course any HomeGenie Mini and Server devices.
 
@@ -23,7 +34,7 @@ act as *always-on* smart panel with server/gateway features.
 {%- endrenderTemplate -%}
 </div>
 
-<div style="min-width: 400px;max-width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/10">
+<div style="min-width: 400px;max-width: 100%;"><div class="media-container" style="margin:0; height: auto; aspect-ratio: 15/10">
 {% zx 'media-browser' %}
 
 media:
@@ -61,14 +72,23 @@ options:
 
 
 
-{% layout 'rows center-stretch' 'style="margin-top: 56px; gap:12px"' %}
+<div style="margin-top: 24px;"><a href="panel">
+  <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Panel documentation page">
+    <i class="material-icons">arrow_right_alt</i>
+    Read more
+  </mdl-button>
+</a></div>
+
+
+
+{% layout 'rows center-stretch' 'style="margin-top: 72px; gap:12px"' %}
 
 <div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
 {%- renderTemplate "md" -%}
 
 # Smart Device
 
-**[HomeGenie Mini](mini)**
+[HomeGenie Mini](mini)
 is an open source library for creating firmware for smart devices based on **ESP32**
 or **ESP8266** SoCs. 
 HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie Panel* app.  
@@ -92,16 +112,25 @@ a smart shutter, an RF transceiver, and more.
 
 
 
-{% layout 'rows top-stretch' 'style="margin-top: 56px; gap:12px"' %}
+<div style="margin-top: 24px;"><a href="mini">
+  <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Mini documentation page">
+    <i class="material-icons">arrow_right_alt</i>
+    Read more
+  </mdl-button>
+</a></div>
+
+
+
+{% layout 'rows center-stretch' 'style="margin-top: 72px; gap:12px"' %}
 
 <div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
 {%- renderTemplate "md" -%}
 
 # Automation Server
 
-**[HomeGenie Server](server)**
+[HomeGenie Server](server)
 is an open source and general purpose automation server featuring powerful scheduler and automation engine, data processing
-and analysis, package system, widgets editor and an integrated development environment with API that includes GPIO / SPI / I2C
+and analysis, package system, widgets editor and programs editor with API that includes GPIO / SPI / I2C
 programming.
 
 With examples and widgets for a quick *Smart Home* setup, and built-in drivers for **X10**, **ZigBee**, **Z-Wave**,
@@ -112,8 +141,17 @@ With examples and widgets for a quick *Smart Home* setup, and built-in drivers f
 {%- endrenderTemplate -%}
 </div>
 
-<div class="media-container" style="min-width: 400px;max-width: 100%;">
+<div class="media-container" style="margin:0; min-width: 400px;max-width: 100%;">
     <img style="max-width: 100%; width: 640px" src="images/home/homegenie_dashboard_01.jpg" title="HomeGenie Demo Dashboard" />
 </div>
 
 {% endlayout %}
+
+
+
+<div style="margin-top: 24px;"><a href="server">
+  <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Server documentation page">
+    <i class="material-icons">arrow_right_alt</i>
+    Read more
+  </mdl-button>
+</a></div>
