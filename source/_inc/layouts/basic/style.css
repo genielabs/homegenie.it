@@ -79,6 +79,7 @@ code:not([class*=language-]) {
 }
 
 footer {
+    margin-top: 72px;
     font-size: 90%;
 }
 footer section {

@@ -19,7 +19,7 @@
                     <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
                 </a>
             </li>
-        {% elsif post.data.link and post.data.major == major %}
+        {% elsif post.data.link and post.data.major == major and post.data.hidden != true %}
             <li>
                 <a href="{{ post.data.link | url }}" class="mdl-js-ripple-effect">
                     <div layout="row center-left">

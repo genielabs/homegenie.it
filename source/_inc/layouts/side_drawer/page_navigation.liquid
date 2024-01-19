@@ -7,9 +7,9 @@
         {% assign nextPost = collections.sections | where: 'data.title', 'Automation' | first %}
     {% endif %}
 
-    <div layout="rows center-spread" style="margin-top: 112px; gap:12px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%">
+    <div layout="rows center-center" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%">
 
-        {% if prevPost and prevPost.data.major == major and prevPost.data.wip != true %}
+        {% if prevPost and prevPost.data.major == major and prevPost.data.wip != true and prevPost.data.hidden != true %}
             {% if prevPost.data.link %}
                 {% assign url=prevPost.data.link %}
             {% else %}
@@ -18,7 +18,7 @@
             <a href="{{ url | url }}" style="text-align: center">
                 <div layout="row center-center">
                     <i class="material-icons">arrow_left</i>&nbsp;
-                    <span style="padding-right: 24px">Previous</span>
+                    <span>Previous</span>
                 </div>
                 <div class="navigation-title">{{ prevPost.data.title }}</div>
             </a>
@@ -26,7 +26,7 @@
             <div>&nbsp;</div>
         {% endif %}
 
-        {% if nextPost and nextPost.data.major == major and nextPost.data.wip != true %}
+        {% if nextPost and nextPost.data.major == major and nextPost.data.wip != true and nextPost.data.hidden != true %}
             {% if nextPost.data.link %}
                 {% assign url=nextPost.data.link %}
             {% else %}
@@ -34,7 +34,7 @@
             {% endif %}
             <a href="{{ url | url }}" style="text-align: center">
                 <div layout="row center-center">
-                    <span style="padding-left: 24px">Next</span>
+                    <span>Next</span>
                     <i class="material-icons">arrow_right</i>&nbsp;
                 </div>
                 <div class="navigation-title">{{ nextPost.data.title }}</div>
@@ -51,7 +51,7 @@
         }
         .navigation-title {
             color: var(--primary-color);
-            margin: 8px;
+            margin-top: 8px;
             font-size: 80%;
             max-width: 200px;
             overflow: hidden;
