@@ -19,13 +19,13 @@ shutter, an RF transceiver, and more.
 
 
 <div style="min-width: 400px;max-width: 100%;padding-top:24px;">
-    <img src="../images/home/hg_mini_smart_device_01.jpg" width="420" style="max-width: 80%">
+    <img style="max-width: 100%; width: 640px" src="../images/home/hg_mini_smart_device_01.jpg">
 </div>
 
 
 ## HG-Mini OS Features
 
-- Easy Wi-Fi configuration using Bluetooth (ESP32) or WPA (ESP8266)
+- Easy Wi-Fi configuration using Bluetooth (ESP32) or WPS (ESP8266)
 - Does not require an Internet connection to be configured or to work properly
 - Time synchronization using internal RTC (ESP32), mobile app time or NTP
 - Device discovery through SNMP/UPnP advertising with customizable name
