@@ -11,20 +11,20 @@ keywords:
 <div style="margin-top: 48px">&nbsp;</div>
 
 **HomeGenie Mini**
-is an open source library for creating firmware for smart devices based on **ESP32**
+is an open source operating system and library for creating smart devices based on **ESP32**
 or **ESP8266** SoCs.
 HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie Panel* app.
 
-The source code includes examples for implementing a smart temperature and luminance sensor,
-a smart shutter, an RF transceiver, and more.
+The source code includes examples for implementing smart switch relays, smart sensors, a smart
+shutter, an RF transceiver, and more.
 
 
 <div style="min-width: 400px;max-width: 100%;padding-top:24px;">
-    <img src="../images/esp32-overview.png" width="420" style="max-width: 80%">
+    <img src="../images/home/hg_mini_smart_device_01.jpg" width="420" style="max-width: 80%">
 </div>
 
 
-## Features
+## HG-Mini OS Features
 
 - Easy Wi-Fi configuration using Bluetooth (ESP32) or WPA (ESP8266)
 - Does not require an Internet connection to be configured or to work properly
@@ -34,10 +34,12 @@ a smart shutter, an RF transceiver, and more.
 - Status LED
 - Configuration/Pairing Button
 - Builtin GPIO control API
-- Switch level restore on power-on / restart
+- Switch level restore on power-on/restart
 - Event router
-- Simple task manager
-- Extensible API
+- Multitasking
+- Activity-based UI with touch and gestures support
+- Minimalistic APIs for implementing tasks and for using the UI
+- Extensible HTTP API
 - Can connect directly to *HomeGenie Panel* either via Wi-Fi access point or hotspot/tethering
 - Can be easily connected to *HomeGenie Server* via MQTT
 

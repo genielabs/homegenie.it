@@ -1,7 +1,7 @@
 ---
 layout: homepage.liquid
 options: highlight ext-links
-title: Automation Server
+title: Programmable Intelligence
 description: ...
 keywords:
 - homegenie
@@ -12,9 +12,10 @@ keywords:
 
 
 **HomeGenie Server**
-is an open source and general-purpose automation server featuring powerful scheduler and automation engine, data processing
-and analysis, package system, widgets editor and programs editor with API that includes GPIO / SPI / I2C
-programming.
+is an open source, general purpose, *programmable intelligence* that can monitor and control
+smart devices to implement any kind of automated tasks based on statistics and actual system data.
+It features a powerful scheduler and program engine, data processing and analysis, package system,
+widgets editor and program editor with APIs that include GPIO/SPI/I2C programming.
 
 With examples and widgets for a quick *Smart Home* setup, and built-in drivers for **X10**, **ZigBee**, **Z-Wave**,
 *HomeGenie Server* is available for **Windows**, **Mac**, **Linux** and ARM-based computers.

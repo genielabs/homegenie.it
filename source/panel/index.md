@@ -11,11 +11,11 @@ keywords:
 <div style="margin-top: 48px">&nbsp;</div>
 
 **HomeGenie Panel**
-is a standalone app with action scheduler, script recording, voice control, capable of controlling media servers
-and smart TVs and of course any HomeGenie Mini and Server devices.
+is a standalone app with action scheduler, script recording, voice control, capable
+of controlling media servers and smart TVs and of course any HomeGenie Mini and Server devices.
 
-With the built-in automation engine, automation API and JavaScript editor, *HomeGenie Panel* can work 24/7 and
-act as *always-on* smart panel with server/gateway features.
+With a built-in automation engine, automation API and JavaScript editor, *HomeGenie Panel* can work 24/7 and
+act as *always-on* smart panel with server/gateway level features.
 
 <div class="media-container" style="height: auto; aspect-ratio: 16/11">
 {% zx 'media-browser' %}

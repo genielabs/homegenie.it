@@ -17,21 +17,29 @@ date: Last Modified
 </script>
 
 
-{% layout 'rows center-stretch' 'style="margin-top: 72px; gap:12px"' %}
+{%- renderTemplate "md" -%}
+# Control Panel
+{%- endrenderTemplate -%}
+
+{% layout 'rows top-stretch' 'style="gap:12px"' %}
 
 <div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
 {%- renderTemplate "md" -%}
-
-# Control Panel
-
 [HomeGenie Panel](panel)
 is a standalone app with action scheduler, script recording, voice control, capable
 of controlling media servers and smart TVs and of course any HomeGenie Mini and Server devices.
 
-With the built-in automation engine, automation API and JavaScript editor, *HomeGenie Panel* can work 24/7 and
-act as *always-on* smart panel with server/gateway features.
-    
+With a built-in automation engine, automation API and JavaScript editor, *HomeGenie Panel* can work 24/7 and
+act as *always-on* smart panel with server/gateway level features.
 {%- endrenderTemplate -%}
+
+  <div style="margin-top: 24px;"><a href="panel">
+    <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Panel documentation page">
+      <i class="material-icons">arrow_right_alt</i>
+      Read more
+    </mdl-button>
+  </a></div>
+
 </div>
 
 <div style="min-width: 400px;max-width: 100%;"><div class="media-container" style="margin:0; height: auto; aspect-ratio: 15/10">
@@ -71,37 +79,33 @@ options:
 {% endlayout %}
 
 
+{%- renderTemplate "md" -%}
+# Smart Device
+{%- endrenderTemplate -%}
 
-<div style="margin-top: 24px;"><a href="panel">
-  <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Panel documentation page">
-    <i class="material-icons">arrow_right_alt</i>
-    Read more
-  </mdl-button>
-</a></div>
-
-
-
-{% layout 'rows center-stretch' 'style="margin-top: 72px; gap:12px"' %}
+{% layout 'rows top-stretch' 'style="gap:12px"' %}
 
 <div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
 {%- renderTemplate "md" -%}
-
-# Smart Device
-
 [HomeGenie Mini](mini)
-is an open source library for creating firmware for smart devices based on **ESP32**
-or **ESP8266** SoCs. 
-HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie Panel* app.  
+is an open source library for creating smart devices based on **ESP32** or **ESP8266** SoCs.
+HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie Panel* app.
 
-The source code includes examples for implementing a smart temperature and luminance sensor,
-a smart shutter, an RF transceiver, and more.
-
-    
+The source code includes examples for implementing smart switch relays, smart sensors, a smart
+shutter, an RF transceiver, and more.
 {%- endrenderTemplate -%}
+
+  <div style="margin-top: 24px;"><a href="mini">
+    <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Mini documentation page">
+      <i class="material-icons">arrow_right_alt</i>
+      Read more
+    </mdl-button>
+  </a></div>
+
 </div>
 
-<div style="min-width: 400px;max-width: 100%;padding-top:24px;">
-    <img src="images/esp32-overview.png" width="420" style="max-width: 80%">
+<div style="min-width: 400px;max-width: 100%;">
+    <img src="images/home/hg_mini_smart_device_01.jpg" width="420" style="max-width: 80%">
 </div>
 
 {% endlayout %}
@@ -111,34 +115,31 @@ a smart shutter, an RF transceiver, and more.
 -->
 
 
+{%- renderTemplate "md" -%}
+# Programmable Intelligence
+{%- endrenderTemplate -%}
 
-<div style="margin-top: 24px;"><a href="mini">
-  <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Mini documentation page">
-    <i class="material-icons">arrow_right_alt</i>
-    Read more
-  </mdl-button>
-</a></div>
-
-
-
-{% layout 'rows center-stretch' 'style="margin-top: 72px; gap:12px"' %}
+{% layout 'rows top-stretch' 'style="gap:12px"' %}
 
 <div style="min-width: 400px; max-width: 640px; margin-left: auto;margin-right: auto;">
 {%- renderTemplate "md" -%}
-
-# Automation Server
-
 [HomeGenie Server](server)
-is an open source and general purpose automation server featuring powerful scheduler and automation engine, data processing
-and analysis, package system, widgets editor and programs editor with API that includes GPIO / SPI / I2C
-programming.
+is an open source, general purpose, *programmable intelligence* that can monitor and control
+smart devices to implement any kind of automated tasks based on statistics and actual system data.
+It features a powerful scheduler and program engine, data processing and analysis, package system,
+widgets editor and program editor with APIs that include GPIO/SPI/I2C programming.
 
 With examples and widgets for a quick *Smart Home* setup, and built-in drivers for **X10**, **ZigBee**, **Z-Wave**,
 *HomeGenie Server* is available for **Windows**, **Mac**, **Linux** and ARM-based computers.
-
-
-
 {%- endrenderTemplate -%}
+
+  <div style="margin-top: 24px;"><a href="server">
+    <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Server documentation page">
+      <i class="material-icons">arrow_right_alt</i>
+      Read more
+    </mdl-button>
+  </a></div>
+
 </div>
 
 <div class="media-container" style="margin:0; min-width: 400px;max-width: 100%;">
@@ -146,12 +147,3 @@ With examples and widgets for a quick *Smart Home* setup, and built-in drivers f
 </div>
 
 {% endlayout %}
-
-
-
-<div style="margin-top: 24px;"><a href="server">
-  <mdl-button :class="'accent'" :type="'flat'" title="Open HomeGenie Server documentation page">
-    <i class="material-icons">arrow_right_alt</i>
-    Read more
-  </mdl-button>
-</a></div>
