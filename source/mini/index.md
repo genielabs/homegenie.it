@@ -11,8 +11,7 @@ keywords:
 <div style="margin-top: 48px">&nbsp;</div>
 
 **HomeGenie Mini**
-is an open source operating system and library for creating smart devices based on **ESP32**
-or **ESP8266** SoCs.
+is an open source library for creating smart devices based on **ESP32** or **ESP8266** SoCs.
 HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie Panel* app.
 
 The source code includes examples for implementing smart switch relays, smart sensors, a smart
