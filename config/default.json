@@ -49,6 +49,7 @@
         "mini/**/*.png",
         "mini/**/*.webp",
         "mini/**/*.webm",
+        "mini/**/*.mp4",
         "mini/**/*.gif",
         "mini/**/*.svg",
         "mini/**/*.json",

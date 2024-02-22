@@ -18,9 +18,38 @@ The source code includes examples for implementing smart switch relays, smart se
 shutter, an RF transceiver, and more.
 
 
-<div style="min-width: 400px;max-width: 100%;padding-top:24px;">
-    <img style="max-width: 100%; width: 640px" src="../images/home/hg_mini_smart_device_01.jpg">
-</div>
+<div layout="row center-center">
+<div style="min-width: 400px;max-width: 100%;"><div class="media-container" style="margin:0; height: auto; aspect-ratio: 7/6">
+{% zx 'media-browser' %}
+
+media:
+
+- type: image
+  preview: images/hg_mini_smart_device_01.jpg
+  url: images/hg_mini_smart_device_01.jpg
+
+- type: image
+  preview: images/hg_mini_smart_device_02.jpg
+  url: images/hg_mini_smart_device_02.jpg
+
+- type: video
+  preview: images/hg_mini_smart_device_03.jpg
+  url: images/hg_mini_smart_device_02.mp4
+
+- type: video
+  preview: images/hg_mini_smart_device_04.jpg
+  url: images/hg_mini_smart_device_01.mp4
+
+
+options:
+- name: slide
+  value: 10000
+- name: inline
+  value: true
+
+{% endzx %}
+</div></div></div>
+
 
 
 ## HG-Mini OS Features
