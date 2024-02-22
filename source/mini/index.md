@@ -36,6 +36,10 @@ media:
   preview: images/hg_mini_smart_device_03.jpg
   url: images/hg_mini_smart_device_02.mp4
 
+- type: image
+  preview: images/hg_mini_smart_device_06.jpg
+  url: images/hg_mini_smart_device_06.jpg
+
 - type: video
   preview: images/hg_mini_smart_device_04.jpg
   url: images/hg_mini_smart_device_01.mp4
