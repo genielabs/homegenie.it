@@ -17,7 +17,7 @@ HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie
 Source code includes examples for implementing smart switch relays, smart sensors, a smart
 shutter, an RF transceiver, and more.
   
-In the following pictures the 3d-printable shell for trying out the [sensor with touch display](https://github.com/genielabs/homegenie-mini?tab=readme-ov-file#smart-sensor-with-display),
+In the following pictures the 3d-printable shell for trying out the [sensor with touch display](https://github.com/genielabs/homegenie-mini?tab=readme-ov-file#smart-sensor-with-display)
 example, a smart device equipped with DHT-22 humidity and temperature sensor, motion sensor and touch display with
 on board *ESP32-S3* chip.  
 <small style="font-size:65%;">
