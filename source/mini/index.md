@@ -34,11 +34,11 @@ media:
 
 - type: video
   preview: images/hg_mini_smart_device_03.jpg
-  url: images/hg_mini_smart_device_02.webm
+  url: images/hg_mini_smart_device_02.mp4
 
 - type: video
   preview: images/hg_mini_smart_device_04.jpg
-  url: images/hg_mini_smart_device_01.webm
+  url: images/hg_mini_smart_device_01.mp4
 
 
 options:
