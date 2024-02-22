@@ -14,9 +14,15 @@ keywords:
 is an open source library for creating smart devices based on **ESP32** or **ESP8266** SoCs.
 HomeGenie-Mini devices are easy to set up, control and automate using *HomeGenie Panel* app.
 
-The source code includes examples for implementing smart switch relays, smart sensors, a smart
+Source code includes examples for implementing smart switch relays, smart sensors, a smart
 shutter, an RF transceiver, and more.
-
+  
+In the following pictures the 3d-printable shell for trying out the [sensor with touch display](https://github.com/genielabs/homegenie-mini?tab=readme-ov-file#smart-sensor-with-display),
+example, a smart device equipped with DHT-22 humidity and temperature sensor, motion sensor and touch display with
+on board *ESP32-S3* chip.  
+<small style="font-size:65%;">
+Original 3D design and artwork by *G-Labs*, title <strong>"India approaching Moon 23-08-23"</strong>
+</small>
 
 <div layout="row center-center">
 <div style="min-width: 400px;max-width: 100%;"><div class="media-container" style="margin:0; height: auto; aspect-ratio: 7/6">
@@ -35,6 +41,14 @@ media:
 - type: video
   preview: images/hg_mini_smart_device_03.jpg
   url: images/hg_mini_smart_device_02.mp4
+
+- type: image
+  preview: images/hg_mini_smart_device_08.jpg
+  url: images/hg_mini_smart_device_08.jpg
+
+- type: image
+  preview: images/hg_mini_smart_device_05.jpg
+  url: images/hg_mini_smart_device_05.jpg
 
 - type: image
   preview: images/hg_mini_smart_device_06.jpg
