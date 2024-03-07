@@ -10,21 +10,9 @@ title: Getting started
 description: Downloading and installing HomeGenie
 icon: build
 keywords:
-- homegenie
 - download
 - install
-- server
-- smart home
-- home automation
-- automation
-- gpio
-- spi
-- i2c
-- zwave
-- x10
-- raspberry pi
-- rpi
-- 1.4
+- start
 release_name: 1.4
 release_tag: 1.4.0-beta.67
 download_link: "https://github.com/genielabs/HomeGenie/releases/download/v{{release_tag}}/homegenie_{{release_tag}}"

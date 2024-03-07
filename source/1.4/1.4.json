@@ -1,5 +1,28 @@
 {
   "tags": "1.4",
+  "product": "Server",
+  "product_title": "HomeGenie Server",
+  "product_home": "/server",
   "major": "1.4",
-  "pubDate": "Last Modified"
+  "pubDate": "Last Modified",
+  "keywords": [
+    "homegenie",
+    "server",
+    "homegenie server",
+    "intelligence",
+    "programmable intelligence",
+    "smart home",
+    "home automation",
+    "automation",
+    "gpio",
+    "spi",
+    "i2c",
+    "z-wave",
+    "zigbee",
+    "x10",
+    "knx",
+    "raspberry pi",
+    "rpi",
+    "1.4"
+  ]
 }

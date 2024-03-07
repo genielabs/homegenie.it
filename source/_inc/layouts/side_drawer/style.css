@@ -140,6 +140,12 @@
         margin-top: 56px;
         margin-bottom: 16px;
     }
+    
+    main h3 code {
+        border: solid 1px var(--primary-color);
+        border-radius: 12px;
+        padding: 8px;
+    }
 
     [\#header] {
         position: fixed;

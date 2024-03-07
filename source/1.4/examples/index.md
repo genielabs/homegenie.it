@@ -10,7 +10,7 @@ title: Example applications
 description: Example HomeGenie applications
 icon: tips_and_updates
 keywords:
-- homegenie
+- examples
 wip: false
 eleventyExcludeFromCollections: all
 ---

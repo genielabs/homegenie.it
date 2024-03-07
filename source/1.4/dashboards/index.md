@@ -10,10 +10,7 @@ title: Dashboards
 description: Configuring dashboards and widgets
 icon: dashboard
 keywords:
-- homegenie
-- documentation
-- setup
-- configuration
+- dashboards
 ---
 
 ## Managing dashboards

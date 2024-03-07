@@ -2,10 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://zuixjs.org//1.4/getting-started/optional-steps/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//1.4/programming/</loc>
     <lastmod>2024-01-12</lastmod>
   </url>
@@ -26,10 +22,6 @@
     <lastmod>2024-01-12</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//1.4/setup/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//1.4/automation/scenes</loc>
     <lastmod>2024-01-12</lastmod>
   </url>
@@ -39,22 +31,6 @@
   </url>
   <url>
     <loc>https://zuixjs.org//1.4/automation/scenes/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://zuixjs.org//1.4/dashboards/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://zuixjs.org//1.4/ui/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://zuixjs.org//1.4/settings/</loc>
-    <lastmod>2024-01-12</lastmod>
-  </url>
-  <url>
-    <loc>https://zuixjs.org//1.4/create/smart-thermostat/</loc>
     <lastmod>2024-01-12</lastmod>
   </url>
   <url>
@@ -126,10 +102,6 @@
     <lastmod>2024-01-12</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//1.4/getting-started/</loc>
-    <lastmod>2024-01-16</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//panel/</loc>
     <lastmod>2024-01-16</lastmod>
   </url>
@@ -143,6 +115,58 @@
   </url>
   <url>
     <loc>https://zuixjs.org//</loc>
-    <lastmod>2024-02-23</lastmod>
+    <lastmod>2024-02-29</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//mini/1.2/examples/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/create/smart-thermostat/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/getting-started/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/setup/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/ui/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/getting-started/optional-steps/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/settings/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//1.4/dashboards/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//mini/1.2/device-api/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//mini/1.2/device-setup/</loc>
+    <lastmod>2024-03-06</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//mini/1.2/examples/smart-led/</loc>
+    <lastmod>2024-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//mini/1.2/getting-started/</loc>
+    <lastmod>2024-03-07</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//mini/1.2/examples/smart-sensor/</loc>
+    <lastmod>2024-03-07</lastmod>
   </url>
 </urlset>

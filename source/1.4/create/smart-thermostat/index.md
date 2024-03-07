@@ -9,10 +9,10 @@ title: Creating a Smart Thermostat 🌡️
 description: How to create a Smart Thermostat with Raspberry Pi and HomeGenie in three simple steps 
 icon: tips_and_updates
 keywords:
-- homegenie
 - smart-thermostat
 - thermostat
 - dht-xx
+- diy
 wip: false
 ---
 

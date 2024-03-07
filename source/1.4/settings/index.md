@@ -10,7 +10,10 @@ title: System settings
 description: HomeGenie system settings
 icon: tune
 keywords:
-- homegenie
+- settings
+- control groups
+- packages
+- maintenance
 ---
 
 ## Configuration

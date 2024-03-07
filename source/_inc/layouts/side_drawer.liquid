@@ -49,11 +49,11 @@ date: Last Modified
         <!-- Navigation Drawer content -->
 
         <!-- Header -->
-        <div class="drawer-header" layout="column justify-center">
+        <div class="drawer-header" layout="column justify-center"{% if color != null %} style="background-color: {{ color }}"{% endif %}>
             <a href="{{ '/' | url }}" title="Home" class="title">
                 <img alt="{{ app.title }}" src="{{ '/images/homegenie-text-logo.svg' |  url }}">
             </a>
-            <div class="subtitle">{{ app.subtitle }} &mdash; version {{ major }}</div>
+            <div class="subtitle"><strong>{{ product | upcase }}</strong> {{ major }} &mdash; {{ app.subtitle }}</div>
         </div>
 
         <!-- Menu items and other content -->

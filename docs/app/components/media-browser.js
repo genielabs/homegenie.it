@@ -139,8 +139,11 @@ function MediaBrowser(cp) {
       preventImageDrag();
       // setup complete, open media-browser
       zuix.context(carousel, () => {
-        //showControls();
-        hideControls();
+        if (autoSlide) {
+          hideControls();
+        } else {
+          showControls();
+        }
         if (inlineMode) {
           openBrowser();
         }

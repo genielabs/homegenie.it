@@ -10,21 +10,10 @@ title: Getting started - Optional steps
 description: Optional installation steps
 icon: build
 keywords:
-- homegenie
-- download
-- install
-- server
-- smart home
-- home automation
-- automation
-- gpio
-- spi
-- i2c
-- zwave
-- x10
-- raspberry pi
-- rpi
-- 1.4
+- getting started
+- optional steps
+- how to
+- troubleshooting
 ---
 
 ## Optional post-installation steps

@@ -10,10 +10,12 @@ title: Client preferences
 description: Setting up client preferences
 icon: language
 keywords:
-- homegenie
 - documentation
 - setup
 - configuration
+- client
+- ui
+- regional settings
 ---
 
 ## Setting client language, theme and units

@@ -10,7 +10,6 @@ title: Setup
 description: Initial setup and configuration
 icon: settings
 keywords:
-- homegenie
 - documentation
 - setup
 - configuration
