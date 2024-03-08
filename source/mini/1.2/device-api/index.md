@@ -16,19 +16,56 @@ keywords:
 
 ## HomeGenie API
 
-HomeGenie Mini API is a subset of HomeGenie Server API that makes HomeGenie Mini a real
-fully working light version of HomeGenie Server specifically designed for microcontrollers.
+HomeGenie Mini API is a subset of *HomeGenie Server API* which makes of it a real fully
+working light version of *HomeGenie Server* specifically designed for microcontrollers.
 
-### [HomeAutomation.HomeGenie](https://genielabs.github.io/HomeGenie/api/mig/core_api_config.html)
+### HomeAutomation.HomeGenie
 
-Implemented subset:
+Implemented subset
 
-- [`/api/HomeAutomation.HomeGenie/Logging/RealTime.EventStream/`](https://genielabs.github.io/HomeGenie/api/mig/core_api_logging.html#1)
-- [`/api/HomeAutomation.HomeGenie/Config/Modules.Get`](https://genielabs.github.io/HomeGenie/api/mig/core_api_config.html#2)
-- [`/api/HomeAutomation.HomeGenie/Config/Modules.List`](https://genielabs.github.io/HomeGenie/api/mig/core_api_config.html#3)
-- [`/api/HomeAutomation.HomeGenie/Config/Groups.List`](https://genielabs.github.io/HomeGenie/api/mig/core_api_config.html#4)
+#### Config API
 
-#### EXAMPLE Request
+*Base URL* 
+
+`/api/HomeAutomation.HomeGenie/Config/`
+
+*Commands*
+
+- `Modules.Get`
+- `Modules.List`
+- `Groups.List`
+- `WebSocket.GetToken`
+
+#### Control API
+
+*Base URL*
+
+`/api/HomeAutomation.HomeGenie/<module_address>/`
+
+where `module_address` ...
+
+*Commands*
+
+- `Control.On`
+- `Control.Off`
+- `Control.Level`
+- `Control.Toggle`
+
+Additional `Control` API provided in example code:
+
+- `Control.ColorHsb`
+- `Control.Open`
+- `Control.Close`
+- `Control.Calibrate`
+- `Control.SendRaw`
+
+
+#### Logging API
+
+- `/api/HomeAutomation.HomeGenie/Logging/RealTime.EventStream/`
+
+
+### EXAMPLE Request (via HTTP)
 
 ```
 GET /api/HomeAutomation.HomeGenie/Config/Modules.Get/HomeAutomation.HomeGenie/mini
@@ -59,6 +96,8 @@ GET /api/HomeAutomation.HomeGenie/Config/Modules.Get/HomeAutomation.HomeGenie/mi
   "RoutingNode": ""
 }
 ```
+
+<!--
 
 ### HomeGenie Mini builtin API
 
@@ -93,3 +132,4 @@ Where `<pin_name>` can be `D5`, `D6`, `D7` or `D8` and `<level>` a integer betwe
 
 ...
 
+-->

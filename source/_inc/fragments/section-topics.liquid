@@ -1,0 +1,89 @@
+<section class="section-topics" layout="column top-left">
+
+    <h1 class="foreground">Other topics</h1>
+
+    <div layout="rows top-left" style="gap: 64px">
+        
+    {% if group != "main" %}
+        <!--
+        <h2>Main</h2>
+        -->
+        <ul style="margin: 0; padding: 0;list-style: none">
+            {% assign posts = collections.main | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
+            {%- for post in posts -%}
+                {%- if post.url and post.data.product == product and post.data.major == major -%}
+                    {% assign match = page.url | split:post.url %}
+                    <li {% if match[0] == blank and match.size == 0 %} aria-current="page"{% endif %}>
+                        {% assign link = post.url | url %}
+                        {% if post.data.wip == true %}
+                            {% assign link = '#' %}
+                            {% assign class = 'disabled' %}
+                        {% else %}
+                            {% assign class = '' %}
+                        {% endif %}
+                        <a href="{{ link }}" class="{{ class }}">
+                            <div layout="row center-left">
+                                <i class="material-icons">{{ post.data.icon }}</i>
+                                <span class="title">{{ post.data.title }}</span>
+                            </div>
+                        </a>
+                    </li>
+                {% elsif post.data.link and post.data.product == product and post.data.major == major and post.data.hidden != true %}
+                    <li>
+                        <a href="{{ post.data.link | url }}">
+                            <div layout="row center-left">
+                                <i class="material-icons">{{ post.data.icon }}</i>
+                                <span class="title">{{ post.data.title }}</span>
+                            </div>
+                        </a>
+                    </li>
+                {%- endif -%}
+            {%- endfor -%}
+        </ul>
+    {% endif %}
+
+    {% assign sections = collections.sections | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
+    {%- for section in sections -%}
+        {% if section.data.product == product and section.data.group != group and section.data.major == major and collections[section.data.group] and section.data.hidden != true %}
+            <div>
+            <h2>{{ section.data.title }}</h2>
+            <ul style="margin: 0; padding: 0;list-style: none">
+                {% assign posts = collections[section.data.group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
+                {%- for post in posts -%}
+                    {%- if post.url and post.data.major == major -%}
+                        {% assign match = page.url | split:post.url %}
+                        <li {% if match[0] == blank %} aria-current="page"{% endif %}>
+                            {% assign link = post.url | url %}
+                            {% if post.data.wip == true %}
+                                {% assign link = '#' %}
+                                {% assign class = 'disabled' %}
+                            {% else %}
+                                {% assign class = '' %}
+                            {% endif %}
+                            <a href="{{ link }}" class="{{ class }}">
+                                <div layout="row center-left">
+                                    <i class="material-icons">{{ post.data.icon }}</i>
+                                    <span class="title">{{ post.data.title }}</span>
+                                </div>
+                            </a>
+                        </li>
+                    {% elsif post.data.link and post.data.major == major %}
+                        <li>
+                            <a href="{{ post.data.link | url }}">
+                                <div layout="row center-left">
+                                    <i class="material-icons">{{ post.data.icon }}</i>
+                                    <span class="title">{{ post.data.title }}</span>
+                                </div>
+                            </a>
+                        </li>
+                    {%- endif -%}
+                {%- endfor -%}
+            </ul>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+    </div>
+
+</section>
+

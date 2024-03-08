@@ -6,7 +6,7 @@ tags: examples
 group: examples
 order: 40
 title: IR and RF gateway
-description: How to implement a smart color light bulb
+description: How to implement a smart IR/RF gateway
 icon: settings_remote
 keywords:
 - firefly

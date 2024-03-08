@@ -6,7 +6,7 @@ tags: examples
 group: examples
 order: 30
 title: Smart thermostat
-description: How to implement a smart color light bulb
+description: How to implement a smart thermostat with decentralized intelligence
 icon: thermostat
 keywords:
 - thermostat
@@ -18,15 +18,36 @@ keywords:
 wip: true
 ---
 
-## Meet Lestat
+## Meet Le'stat
 
+DRAFT NOTES
+
+A fully featured "Less" thermostat...
+
+...
+
+Running the thermostat intelligence somewhere else (decentralized intelligence on a HG server instance),
+will make this device last forever as it will not require to be upgraded since the sensors functionality
+will always be valid.  
+This approach will also make the device more generic and able to be employed for just more
+than one specific application.
+
+Less waste, more functionality and applications, durable solutions (solutions that last).  
+HomeGenie projects are smarter, green and eco-friendly by design :)  
+
+
+...
 
 Starting from the "Luna" example with the addition of a simple relay switch....
+
+
 
 ...
 
 
 ..
+
+
 
 .
 

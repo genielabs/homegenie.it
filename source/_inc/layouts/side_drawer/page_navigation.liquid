@@ -1,14 +1,9 @@
 {% if group and collections[group] %}
 
-    {% assign prevPost = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' | getPreviousCollectionItem: page %}
-    {% assign nextPost = collections[group] | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' | getNextCollectionItem: page %}
+    {% assign prevPost = collections[group] | where: "data.product", product | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' | getPreviousCollectionItem: page %}
+    {% assign nextPost = collections[group] | where: "data.product", product | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' | getNextCollectionItem: page %}
 
-    {% if nextPost == null and group == 'main' %}
-        {% assign nextPost = collections.sections | where: 'data.title', 'Automation' | first %}
-    {% endif %}
-
-    <div layout="rows center-center" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%">
-
+    <div layout="rows center-spread" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%">
         {% if prevPost and prevPost.data.major == major and prevPost.data.wip != true and prevPost.data.hidden != true %}
             {% if prevPost.data.link %}
                 {% assign url=prevPost.data.link %}

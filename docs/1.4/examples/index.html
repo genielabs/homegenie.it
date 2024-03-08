@@ -578,6 +578,28 @@ a.disabled {
         cursor: not-allowed;
     }
 
+    .section-topics {
+        max-width: 720px;
+        padding: 24px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .section-topics h1 {
+        margin: 0;
+        font-size: 200% !important;
+    }
+    .section-topics h2 {
+        margin-bottom: 0;
+        font-size: 150% !important;
+    }
+    .section-topics a {
+        color: black;
+    }
+    .section-topics li {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
 /* forms */
 /* forms */
 
@@ -734,6 +756,10 @@ code:not([class*=language-]), pre:not([class*=language-]) {
     color: var(--lite-color--primary);
     fill: var(--lite-color--primary);
 }
+.foreground {
+    color: var(--lite-color--text);
+    fill: var(--lite-color--text);
+}
 .background {
     background-color: var(--lite-color);
 }
@@ -803,6 +829,10 @@ body.theme-dark {
 .theme-dark .primary {
     color: var(--dark-color--primary);
     fill: var(--dark-color--primary);
+}
+.theme-dark .foreground {
+    color: var(--dark-color--text);
+    fill: var(--dark-color--text);
 }
 .theme-dark .background {
     background-color: var(--dark-color);
@@ -894,7 +924,7 @@ button {
     background: radial-gradient(circle at bottom, black, #000000dd, #00000077, transparent)!important;
 }</style><!-- zUIx.js inline resources bundle --><script src="index.bundle.js"></script></head><!-- scroll helper is used to show/hide the header when scrolling --><body ctrl="" z-load="@lib/controllers/header-auto-hide" z-lazy="scroll" :header="'header'" :show-end="'false'" data-theme="indigo-deep_purple" layout="column stretch-stretch"><nav #header="" layout="row center-start"><div self="stretch" layout="row center-start"><button onclick="menuDrawer.open()" class="header-menu-button mdl-button mdl-button--icon"><i class="material-icons">menu_open</i></button><h1 self="size-x1" class="title">Example applications</h1></div></nav><main layout="column top-center"><div self="size-x1" class="content"><style>h3 {
   font-size: 140%!important;
-}</style><h2>Raspberry Pi recipes 🍰</h2><p><h3>- <a href="/1.4/create/smart-thermostat/">Creating a Smart Thermostat 🌡️</a></h3><p><h3 class="link-disabled">- GroveRGB rainbow music visualizer</h3><h2>Smart Home recipes 🏠</h2><h3 class="link-disabled">- Adding custom notifications when an appliance starts/stops</h3><h3 class="link-disabled">- Remote control ZigBee and Z-Wave using an X10 RF remote</h3><h3 class="link-disabled">- Env light/motion controlled lights - Smart Device feature program</h3><h3 class="link-disabled">- Thermostat with generic temperature sensor and a generic switch</h3><h3 class="link-disabled">- Lights synchronization with Linked Lights program — HomeGenie Panel</h3><div layout="rows center-center" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><div>&nbsp;</div><a href="/1.4/automation/scenes" style="text-align: center"><div layout="row center-center"><span>Next</span> <i class="material-icons">arrow_right</i>&nbsp;</div><div class="navigation-title">Automation</div></a></div><style>.navigation-image {
+}</style><h2>Raspberry Pi recipes 🍰</h2><p><h3>- <a href="/1.4/create/smart-thermostat/">Creating a Smart Thermostat 🌡️</a></h3><p><h3 class="link-disabled">- GroveRGB rainbow music visualizer</h3><h2>Smart Home recipes 🏠</h2><h3 class="link-disabled">- Adding custom notifications when an appliance starts/stops</h3><h3 class="link-disabled">- Remote control ZigBee and Z-Wave using an X10 RF remote</h3><h3 class="link-disabled">- Env light/motion controlled lights - Smart Device feature program</h3><h3 class="link-disabled">- Thermostat with generic temperature sensor and a generic switch</h3><h3 class="link-disabled">- Lights synchronization with Linked Lights program — HomeGenie Panel</h3><div layout="rows center-spread" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><div>&nbsp;</div><div>&nbsp;</div></div><style>.navigation-image {
             border-radius: 32px;
             border-color: rgba(100,200,200,0.5);
         }
@@ -906,7 +936,7 @@ button {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-        }</style></div><footer self="size-large" layout="columns bottom-center"><div layout="rows top-spread" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 960px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
+        }</style></div><section class="section-topics" layout="column top-left"><h1 class="foreground">Other topics</h1><div layout="rows top-left" style="gap: 64px"><div><h2>Automation</h2><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/automation/scenes/"><div layout="row center-left"><i class="material-icons">account_tree</i> <span class="title">Scenes</span></div></a><li><a href="/1.4/automation/scheduler/"><div layout="row center-left"><i class="material-icons">schedule</i> <span class="title">Scheduler</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Programs</span></div></a></ul></div><div><h2>Programming</h2><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/programming/intro/"><div layout="row center-left"><i class="material-icons">auto_awesome</i> <span class="title">Introduction</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">C# (csharp)</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">JavaScript</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Python</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Data Processing</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">extension</i> <span class="title">Custom Widgets</span></div></a><li><a href="/api/1.4/ape/annotated.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Programs API</span></div></a><li><a href="/api/1.4/mig/overview.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Web API</span></div></a></ul></div></div></section><footer self="size-large" layout="columns bottom-center"><div layout="rows top-justify" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 720px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
         <a href="https://github.com/genielabs">
             <img src="/images/glabs-logo.svg" width="64px">
         </a>

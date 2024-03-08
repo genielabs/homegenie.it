@@ -578,6 +578,28 @@ a.disabled {
         cursor: not-allowed;
     }
 
+    .section-topics {
+        max-width: 720px;
+        padding: 24px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .section-topics h1 {
+        margin: 0;
+        font-size: 200% !important;
+    }
+    .section-topics h2 {
+        margin-bottom: 0;
+        font-size: 150% !important;
+    }
+    .section-topics a {
+        color: black;
+    }
+    .section-topics li {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
 /* forms */
 /* forms */
 
@@ -734,6 +756,10 @@ code:not([class*=language-]), pre:not([class*=language-]) {
     color: var(--lite-color--primary);
     fill: var(--lite-color--primary);
 }
+.foreground {
+    color: var(--lite-color--text);
+    fill: var(--lite-color--text);
+}
 .background {
     background-color: var(--lite-color);
 }
@@ -803,6 +829,10 @@ body.theme-dark {
 .theme-dark .primary {
     color: var(--dark-color--primary);
     fill: var(--dark-color--primary);
+}
+.theme-dark .foreground {
+    color: var(--dark-color--text);
+    fill: var(--dark-color--text);
 }
 .theme-dark .background {
     background-color: var(--dark-color);
@@ -921,7 +951,7 @@ var dhtModule = Modules
 dhtModule
    .Emit("Sensor.Humidity", humidity.Percent)
    .Emit("Sensor.Temperature", temperature.DegreesCelsius);
-</code></pre><p>And with just those few instructions, we now have a fully functional sensor integrated in the system with event logs, data processing, monitoring and all other features implemented for any module of type <em>"Sensor"</em>, as shown in the following video:<div class="media-container"><p><video id="video2" src="images/features_modules_api.webm" controls muted poster="images/features_modules_api.png" style="max-width:100%;"></video></div><script>const video2=document.getElementById("video2");video2.addEventListener("ended",function(){video2.load()},!1)</script><h2>Data processing and visualization</h2><p>Also data processing and visualization can be customized using automation programs, and it's possible to add custom data filters or new kind of charts.<p>For this purpose the API methods <a href="../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a504d4d516ed4181d4afca1b51f64cec3"><code>Program.Implements(..)</code></a> and <a href="../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_api_helper.html#aab4a561a61000e27a186c39f566f66ba"><code>Api.Handle(...)</code></a> can be used as described in the <em>Data Processing</em> page later in this guide.<div class="media-container"><img src="images/features_custom_charts.png"></div><p>The data monitor component is designed for <strong>real-time data visualization</strong> and proven to be blazing fast on mobile devices too as shown in the video below.<div class="media-container" style="background: #224"><p><video id="video3" src="images/features_data_visualization.webm" controls muted poster="images/features_data_visualization.png" style="max-width:100%; max-height: 560px"></video></div><script>const video3=document.getElementById("video2");video3.addEventListener("ended",function(){video3.load()},!1)</script><h2>Custom Widgets</h2><p>Even if HomeGenie built-in widgets could already be enough for most applications, it is possible to create custom widgets using the integrated widget editor.<div class="media-container"><img src="images/features_custom_widget.png"></div><p>See the <em>Custom Widgets</em> page for a complete documentation about writing custom widgets.<div layout="rows center-center" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><div>&nbsp;</div><div>&nbsp;</div></div><style>.navigation-image {
+</code></pre><p>And with just those few instructions, we now have a fully functional sensor integrated in the system with event logs, data processing, monitoring and all other features implemented for any module of type <em>"Sensor"</em>, as shown in the following video:<div class="media-container"><p><video id="video2" src="images/features_modules_api.webm" controls muted poster="images/features_modules_api.png" style="max-width:100%;"></video></div><script>const video2=document.getElementById("video2");video2.addEventListener("ended",function(){video2.load()},!1)</script><h2>Data processing and visualization</h2><p>Also data processing and visualization can be customized using automation programs, and it's possible to add custom data filters or new kind of charts.<p>For this purpose the API methods <a href="../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_program_helper.html#a504d4d516ed4181d4afca1b51f64cec3"><code>Program.Implements(..)</code></a> and <a href="../../../api/1.4/ape/class_home_genie_1_1_automation_1_1_scripting_1_1_api_helper.html#aab4a561a61000e27a186c39f566f66ba"><code>Api.Handle(...)</code></a> can be used as described in the <em>Data Processing</em> page later in this guide.<div class="media-container"><img src="images/features_custom_charts.png"></div><p>The data monitor component is designed for <strong>real-time data visualization</strong> and proven to be blazing fast on mobile devices too as shown in the video below.<div class="media-container" style="background: #224"><p><video id="video3" src="images/features_data_visualization.webm" controls muted poster="images/features_data_visualization.png" style="max-width:100%; max-height: 560px"></video></div><script>const video3=document.getElementById("video2");video3.addEventListener("ended",function(){video3.load()},!1)</script><h2>Custom Widgets</h2><p>Even if HomeGenie built-in widgets could already be enough for most applications, it is possible to create custom widgets using the integrated widget editor.<div class="media-container"><img src="images/features_custom_widget.png"></div><p>See the <em>Custom Widgets</em> page for a complete documentation about writing custom widgets.<div layout="rows center-spread" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><div>&nbsp;</div><div>&nbsp;</div></div><style>.navigation-image {
             border-radius: 32px;
             border-color: rgba(100,200,200,0.5);
         }
@@ -933,7 +963,9 @@ dhtModule
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-        }</style></div><footer self="size-large" layout="columns bottom-center"><div layout="rows top-spread" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 960px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
+        }</style></div><section class="section-topics" layout="column top-left"><h1 class="foreground">Other topics</h1><div layout="rows top-left" style="gap: 64px"><!--
+        <h2>Main</h2>
+        --><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/getting-started/"><div layout="row center-left"><i class="material-icons">build</i> <span class="title">Getting started</span></div></a><li><a href="/1.4/setup/"><div layout="row center-left"><i class="material-icons">settings</i> <span class="title">Setup</span></div></a><li><a href="/1.4/dashboards/"><div layout="row center-left"><i class="material-icons">dashboard</i> <span class="title">Dashboards</span></div></a><li><a href="/1.4/ui/"><div layout="row center-left"><i class="material-icons">language</i> <span class="title">Client preferences</span></div></a><li><a href="/1.4/settings/"><div layout="row center-left"><i class="material-icons">tune</i> <span class="title">System settings</span></div></a></ul><div><h2>Automation</h2><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/automation/scenes/"><div layout="row center-left"><i class="material-icons">account_tree</i> <span class="title">Scenes</span></div></a><li><a href="/1.4/automation/scheduler/"><div layout="row center-left"><i class="material-icons">schedule</i> <span class="title">Scheduler</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Programs</span></div></a></ul></div></div></section><footer self="size-large" layout="columns bottom-center"><div layout="rows top-justify" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 720px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
         <a href="https://github.com/genielabs">
             <img src="/images/glabs-logo.svg" width="64px">
         </a>

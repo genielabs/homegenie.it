@@ -1,6 +1,6 @@
 <ul>
     <li>
-        <a href="{{ product_home |  url }}" class="mdl-js-ripple-effect {{ class }}">
+        <a href="{{ product_home |  url }}" class="mdl-js-ripple-effect">
             <div layout="row center-left">
                 <i class="material-icons">home</i>
                 <span class="title">{{ product_title }}</span>
@@ -8,7 +8,7 @@
             <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
         </a>
     </li>
-    {% assign posts = collections.main | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
+    {% assign posts = collections.main | where: "data.product", product | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
     {%- for post in posts -%}
         {%- if post.url and post.data.major == major -%}
             {% assign match = page.url | split:post.url %}
@@ -42,7 +42,7 @@
     {%- endfor -%}
 </ul>
 
-{% assign sections = collections.sections | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
+{% assign sections = collections.sections | where: "data.product", product | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
 {%- for section in sections -%}
     {% if section.data.major == major and collections[section.data.group] and section.data.hidden != true %}
 
@@ -85,7 +85,7 @@
     {% endif %}
 {% endfor %}
 
-{% if major == "1.4" %}
+{% if product == "Server" and major == "1.4" %}
 <ul>
     <li {% if page.url == '/search/' %} aria-current="page"{% endif %}>
         <a href="{{ '/search' | url }}" class="mdl-js-ripple-effect">

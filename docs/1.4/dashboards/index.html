@@ -578,6 +578,28 @@ a.disabled {
         cursor: not-allowed;
     }
 
+    .section-topics {
+        max-width: 720px;
+        padding: 24px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .section-topics h1 {
+        margin: 0;
+        font-size: 200% !important;
+    }
+    .section-topics h2 {
+        margin-bottom: 0;
+        font-size: 150% !important;
+    }
+    .section-topics a {
+        color: black;
+    }
+    .section-topics li {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
 /* forms */
 /* forms */
 
@@ -734,6 +756,10 @@ code:not([class*=language-]), pre:not([class*=language-]) {
     color: var(--lite-color--primary);
     fill: var(--lite-color--primary);
 }
+.foreground {
+    color: var(--lite-color--text);
+    fill: var(--lite-color--text);
+}
 .background {
     background-color: var(--lite-color);
 }
@@ -803,6 +829,10 @@ body.theme-dark {
 .theme-dark .primary {
     color: var(--dark-color--primary);
     fill: var(--dark-color--primary);
+}
+.theme-dark .foreground {
+    color: var(--dark-color--text);
+    fill: var(--dark-color--text);
 }
 .theme-dark .background {
     background-color: var(--dark-color);
@@ -892,7 +922,7 @@ button {
 }
 .theme-dark [z-load*="/components/menu-overlay"] div[z-field="menu_overlay"] {
     background: radial-gradient(circle at bottom, black, #000000dd, #00000077, transparent)!important;
-}</style><!-- zUIx.js inline resources bundle --><script src="index.bundle.js"></script></head><!-- scroll helper is used to show/hide the header when scrolling --><body ctrl="" z-load="@lib/controllers/header-auto-hide" z-lazy="scroll" :header="'header'" :show-end="'false'" data-theme="indigo-deep_purple" layout="column stretch-stretch"><nav #header="" layout="row center-start"><div self="stretch" layout="row center-start"><button onclick="menuDrawer.open()" class="header-menu-button mdl-button mdl-button--icon"><i class="material-icons">menu_open</i></button><h1 self="size-x1" class="title">Dashboards</h1></div></nav><main layout="column top-center"><div self="size-x1" class="content"><h2>Managing dashboards</h2><p>Clicking the menu button <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">menu</span> on the application bar you can open the side drawer and have a summary of dashboards and navigate through them. The side drawer can eventually be fixed by clicking the push pin button <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">push_pin</span> located at the bottom right.<p>Next to the drawer button, the dashboard menu <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">dashboard</span> can be used to add new dashboards and managing the current one.<div class="media-container"><video id="video1" muted width="100%" controls poster="images/dashboard_drawer_menu.png" src="images/dashboard_drawer_menu.m4v"></video></div><script>const video=document.getElementById("video1");video.addEventListener("ended",function(){video.load()},!1)</script><h3>Dashboard Widgets</h3><p>From the dashboard menu you can also add new widgets <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">dashboard_customize</span> and charts <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">auto_graph</span> to the current dashboard.<h4>Arranging widgets</h4><p>A long press on a widget will activate drag mode, where you can sort widgets by dragging them.<br>Dashboard widgets can also be arranged into sections using the "Section Label" widget to separate each group of widgets.<p>The <em>Section Label</em> widget also adds toggle buttons as a quick shortcut to turn on/off all lights or switches in that section.<div class="media-container"><video id="video2" muted width="100%" controls poster="images/dashboard_widgets_01.png" src="images/dashboard_widgets_01.m4v"></video></div><script>const video2=document.getElementById("video2");video2.addEventListener("ended",function(){video2.load()},!1)</script><h4>The options menu</h4><p>All widgets have an options menu button located in the upper right corner. Depending on the type of widget, specific button icon and menu options might be shown. Either way, widget options menu will at least have the <em>Edit</em> and <em>Remove</em> options.<br>The <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">edit</span> <em>Edit</em> option will display all data bound to the widget and allow you to change the name, type and other data fields, while the <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">remove</span> <em>Remove</em> option will remove the widget from the dashboard.<div layout="rows center-center" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><a href="/1.4/setup/" style="text-align: center"><div layout="row center-center"><i class="material-icons">arrow_left</i>&nbsp; <span>Previous</span></div><div class="navigation-title">Setup</div></a><a href="/1.4/ui/" style="text-align: center"><div layout="row center-center"><span>Next</span> <i class="material-icons">arrow_right</i>&nbsp;</div><div class="navigation-title">Client preferences</div></a></div><style>.navigation-image {
+}</style><!-- zUIx.js inline resources bundle --><script src="index.bundle.js"></script></head><!-- scroll helper is used to show/hide the header when scrolling --><body ctrl="" z-load="@lib/controllers/header-auto-hide" z-lazy="scroll" :header="'header'" :show-end="'false'" data-theme="indigo-deep_purple" layout="column stretch-stretch"><nav #header="" layout="row center-start"><div self="stretch" layout="row center-start"><button onclick="menuDrawer.open()" class="header-menu-button mdl-button mdl-button--icon"><i class="material-icons">menu_open</i></button><h1 self="size-x1" class="title">Dashboards</h1></div></nav><main layout="column top-center"><div self="size-x1" class="content"><h2>Managing dashboards</h2><p>Clicking the menu button <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">menu</span> on the application bar you can open the side drawer and have a summary of dashboards and navigate through them. The side drawer can eventually be fixed by clicking the push pin button <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">push_pin</span> located at the bottom right.<p>Next to the drawer button, the dashboard menu <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">dashboard</span> can be used to add new dashboards and managing the current one.<div class="media-container"><video id="video1" muted width="100%" controls poster="images/dashboard_drawer_menu.png" src="images/dashboard_drawer_menu.m4v"></video></div><script>const video=document.getElementById("video1");video.addEventListener("ended",function(){video.load()},!1)</script><h3>Dashboard Widgets</h3><p>From the dashboard menu you can also add new widgets <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">dashboard_customize</span> and charts <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">auto_graph</span> to the current dashboard.<h4>Arranging widgets</h4><p>A long press on a widget will activate drag mode, where you can sort widgets by dragging them.<br>Dashboard widgets can also be arranged into sections using the "Section Label" widget to separate each group of widgets.<p>The <em>Section Label</em> widget also adds toggle buttons as a quick shortcut to turn on/off all lights or switches in that section.<div class="media-container"><video id="video2" muted width="100%" controls poster="images/dashboard_widgets_01.png" src="images/dashboard_widgets_01.m4v"></video></div><script>const video2=document.getElementById("video2");video2.addEventListener("ended",function(){video2.load()},!1)</script><h4>The options menu</h4><p>All widgets have an options menu button located in the upper right corner. Depending on the type of widget, specific button icon and menu options might be shown. Either way, widget options menu will at least have the <em>Edit</em> and <em>Remove</em> options.<br>The <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">edit</span> <em>Edit</em> option will display all data bound to the widget and allow you to change the name, type and other data fields, while the <span class="material-icons mdl-color-text--accent" style="vertical-align: middle">remove</span> <em>Remove</em> option will remove the widget from the dashboard.<div layout="rows center-spread" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><a href="/1.4/setup/" style="text-align: center"><div layout="row center-center"><i class="material-icons">arrow_left</i>&nbsp; <span>Previous</span></div><div class="navigation-title">Setup</div></a><a href="/1.4/ui/" style="text-align: center"><div layout="row center-center"><span>Next</span> <i class="material-icons">arrow_right</i>&nbsp;</div><div class="navigation-title">Client preferences</div></a></div><style>.navigation-image {
             border-radius: 32px;
             border-color: rgba(100,200,200,0.5);
         }
@@ -904,7 +934,7 @@ button {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-        }</style></div><footer self="size-large" layout="columns bottom-center"><div layout="rows top-spread" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 960px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
+        }</style></div><section class="section-topics" layout="column top-left"><h1 class="foreground">Other topics</h1><div layout="rows top-left" style="gap: 64px"><div><h2>Automation</h2><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/automation/scenes/"><div layout="row center-left"><i class="material-icons">account_tree</i> <span class="title">Scenes</span></div></a><li><a href="/1.4/automation/scheduler/"><div layout="row center-left"><i class="material-icons">schedule</i> <span class="title">Scheduler</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Programs</span></div></a></ul></div><div><h2>Programming</h2><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/programming/intro/"><div layout="row center-left"><i class="material-icons">auto_awesome</i> <span class="title">Introduction</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">C# (csharp)</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">JavaScript</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Python</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Data Processing</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">extension</i> <span class="title">Custom Widgets</span></div></a><li><a href="/api/1.4/ape/annotated.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Programs API</span></div></a><li><a href="/api/1.4/mig/overview.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Web API</span></div></a></ul></div></div></section><footer self="size-large" layout="columns bottom-center"><div layout="rows top-justify" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 720px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
         <a href="https://github.com/genielabs">
             <img src="/images/glabs-logo.svg" width="64px">
         </a>

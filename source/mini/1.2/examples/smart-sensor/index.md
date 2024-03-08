@@ -6,7 +6,7 @@ tags: examples
 group: examples
 order: 20
 title: Smart sensor
-description: How to implement a smart color light bulb
+description: How to implement a smart multi-sensor device
 icon: sensors
 keywords:
 - humidity

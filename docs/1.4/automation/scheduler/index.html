@@ -578,6 +578,28 @@ a.disabled {
         cursor: not-allowed;
     }
 
+    .section-topics {
+        max-width: 720px;
+        padding: 24px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .section-topics h1 {
+        margin: 0;
+        font-size: 200% !important;
+    }
+    .section-topics h2 {
+        margin-bottom: 0;
+        font-size: 150% !important;
+    }
+    .section-topics a {
+        color: black;
+    }
+    .section-topics li {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
 /* forms */
 /* forms */
 
@@ -734,6 +756,10 @@ code:not([class*=language-]), pre:not([class*=language-]) {
     color: var(--lite-color--primary);
     fill: var(--lite-color--primary);
 }
+.foreground {
+    color: var(--lite-color--text);
+    fill: var(--lite-color--text);
+}
 .background {
     background-color: var(--lite-color);
 }
@@ -803,6 +829,10 @@ body.theme-dark {
 .theme-dark .primary {
     color: var(--dark-color--primary);
     fill: var(--dark-color--primary);
+}
+.theme-dark .foreground {
+    color: var(--dark-color--text);
+    fill: var(--dark-color--text);
 }
 .theme-dark .background {
     background-color: var(--dark-color);
@@ -904,7 +934,7 @@ button {
 </code></pre><p><strong>Example 7</strong> At 11:20PM or 3:15AM in January(1) and December(12) every Sunday(0) and Tuesday(2)<pre><code>((20 23 * * *) : (15 3 * * *)) ; (* * * 1,12 0,2)
 </code></pre><h3>Event variables, sum and subtract</h3><p>An event can also be recalled in a cron expression by using the <strong>@</strong> symbol followed by the name of the event.<p><strong>Example 8</strong> From 11:20PM to 3:15AM only during winter holidays<pre><code>((20 23 * * *) &gt; (15 3 * * *)) ; @Holidays.Winter
 </code></pre><p>When the referenced event is an exact time, sum and subtract operator can be used to add or subtract certain amount of minutes to the recalled event. See the next example.<h4>SolarTimes events</h4><p>There are also a few built-in special events that can be used to reference <strong>sunrise</strong> and <strong>sunset</strong> times:<ul><li>SolarTimes.Sunrise<li>SolarTimes.Sunset<li>SolarTimes.SolarNoon</ul><p><strong>Example 9</strong> From half an hour before sunrise to 45 minutes after sunset only during summer holidays<pre><code>(@SolarTimes.Sunrise - 30 &gt; @SolarTimes.Sunset + 45) ; @Holidays.Summer
-</code></pre><div layout="rows center-center" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><a href="/1.4/automation/scenes/" style="text-align: center"><div layout="row center-center"><i class="material-icons">arrow_left</i>&nbsp; <span>Previous</span></div><div class="navigation-title">Scenes</div></a><div>&nbsp;</div></div><style>.navigation-image {
+</code></pre><div layout="rows center-spread" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><a href="/1.4/automation/scenes/" style="text-align: center"><div layout="row center-center"><i class="material-icons">arrow_left</i>&nbsp; <span>Previous</span></div><div class="navigation-title">Scenes</div></a><div>&nbsp;</div></div><style>.navigation-image {
             border-radius: 32px;
             border-color: rgba(100,200,200,0.5);
         }
@@ -916,7 +946,9 @@ button {
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-        }</style></div><footer self="size-large" layout="columns bottom-center"><div layout="rows top-spread" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 960px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
+        }</style></div><section class="section-topics" layout="column top-left"><h1 class="foreground">Other topics</h1><div layout="rows top-left" style="gap: 64px"><!--
+        <h2>Main</h2>
+        --><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/getting-started/"><div layout="row center-left"><i class="material-icons">build</i> <span class="title">Getting started</span></div></a><li><a href="/1.4/setup/"><div layout="row center-left"><i class="material-icons">settings</i> <span class="title">Setup</span></div></a><li><a href="/1.4/dashboards/"><div layout="row center-left"><i class="material-icons">dashboard</i> <span class="title">Dashboards</span></div></a><li><a href="/1.4/ui/"><div layout="row center-left"><i class="material-icons">language</i> <span class="title">Client preferences</span></div></a><li><a href="/1.4/settings/"><div layout="row center-left"><i class="material-icons">tune</i> <span class="title">System settings</span></div></a></ul><div><h2>Programming</h2><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/programming/intro/"><div layout="row center-left"><i class="material-icons">auto_awesome</i> <span class="title">Introduction</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">C# (csharp)</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">JavaScript</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Python</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Data Processing</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">extension</i> <span class="title">Custom Widgets</span></div></a><li><a href="/api/1.4/ape/annotated.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Programs API</span></div></a><li><a href="/api/1.4/mig/overview.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Web API</span></div></a></ul></div></div></section><footer self="size-large" layout="columns bottom-center"><div layout="rows top-justify" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 720px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
         <a href="https://github.com/genielabs">
             <img src="/images/glabs-logo.svg" width="64px">
         </a>

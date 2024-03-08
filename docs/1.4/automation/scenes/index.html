@@ -578,6 +578,28 @@ a.disabled {
         cursor: not-allowed;
     }
 
+    .section-topics {
+        max-width: 720px;
+        padding: 24px;
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .section-topics h1 {
+        margin: 0;
+        font-size: 200% !important;
+    }
+    .section-topics h2 {
+        margin-bottom: 0;
+        font-size: 150% !important;
+    }
+    .section-topics a {
+        color: black;
+    }
+    .section-topics li {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    
 /* forms */
 /* forms */
 
@@ -734,6 +756,10 @@ code:not([class*=language-]), pre:not([class*=language-]) {
     color: var(--lite-color--primary);
     fill: var(--lite-color--primary);
 }
+.foreground {
+    color: var(--lite-color--text);
+    fill: var(--lite-color--text);
+}
 .background {
     background-color: var(--lite-color);
 }
@@ -803,6 +829,10 @@ body.theme-dark {
 .theme-dark .primary {
     color: var(--dark-color--primary);
     fill: var(--dark-color--primary);
+}
+.theme-dark .foreground {
+    color: var(--dark-color--text);
+    fill: var(--dark-color--text);
 }
 .theme-dark .background {
     background-color: var(--dark-color);
@@ -911,7 +941,7 @@ a few light effects scene
 
 ....
 
---><div layout="rows center-center" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><div>&nbsp;</div><a href="/1.4/automation/scheduler/" style="text-align: center"><div layout="row center-center"><span>Next</span> <i class="material-icons">arrow_right</i>&nbsp;</div><div class="navigation-title">Scheduler</div></a></div><style>.navigation-image {
+--><div layout="rows center-spread" style="margin-top: 112px; gap:72px; margin-bottom: 32px; padding-left: 8px; padding-right: 8px; font-size: 140%"><div>&nbsp;</div><a href="/1.4/automation/scheduler/" style="text-align: center"><div layout="row center-center"><span>Next</span> <i class="material-icons">arrow_right</i>&nbsp;</div><div class="navigation-title">Scheduler</div></a></div><style>.navigation-image {
             border-radius: 32px;
             border-color: rgba(100,200,200,0.5);
         }
@@ -923,7 +953,9 @@ a few light effects scene
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
-        }</style></div><footer self="size-large" layout="columns bottom-center"><div layout="rows top-spread" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 960px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
+        }</style></div><section class="section-topics" layout="column top-left"><h1 class="foreground">Other topics</h1><div layout="rows top-left" style="gap: 64px"><!--
+        <h2>Main</h2>
+        --><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/getting-started/"><div layout="row center-left"><i class="material-icons">build</i> <span class="title">Getting started</span></div></a><li><a href="/1.4/setup/"><div layout="row center-left"><i class="material-icons">settings</i> <span class="title">Setup</span></div></a><li><a href="/1.4/dashboards/"><div layout="row center-left"><i class="material-icons">dashboard</i> <span class="title">Dashboards</span></div></a><li><a href="/1.4/ui/"><div layout="row center-left"><i class="material-icons">language</i> <span class="title">Client preferences</span></div></a><li><a href="/1.4/settings/"><div layout="row center-left"><i class="material-icons">tune</i> <span class="title">System settings</span></div></a></ul><div><h2>Programming</h2><ul style="margin: 0; padding: 0;list-style: none"><li><a href="/1.4/programming/intro/"><div layout="row center-left"><i class="material-icons">auto_awesome</i> <span class="title">Introduction</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">C# (csharp)</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">JavaScript</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Python</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">code</i> <span class="title">Data Processing</span></div></a><li><a href="#" class="disabled"><div layout="row center-left"><i class="material-icons">extension</i> <span class="title">Custom Widgets</span></div></a><li><a href="/api/1.4/ape/annotated.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Programs API</span></div></a><li><a href="/api/1.4/mig/overview.html"><div layout="row center-left"><i class="material-icons">emoji_nature</i> <span class="title">Web API</span></div></a></ul></div></div></section><footer self="size-large" layout="columns bottom-center"><div layout="rows top-justify" style="margin-top: 48px; padding: 24px; margin-bottom: 12px; width: 100%; max-width: 720px;"><div self="sm-full" layout="column center-left" style="gap: 8px; width: auto"><a href="/" layout="row center-left" style="gap:8px"><i class="material-icons">home</i><h1 style="font-size: 150%!important; margin: 0!important; padding: 0!important;">HomeGenie</h1></a><ul style="margin-top: 0; padding-top: 0; padding-left: 26px;"><li><a href="/panel">Smart Panel</a><li><a href="/mini">Smart Device</a><li><a href="/server">Programmable Intelligence</a></ul></div><div self="sm-full" layout="column center-left" style="gap: 8px;width: auto"><!--
         <a href="https://github.com/genielabs">
             <img src="/images/glabs-logo.svg" width="64px">
         </a>

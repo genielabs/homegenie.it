@@ -150,10 +150,6 @@
     <lastmod>2024-03-06</lastmod>
   </url>
   <url>
-    <loc>https://zuixjs.org//mini/1.2/device-api/</loc>
-    <lastmod>2024-03-06</lastmod>
-  </url>
-  <url>
     <loc>https://zuixjs.org//mini/1.2/device-setup/</loc>
     <lastmod>2024-03-06</lastmod>
   </url>
@@ -167,6 +163,10 @@
   </url>
   <url>
     <loc>https://zuixjs.org//mini/1.2/examples/smart-sensor/</loc>
-    <lastmod>2024-03-07</lastmod>
+    <lastmod>2024-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://zuixjs.org//mini/1.2/device-api/</loc>
+    <lastmod>2024-03-08</lastmod>
   </url>
 </urlset>
