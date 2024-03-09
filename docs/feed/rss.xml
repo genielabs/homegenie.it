@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Sat, 09 Mar 2024 16:36:32 +0100</lastBuildDate>
-    <pubDate>Sat, 09 Mar 2024 16:36:32 +0100</pubDate>
+    <lastBuildDate>Sat, 09 Mar 2024 16:43:16 +0100</lastBuildDate>
+    <pubDate>Sat, 09 Mar 2024 16:43:16 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -457,7 +457,7 @@
         <title>Getting started</title>
         <link>https://homegenie.it//mini/1.2/getting-started/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
-        <description>About HomeGenie Mini firmware</description>
+        <description>Installing HomeGenie Mini firmware</description>
         <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/getting-started/" rel="self" />
         <dc:creator></dc:creator>
@@ -484,7 +484,7 @@
         <title>Device API</title>
         <link>https://homegenie.it//mini/1.2/device-api/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-api/</guid>
-        <description>How to configure a HomeGenie device</description>
+        <description>HomeGenie Mini device API</description>
         <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/device-api/" rel="self" />
         <dc:creator></dc:creator>

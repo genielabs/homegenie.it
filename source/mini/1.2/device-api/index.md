@@ -6,7 +6,7 @@ tags: main
 group: main
 order: 30
 title: Device API
-description: How to configure a HomeGenie device
+description: HomeGenie Mini device API
 icon: code
 keywords:
 - setup

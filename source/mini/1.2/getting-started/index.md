@@ -6,7 +6,7 @@ tags: main
 group: main
 order: 10
 title: Getting started
-description: About HomeGenie Mini firmware
+description: Installing HomeGenie Mini firmware
 icon: build
 keywords:
 - requirements

@@ -6,7 +6,7 @@ tags: sections
 group: devs
 order: 40
 title: Programming
-description: About HomeGenie Mini firmware
+description: HomeGenie Mini C++ SDK (Espressif/Arduino)
 icon: build
 keywords:
 - requirements
