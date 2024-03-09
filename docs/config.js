@@ -11,7 +11,7 @@
       "@hgui": "https://genielabs.github.io/homegenie-web-ui/app/",
       "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
     },
-    "siteMapUrl": "https://zuixjs.org/",
+    "siteMapUrl": "https://homegenie.it/",
     "googleSiteId": null
   });
   // Check that service workers are registered

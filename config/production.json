@@ -119,7 +119,7 @@
         "@hgui": "https://genielabs.github.io/homegenie-web-ui/app/",
         "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
       },
-      "siteMapUrl": "https://zuixjs.org{{ app.baseUrl }}",
+      "siteMapUrl": "https://homegenie.it{{ app.baseUrl }}",
       "googleSiteId": null
     }
   }

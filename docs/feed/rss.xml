@@ -2,500 +2,500 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
 <channel>
     <title>HomeGenie</title>
-    <link>https://zuixjs.org/</link>
-    <atom:link href="https://zuixjs.org//feed/rss.xml" rel="self"></atom:link>
+    <link>https://homegenie.it/</link>
+    <atom:link href="https://homegenie.it//feed/rss.xml" rel="self"></atom:link>
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Fri, 08 Mar 2024 16:18:45 +0100</lastBuildDate>
-    <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
+    <lastBuildDate>Sat, 09 Mar 2024 16:29:30 +0100</lastBuildDate>
+    <pubDate>Sat, 09 Mar 2024 16:29:30 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
-        <url>https://zuixjs.org//images/icons/icon-152x152.png</url>
-        <link>https://zuixjs.org/</link>
+        <url>https://homegenie.it//images/icons/icon-152x152.png</url>
+        <link>https://homegenie.it/</link>
     </image>
     <item>
-        <title>Programming</title>
-        <link>https://zuixjs.org//1.4/programming/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/programming/</guid>
-        <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/programming/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Programs API</title>
-        <link>https://zuixjs.org/false</link>
-        <guid isPermaLink="true">https://zuixjs.org/false</guid>
-        <description></description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org/false" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Web API</title>
-        <link>https://zuixjs.org/false</link>
-        <guid isPermaLink="true">https://zuixjs.org/false</guid>
-        <description></description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org/false" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Introduction</title>
-        <link>https://zuixjs.org//1.4/programming/intro/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/programming/intro/</guid>
-        <description>HomeGenie automation features, customization and programming</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/programming/intro/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/programming/intro/https://picsum.photos/seed/docs!install/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>HomeGenie Panel</title>
-        <link>https://zuixjs.org/false</link>
-        <guid isPermaLink="true">https://zuixjs.org/false</guid>
-        <description></description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org/false" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Automation</title>
-        <link>https://zuixjs.org//1.4/automation/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/automation/</guid>
-        <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/automation/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Scheduler</title>
-        <link>https://zuixjs.org//1.4/automation/scheduler/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/automation/scheduler/</guid>
-        <description>HomeGenie Scheduler</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/automation/scheduler/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/automation/scheduler/https://picsum.photos/seed/docs!install/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Scenes</title>
-        <link>https://zuixjs.org//1.4/automation/scenes/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/automation/scenes/</guid>
-        <description>Implementing scenes with visual programming</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/automation/scenes/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/automation/scenes/https://picsum.photos/seed/docs!install/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Search</title>
-        <link>https://zuixjs.org//search/</link>
-        <guid isPermaLink="true">https://zuixjs.org//search/</guid>
-        <description>Search this website</description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//search/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Developing</title>
-        <link>https://zuixjs.org//content/devs/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/devs/</guid>
+        <link>https://homegenie.it//content/devs/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/devs/</guid>
         <description>HomeGenie widgets, programs and web API</description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//content/devs/" rel="self" />
+        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/devs/" rel="self" />
         <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Introduction</title>
-        <link>https://zuixjs.org//content/intro/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/intro/</guid>
-        <description>About HomeGenie</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/intro/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/intro/https://picsum.photos/seed/docs!about/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Program API</title>
-        <link>https://zuixjs.org/false</link>
-        <guid isPermaLink="true">https://zuixjs.org/false</guid>
-        <description>No description provided.</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org/false" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Web API</title>
-        <link>https://zuixjs.org/false</link>
-        <guid isPermaLink="true">https://zuixjs.org/false</guid>
-        <description>No description provided.</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org/false" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Programs (APP)</title>
-        <link>https://zuixjs.org//content/devs/programs/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/devs/programs/</guid>
-        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/devs/programs/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/devs/programs/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Widgets</title>
-        <link>https://zuixjs.org//content/devs/widgets/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/devs/widgets/</guid>
-        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/devs/widgets/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/devs/widgets/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Configuration</title>
-        <link>https://zuixjs.org//content/docs/configure/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/configure/</guid>
-        <description>Configuring HomeGenie</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/configure/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/configure/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
     </item>
     <item>
         <title>Documentation</title>
-        <link>https://zuixjs.org//content/docs/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/</guid>
+        <link>https://homegenie.it//content/docs/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/</guid>
         <description>Documentation section</description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/" rel="self" />
+        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Interconnections</title>
-        <link>https://zuixjs.org//content/docs/interconnect/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/interconnect/</guid>
+        <link>https://homegenie.it//content/docs/interconnect/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/interconnect/</guid>
         <description>Creating a network of HomeGenie servers communicating each other</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/interconnect/" rel="self" />
+        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/interconnect/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/interconnect/https://picsum.photos/seed/docs!configure/256/256" />
+                       url="https://homegenie.it//content/docs/interconnect/https://picsum.photos/seed/docs!configure/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
         <title>IR/RF remotes</title>
-        <link>https://zuixjs.org//content/docs/remotes/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/remotes/</guid>
+        <link>https://homegenie.it//content/docs/remotes/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/remotes/</guid>
         <description>Using infrared and radio frequency remotes to control HomeGenie</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/remotes/" rel="self" />
+        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/remotes/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/remotes/https://picsum.photos/seed/docs!configure/256/256" />
+                       url="https://homegenie.it//content/docs/remotes/https://picsum.photos/seed/docs!configure/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
         <title>Scenarios</title>
-        <link>https://zuixjs.org//content/docs/scenarios/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/scenarios/</guid>
+        <link>https://homegenie.it//content/docs/scenarios/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/scenarios/</guid>
         <description>Creating and scheduling scenes</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/scenarios/" rel="self" />
+        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/scenarios/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/scenarios/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Scheduling</title>
-        <link>https://zuixjs.org//content/docs/scheduling/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/scheduling/</guid>
-        <description>Scheduling scenes and programs by events or time</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/scheduling/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/scheduling/https://picsum.photos/seed/docs!configure/256/256" />
+                       url="https://homegenie.it//content/docs/scenarios/https://picsum.photos/seed/docs!configure/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
         <title>Setup</title>
-        <link>https://zuixjs.org//content/docs/setup/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/setup/</guid>
+        <link>https://homegenie.it//content/docs/setup/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/setup/</guid>
         <description>Initial setup and configuration</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/setup/" rel="self" />
+        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/setup/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/setup/https://picsum.photos/seed/docs!setup/256/256" />
+                       url="https://homegenie.it//content/docs/setup/https://picsum.photos/seed/docs!setup/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
-        <title>UPnP / DLNA</title>
-        <link>https://zuixjs.org//content/docs/upnp_dlna/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/docs/upnp_dlna/</guid>
-        <description>Controlling media servers and players</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/docs/upnp_dlna/" rel="self" />
+        <title>Program API</title>
+        <link>https://homegenie.it/false</link>
+        <guid isPermaLink="true">https://homegenie.it/false</guid>
+        <description>No description provided.</description>
+        <pubDate>Tue, 10 May 2022 17:46:22 +0200</pubDate>
+        <atom:link href="https://homegenie.it/false" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Web API</title>
+        <link>https://homegenie.it/false</link>
+        <guid isPermaLink="true">https://homegenie.it/false</guid>
+        <description>No description provided.</description>
+        <pubDate>Tue, 10 May 2022 17:46:22 +0200</pubDate>
+        <atom:link href="https://homegenie.it/false" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Programs (APP)</title>
+        <link>https://homegenie.it//content/devs/programs/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/devs/programs/</guid>
+        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
+        <pubDate>Mon, 27 Feb 2023 20:00:03 +0100</pubDate>
+        <atom:link href="https://homegenie.it//content/devs/programs/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/docs/upnp_dlna/https://picsum.photos/seed/docs!configure/256/256" />
+                       url="https://homegenie.it//content/devs/programs/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Introduction</title>
+        <link>https://homegenie.it//content/intro/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/intro/</guid>
+        <description>About HomeGenie</description>
+        <pubDate>Mon, 27 Feb 2023 20:00:03 +0100</pubDate>
+        <atom:link href="https://homegenie.it//content/intro/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/intro/https://picsum.photos/seed/docs!about/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
         <title>Clients</title>
-        <link>https://zuixjs.org//content/clients/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/clients/</guid>
+        <link>https://homegenie.it//content/clients/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/clients/</guid>
         <description>Desktop and mobile clients for HomeGenie</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/clients/" rel="self" />
+        <pubDate>Tue, 23 May 2023 19:11:38 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/clients/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/clients/https://picsum.photos/seed/docs!clients/256/256" />
+                       url="https://homegenie.it//content/clients/https://picsum.photos/seed/docs!clients/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
+    </item>
+    <item>
+        <title>Configuration</title>
+        <link>https://homegenie.it//content/docs/configure/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/configure/</guid>
+        <description>Configuring HomeGenie</description>
+        <pubDate>Tue, 23 May 2023 19:11:38 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/configure/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/docs/configure/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>UPnP / DLNA</title>
+        <link>https://homegenie.it//content/docs/upnp_dlna/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/upnp_dlna/</guid>
+        <description>Controlling media servers and players</description>
+        <pubDate>Tue, 23 May 2023 19:11:38 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/upnp_dlna/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/docs/upnp_dlna/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Widgets</title>
+        <link>https://homegenie.it//content/devs/widgets/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/devs/widgets/</guid>
+        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
+        <pubDate>Sun, 28 May 2023 22:17:38 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/devs/widgets/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/devs/widgets/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Search</title>
+        <link>https://homegenie.it//search/</link>
+        <guid isPermaLink="true">https://homegenie.it//search/</guid>
+        <description>Search this website</description>
+        <pubDate>Fri, 01 Sep 2023 14:05:34 +0200</pubDate>
+        <atom:link href="https://homegenie.it//search/" rel="self" />
+        <dc:creator></dc:creator>
     </item>
     <item>
         <title>Get started</title>
-        <link>https://zuixjs.org//content/getting-started/</link>
-        <guid isPermaLink="true">https://zuixjs.org//content/getting-started/</guid>
+        <link>https://homegenie.it//content/getting-started/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/getting-started/</guid>
         <description>About downloading and installing HomeGenie</description>
-        <pubDate>Sat, 24 Oct 2015 02:00:00 +0200</pubDate>
-        <atom:link href="https://zuixjs.org//content/getting-started/" rel="self" />
+        <pubDate>Tue, 03 Oct 2023 07:52:58 +0200</pubDate>
+        <atom:link href="https://homegenie.it//content/getting-started/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//content/getting-started/https://picsum.photos/seed/docs!install/256/256" />
+                       url="https://homegenie.it//content/getting-started/https://picsum.photos/seed/docs!install/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
-        <title></title>
-        <link>https://zuixjs.org//google7f8debac56a66e22.html</link>
-        <guid isPermaLink="true">https://zuixjs.org//google7f8debac56a66e22.html</guid>
+        <title>Automation</title>
+        <link>https://homegenie.it//1.4/automation/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/automation/</guid>
+        <description>HomeGenie widgets, programs and web API</description>
+        <pubDate>Tue, 31 Oct 2023 20:29:28 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/automation/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Scenes</title>
+        <link>https://homegenie.it//1.4/automation/scenes/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/automation/scenes/</guid>
+        <description>Implementing scenes with visual programming</description>
+        <pubDate>Tue, 31 Oct 2023 20:29:28 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/automation/scenes/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/automation/scenes/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Scheduler</title>
+        <link>https://homegenie.it//1.4/automation/scheduler/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/automation/scheduler/</guid>
+        <description>HomeGenie Scheduler</description>
+        <pubDate>Tue, 31 Oct 2023 20:29:28 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/automation/scheduler/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/automation/scheduler/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Programming</title>
+        <link>https://homegenie.it//1.4/programming/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/programming/</guid>
+        <description>HomeGenie widgets, programs and web API</description>
+        <pubDate>Tue, 31 Oct 2023 20:29:28 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/programming/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Introduction</title>
+        <link>https://homegenie.it//1.4/programming/intro/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/programming/intro/</guid>
+        <description>HomeGenie automation features, customization and programming</description>
+        <pubDate>Tue, 31 Oct 2023 20:29:28 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/programming/intro/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/programming/intro/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Scheduling</title>
+        <link>https://homegenie.it//content/docs/scheduling/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/scheduling/</guid>
+        <description>Scheduling scenes and programs by events or time</description>
+        <pubDate>Tue, 31 Oct 2023 20:29:28 +0100</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/scheduling/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/docs/scheduling/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Programs API</title>
+        <link>https://homegenie.it/false</link>
+        <guid isPermaLink="true">https://homegenie.it/false</guid>
         <description></description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//google7f8debac56a66e22.html" rel="self" />
+        <pubDate>Fri, 12 Jan 2024 16:17:32 +0100</pubDate>
+        <atom:link href="https://homegenie.it/false" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Web API</title>
+        <link>https://homegenie.it/false</link>
+        <guid isPermaLink="true">https://homegenie.it/false</guid>
+        <description></description>
+        <pubDate>Fri, 12 Jan 2024 16:17:32 +0100</pubDate>
+        <atom:link href="https://homegenie.it/false" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>HomeGenie Panel</title>
+        <link>https://homegenie.it/false</link>
+        <guid isPermaLink="true">https://homegenie.it/false</guid>
+        <description></description>
+        <pubDate>Fri, 12 Jan 2024 16:17:32 +0100</pubDate>
+        <atom:link href="https://homegenie.it/false" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title></title>
+        <link>https://homegenie.it//google7f8debac56a66e22.html</link>
+        <guid isPermaLink="true">https://homegenie.it//google7f8debac56a66e22.html</guid>
+        <description></description>
+        <pubDate>Fri, 12 Jan 2024 16:17:32 +0100</pubDate>
+        <atom:link href="https://homegenie.it//google7f8debac56a66e22.html" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Control Panel</title>
-        <link>https://zuixjs.org//panel/</link>
-        <guid isPermaLink="true">https://zuixjs.org//panel/</guid>
+        <link>https://homegenie.it//panel/</link>
+        <guid isPermaLink="true">https://homegenie.it//panel/</guid>
         <description>HomeGenie Panel app for Android tablets and phones</description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//panel/" rel="self" />
+        <pubDate>Tue, 16 Jan 2024 13:51:31 +0100</pubDate>
+        <atom:link href="https://homegenie.it//panel/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Smart Device</title>
-        <link>https://zuixjs.org//mini/</link>
-        <guid isPermaLink="true">https://zuixjs.org//mini/</guid>
+        <link>https://homegenie.it//mini/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/</guid>
         <description>...</description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//mini/" rel="self" />
+        <pubDate>Tue, 16 Jan 2024 16:07:49 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Programmable Intelligence</title>
-        <link>https://zuixjs.org//server/</link>
-        <guid isPermaLink="true">https://zuixjs.org//server/</guid>
+        <link>https://homegenie.it//server/</link>
+        <guid isPermaLink="true">https://homegenie.it//server/</guid>
         <description>...</description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//server/" rel="self" />
+        <pubDate>Tue, 16 Jan 2024 16:26:53 +0100</pubDate>
+        <atom:link href="https://homegenie.it//server/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title></title>
-        <link>https://zuixjs.org//1.4/panel/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/panel/</guid>
+        <link>https://homegenie.it//1.4/panel/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/panel/</guid>
         <description></description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/panel/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Integrated solution for smart projects 🪄</title>
-        <link>https://zuixjs.org//</link>
-        <guid isPermaLink="true">https://zuixjs.org//</guid>
-        <description></description>
-        <pubDate>Fri, 08 Mar 2024 16:18:45 +0100</pubDate>
-        <atom:link href="https://zuixjs.org//" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Examples</title>
-        <link>https://zuixjs.org//mini/1.2/examples/</link>
-        <guid isPermaLink="true">https://zuixjs.org//mini/1.2/examples/</guid>
-        <description>HomeGenie Mini, examples</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//mini/1.2/examples/" rel="self" />
+        <pubDate>Tue, 16 Jan 2024 22:53:52 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/panel/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Creating a Smart Thermostat 🌡️</title>
-        <link>https://zuixjs.org//1.4/create/smart-thermostat/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/create/smart-thermostat/</guid>
+        <link>https://homegenie.it//1.4/create/smart-thermostat/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/create/smart-thermostat/</guid>
         <description>How to create a Smart Thermostat with Raspberry Pi and HomeGenie in three simple steps</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/create/smart-thermostat/" rel="self" />
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/create/smart-thermostat/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/create/smart-thermostat/https://picsum.photos/seed/docs!install/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Getting started</title>
-        <link>https://zuixjs.org//1.4/getting-started/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/getting-started/</guid>
-        <description>Downloading and installing HomeGenie</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/getting-started/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/getting-started/https://picsum.photos/seed/docs!install/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Setup</title>
-        <link>https://zuixjs.org//1.4/setup/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/setup/</guid>
-        <description>Initial setup and configuration</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/setup/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/setup/https://picsum.photos/seed/docs!setup/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Client preferences</title>
-        <link>https://zuixjs.org//1.4/ui/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/ui/</guid>
-        <description>Setting up client preferences</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/ui/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/ui/https://picsum.photos/seed/docs!setup/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Getting started - Optional steps</title>
-        <link>https://zuixjs.org//1.4/getting-started/optional-steps/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/getting-started/optional-steps/</guid>
-        <description>Optional installation steps</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/getting-started/optional-steps/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/getting-started/optional-steps/https://picsum.photos/seed/docs!install/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>System settings</title>
-        <link>https://zuixjs.org//1.4/settings/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/settings/</guid>
-        <description>HomeGenie system settings</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/settings/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/settings/https://picsum.photos/seed/docs!install/256/256" />
+                       url="https://homegenie.it//1.4/create/smart-thermostat/https://picsum.photos/seed/docs!install/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
         <title>Dashboards</title>
-        <link>https://zuixjs.org//1.4/dashboards/</link>
-        <guid isPermaLink="true">https://zuixjs.org//1.4/dashboards/</guid>
+        <link>https://homegenie.it//1.4/dashboards/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/dashboards/</guid>
         <description>Configuring dashboards and widgets</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//1.4/dashboards/" rel="self" />
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/dashboards/" rel="self" />
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
-                       url="https://zuixjs.org//1.4/dashboards/https://picsum.photos/seed/docs!setup/256/256" />
+                       url="https://homegenie.it//1.4/dashboards/https://picsum.photos/seed/docs!setup/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
     <item>
+        <title>Getting started</title>
+        <link>https://homegenie.it//1.4/getting-started/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/getting-started/</guid>
+        <description>Downloading and installing HomeGenie</description>
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/getting-started/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/getting-started/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Getting started - Optional steps</title>
+        <link>https://homegenie.it//1.4/getting-started/optional-steps/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/getting-started/optional-steps/</guid>
+        <description>Optional installation steps</description>
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/getting-started/optional-steps/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/getting-started/optional-steps/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>System settings</title>
+        <link>https://homegenie.it//1.4/settings/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/settings/</guid>
+        <description>HomeGenie system settings</description>
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/settings/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/settings/https://picsum.photos/seed/docs!install/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Setup</title>
+        <link>https://homegenie.it//1.4/setup/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/setup/</guid>
+        <description>Initial setup and configuration</description>
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/setup/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/setup/https://picsum.photos/seed/docs!setup/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Client preferences</title>
+        <link>https://homegenie.it//1.4/ui/</link>
+        <guid isPermaLink="true">https://homegenie.it//1.4/ui/</guid>
+        <description>Setting up client preferences</description>
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//1.4/ui/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//1.4/ui/https://picsum.photos/seed/docs!setup/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Integrated solution for smart projects 🪄</title>
+        <link>https://homegenie.it//</link>
+        <guid isPermaLink="true">https://homegenie.it//</guid>
+        <description></description>
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
         <title>Device setup</title>
-        <link>https://zuixjs.org//mini/1.2/device-setup/</link>
-        <guid isPermaLink="true">https://zuixjs.org//mini/1.2/device-setup/</guid>
+        <link>https://homegenie.it//mini/1.2/device-setup/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-setup/</guid>
         <description>How to configure a HomeGenie device</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//mini/1.2/device-setup/" rel="self" />
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/device-setup/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Examples</title>
+        <link>https://homegenie.it//mini/1.2/examples/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/</guid>
+        <description>HomeGenie Mini, examples</description>
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Smart color light</title>
-        <link>https://zuixjs.org//mini/1.2/examples/smart-led/</link>
-        <guid isPermaLink="true">https://zuixjs.org//mini/1.2/examples/smart-led/</guid>
+        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
         <description>How to create a smart color LED device</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//mini/1.2/examples/smart-led/" rel="self" />
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Getting started</title>
-        <link>https://zuixjs.org//mini/1.2/getting-started/</link>
-        <guid isPermaLink="true">https://zuixjs.org//mini/1.2/getting-started/</guid>
+        <link>https://homegenie.it//mini/1.2/getting-started/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
         <description>About HomeGenie Mini firmware</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//mini/1.2/getting-started/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Smart sensor</title>
-        <link>https://zuixjs.org//mini/1.2/examples/smart-sensor/</link>
-        <guid isPermaLink="true">https://zuixjs.org//mini/1.2/examples/smart-sensor/</guid>
-        <description>How to implement a smart multi-sensor device</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//mini/1.2/examples/smart-sensor/" rel="self" />
+        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/getting-started/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
         <title>Device API</title>
-        <link>https://zuixjs.org//mini/1.2/device-api/</link>
-        <guid isPermaLink="true">https://zuixjs.org//mini/1.2/device-api/</guid>
+        <link>https://homegenie.it//mini/1.2/device-api/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-api/</guid>
         <description>How to configure a HomeGenie device</description>
-        <pubDate>Invalid date</pubDate>
-        <atom:link href="https://zuixjs.org//mini/1.2/device-api/" rel="self" />
+        <pubDate>Fri, 08 Mar 2024 16:19:41 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/device-api/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart sensor</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
+        <description>How to implement a smart multi-sensor device</description>
+        <pubDate>Fri, 08 Mar 2024 16:19:41 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>
