@@ -142,10 +142,6 @@
     <lastmod>2024-03-08</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//</loc>
-    <lastmod>2024-03-08</lastmod>
-  </url>
-  <url>
     <loc>https://homegenie.it//mini/1.2/device-setup/</loc>
     <lastmod>2024-03-08</lastmod>
   </url>
@@ -154,19 +150,23 @@
     <lastmod>2024-03-08</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//mini/1.2/examples/smart-led/</loc>
-    <lastmod>2024-03-08</lastmod>
-  </url>
-  <url>
     <loc>https://homegenie.it//mini/1.2/getting-started/</loc>
-    <lastmod>2024-03-08</lastmod>
-  </url>
-  <url>
-    <loc>https://homegenie.it//mini/1.2/device-api/</loc>
     <lastmod>2024-03-08</lastmod>
   </url>
   <url>
     <loc>https://homegenie.it//mini/1.2/examples/smart-sensor/</loc>
     <lastmod>2024-03-08</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//</loc>
+    <lastmod>2024-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//mini/1.2/device-api/</loc>
+    <lastmod>2024-03-09</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//mini/1.2/examples/smart-led/</loc>
+    <lastmod>2024-03-09</lastmod>
   </url>
 </urlset>

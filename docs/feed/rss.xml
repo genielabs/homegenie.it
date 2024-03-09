@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Sat, 09 Mar 2024 16:29:30 +0100</lastBuildDate>
-    <pubDate>Sat, 09 Mar 2024 16:29:30 +0100</pubDate>
+    <lastBuildDate>Sat, 09 Mar 2024 16:36:32 +0100</lastBuildDate>
+    <pubDate>Sat, 09 Mar 2024 16:36:32 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -436,15 +436,6 @@
         <media:description></media:description>
     </item>
     <item>
-        <title>Integrated solution for smart projects 🪄</title>
-        <link>https://homegenie.it//</link>
-        <guid isPermaLink="true">https://homegenie.it//</guid>
-        <description></description>
-        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
-        <atom:link href="https://homegenie.it//" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Device setup</title>
         <link>https://homegenie.it//mini/1.2/device-setup/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-setup/</guid>
@@ -463,15 +454,6 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Smart color light</title>
-        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
-        <description>How to create a smart color LED device</description>
-        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Getting started</title>
         <link>https://homegenie.it//mini/1.2/getting-started/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
@@ -481,21 +463,39 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Device API</title>
-        <link>https://homegenie.it//mini/1.2/device-api/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-api/</guid>
-        <description>How to configure a HomeGenie device</description>
-        <pubDate>Fri, 08 Mar 2024 16:19:41 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/device-api/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Smart sensor</title>
         <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
         <description>How to implement a smart multi-sensor device</description>
         <pubDate>Fri, 08 Mar 2024 16:19:41 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Integrated solution for smart projects 🪄</title>
+        <link>https://homegenie.it//</link>
+        <guid isPermaLink="true">https://homegenie.it//</guid>
+        <description></description>
+        <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
+        <atom:link href="https://homegenie.it//" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Device API</title>
+        <link>https://homegenie.it//mini/1.2/device-api/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-api/</guid>
+        <description>How to configure a HomeGenie device</description>
+        <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/device-api/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart color light</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
+        <description>How to create a smart color LED device</description>
+        <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>
