@@ -1,4 +1,27 @@
 {
   "tags": "1.3",
-  "major": "1.3"
+  "product": "Server",
+  "product_title": "HomeGenie Server 1.3",
+  "major": "1.3",
+  "pubDate": "git Last Modified",
+  "keywords": [
+    "homegenie",
+    "server",
+    "homegenie server",
+    "intelligence",
+    "programmable intelligence",
+    "smart home",
+    "home automation",
+    "automation",
+    "gpio",
+    "spi",
+    "i2c",
+    "z-wave",
+    "zigbee",
+    "x10",
+    "knx",
+    "raspberry pi",
+    "rpi",
+    "1.3"
+  ]
 }
