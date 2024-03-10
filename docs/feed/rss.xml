@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Sat, 09 Mar 2024 16:43:16 +0100</lastBuildDate>
-    <pubDate>Sat, 09 Mar 2024 16:43:16 +0100</pubDate>
+    <lastBuildDate>Sun, 10 Mar 2024 15:36:25 +0100</lastBuildDate>
+    <pubDate>Sun, 10 Mar 2024 15:36:25 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -454,15 +454,6 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Getting started</title>
-        <link>https://homegenie.it//mini/1.2/getting-started/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
-        <description>Installing HomeGenie Mini firmware</description>
-        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/getting-started/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Smart sensor</title>
         <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
@@ -481,21 +472,30 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Device API</title>
-        <link>https://homegenie.it//mini/1.2/device-api/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-api/</guid>
-        <description>HomeGenie Mini device API</description>
-        <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/device-api/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Smart color light</title>
         <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
         <description>How to create a smart color LED device</description>
         <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Device API</title>
+        <link>https://homegenie.it//mini/1.2/device-api/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-api/</guid>
+        <description>HomeGenie Mini device API</description>
+        <pubDate>Sat, 09 Mar 2024 16:46:51 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/device-api/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Getting started</title>
+        <link>https://homegenie.it//mini/1.2/getting-started/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
+        <description>Installing HomeGenie Mini firmware</description>
+        <pubDate>Sat, 09 Mar 2024 16:46:51 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/getting-started/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

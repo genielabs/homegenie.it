@@ -11,8 +11,9 @@
       "@hgui": "https://genielabs.github.io/homegenie-web-ui/app/",
       "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
     },
-    "siteMapUrl": "https://homegenie.it/",
-    "googleSiteId": null
+    "googleSiteId": "G-HZP6N3ZBW5",
+    "cookiesConsent": true,
+    "siteMapUrl": "https://homegenie.it/"
   });
   // Check that service workers are registered
   if ('serviceWorker' in navigator) {

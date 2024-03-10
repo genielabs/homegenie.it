@@ -53,6 +53,16 @@
             </li>
         </ul>
 
+{% if app.cookiesConsent == true %}
+    <h1 style="font-size: 120%!important; margin: 0!important; padding: 0!important; opacity: 0.6">
+        Site settings
+    </h1>
+    <a href="#" id="open_preferences_center" layout="row center-left" style="gap:6px;opacity: 0.75">
+        <span class="material-icons">cookie</span>
+        <span>update cookies preferences</span>
+    </a>
+{% endif %}
+
     </div>
 
 </div>

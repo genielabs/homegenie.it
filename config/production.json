@@ -120,7 +120,8 @@
         "@cdnjs": "https://cdnjs.cloudflare.com/ajax/libs/"
       },
       "siteMapUrl": "https://homegenie.it{{ app.baseUrl }}",
-      "googleSiteId": null
+      "googleSiteId": "G-HZP6N3ZBW5",
+      "cookiesConsent": true
     }
   }
 }
