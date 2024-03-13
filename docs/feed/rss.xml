@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Wed, 13 Mar 2024 19:20:58 +0100</lastBuildDate>
-    <pubDate>Wed, 13 Mar 2024 19:20:58 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 20:01:36 +0100</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 20:01:36 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -46,19 +46,6 @@
         <media:description></media:description>
     </item>
     <item>
-        <title>IR/RF remotes</title>
-        <link>https://homegenie.it//content/docs/remotes/</link>
-        <guid isPermaLink="true">https://homegenie.it//content/docs/remotes/</guid>
-        <description>Using infrared and radio frequency remotes to control HomeGenie</description>
-        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
-        <atom:link href="https://homegenie.it//content/docs/remotes/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://homegenie.it//content/docs/remotes/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
         <title>Scenarios</title>
         <link>https://homegenie.it//content/docs/scenarios/</link>
         <guid isPermaLink="true">https://homegenie.it//content/docs/scenarios/</guid>
@@ -68,19 +55,6 @@
         <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
         <media:content medium="image" width="300" height="125"
                        url="https://homegenie.it//content/docs/scenarios/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Setup</title>
-        <link>https://homegenie.it//content/docs/setup/</link>
-        <guid isPermaLink="true">https://homegenie.it//content/docs/setup/</guid>
-        <description>Initial setup and configuration</description>
-        <pubDate>Tue, 10 May 2022 16:40:40 +0200</pubDate>
-        <atom:link href="https://homegenie.it//content/docs/setup/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://homegenie.it//content/docs/setup/https://picsum.photos/seed/docs!setup/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
     </item>
@@ -142,19 +116,6 @@
         <media:description></media:description>
     </item>
     <item>
-        <title>Configuration</title>
-        <link>https://homegenie.it//content/docs/configure/</link>
-        <guid isPermaLink="true">https://homegenie.it//content/docs/configure/</guid>
-        <description>Configuring HomeGenie</description>
-        <pubDate>Tue, 23 May 2023 19:11:38 +0200</pubDate>
-        <atom:link href="https://homegenie.it//content/docs/configure/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://homegenie.it//content/docs/configure/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
         <title>UPnP / DLNA</title>
         <link>https://homegenie.it//content/docs/upnp_dlna/</link>
         <guid isPermaLink="true">https://homegenie.it//content/docs/upnp_dlna/</guid>
@@ -166,28 +127,6 @@
                        url="https://homegenie.it//content/docs/upnp_dlna/https://picsum.photos/seed/docs!configure/256/256" />
         <media:credit></media:credit>
         <media:description></media:description>
-    </item>
-    <item>
-        <title>Widgets</title>
-        <link>https://homegenie.it//content/devs/widgets/</link>
-        <guid isPermaLink="true">https://homegenie.it//content/devs/widgets/</guid>
-        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
-        <pubDate>Sun, 28 May 2023 22:17:38 +0200</pubDate>
-        <atom:link href="https://homegenie.it//content/devs/widgets/" rel="self" />
-        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
-        <media:content medium="image" width="300" height="125"
-                       url="https://homegenie.it//content/devs/widgets/https://picsum.photos/seed/docs!configure/256/256" />
-        <media:credit></media:credit>
-        <media:description></media:description>
-    </item>
-    <item>
-        <title>Search</title>
-        <link>https://homegenie.it//search/</link>
-        <guid isPermaLink="true">https://homegenie.it//search/</guid>
-        <description>Search this website</description>
-        <pubDate>Fri, 01 Sep 2023 14:05:34 +0200</pubDate>
-        <atom:link href="https://homegenie.it//search/" rel="self" />
-        <dc:creator></dc:creator>
     </item>
     <item>
         <title>Get started</title>
@@ -454,48 +393,12 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Integrated solution for smart projects 🪄</title>
-        <link>https://homegenie.it//</link>
-        <guid isPermaLink="true">https://homegenie.it//</guid>
-        <description></description>
-        <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
-        <atom:link href="https://homegenie.it//" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Getting started</title>
         <link>https://homegenie.it//mini/1.2/getting-started/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
         <description>Installing HomeGenie Mini firmware</description>
         <pubDate>Sat, 09 Mar 2024 16:46:51 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/getting-started/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Smart color light</title>
-        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
-        <description>How to create a smart color LED device</description>
-        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Smart sensor</title>
-        <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
-        <description>How to implement a smart multi-sensor device</description>
-        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Device API</title>
-        <link>https://homegenie.it//mini/1.2/programming/api/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/api/</guid>
-        <description>HomeGenie Mini device API</description>
-        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
@@ -508,12 +411,109 @@
         <dc:creator></dc:creator>
     </item>
     <item>
+        <title>Widgets</title>
+        <link>https://homegenie.it//content/devs/widgets/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/devs/widgets/</guid>
+        <description>HomeGenie Automation Programs Plugins, languages and SDK</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//content/devs/widgets/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/devs/widgets/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Configuration</title>
+        <link>https://homegenie.it//content/docs/configure/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/configure/</guid>
+        <description>Configuring HomeGenie</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/configure/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/docs/configure/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>IR/RF remotes</title>
+        <link>https://homegenie.it//content/docs/remotes/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/remotes/</guid>
+        <description>Using infrared and radio frequency remotes to control HomeGenie</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/remotes/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/docs/remotes/https://picsum.photos/seed/docs!configure/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Setup</title>
+        <link>https://homegenie.it//content/docs/setup/</link>
+        <guid isPermaLink="true">https://homegenie.it//content/docs/setup/</guid>
+        <description>Initial setup and configuration</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//content/docs/setup/" rel="self" />
+        <dc:creator></dc:creator><!-- TODO: resolve cover image url either local or on a different site -->
+        <media:content medium="image" width="300" height="125"
+                       url="https://homegenie.it//content/docs/setup/https://picsum.photos/seed/docs!setup/256/256" />
+        <media:credit></media:credit>
+        <media:description></media:description>
+    </item>
+    <item>
+        <title>Integrated solution for smart projects 🪄</title>
+        <link>https://homegenie.it//</link>
+        <guid isPermaLink="true">https://homegenie.it//</guid>
+        <description></description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
         <title>IR / RF gateway</title>
         <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
         <description>How to implement a smart IR/RF gateway</description>
-        <pubDate>Wed, 13 Mar 2024 01:55:47 +0100</pubDate>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart color light</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
+        <description>How to create a smart color LED device</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart sensor</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
+        <description>How to implement a smart multi-sensor device</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Device API</title>
+        <link>https://homegenie.it//mini/1.2/programming/api/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/api/</guid>
+        <description>HomeGenie Mini device API</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Search</title>
+        <link>https://homegenie.it//search/</link>
+        <guid isPermaLink="true">https://homegenie.it//search/</guid>
+        <description>Search this website</description>
+        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
+        <atom:link href="https://homegenie.it//search/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

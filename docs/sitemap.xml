@@ -14,15 +14,7 @@
     <lastmod>2022-05-10</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//content/docs/remotes/</loc>
-    <lastmod>2022-05-10</lastmod>
-  </url>
-  <url>
     <loc>https://homegenie.it//content/docs/scenarios/</loc>
-    <lastmod>2022-05-10</lastmod>
-  </url>
-  <url>
-    <loc>https://homegenie.it//content/docs/setup/</loc>
     <lastmod>2022-05-10</lastmod>
   </url>
   <url>
@@ -46,20 +38,8 @@
     <lastmod>2023-05-23</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//content/docs/configure/</loc>
-    <lastmod>2023-05-23</lastmod>
-  </url>
-  <url>
     <loc>https://homegenie.it//content/docs/upnp_dlna/</loc>
     <lastmod>2023-05-23</lastmod>
-  </url>
-  <url>
-    <loc>https://homegenie.it//content/devs/widgets/</loc>
-    <lastmod>2023-05-28</lastmod>
-  </url>
-  <url>
-    <loc>https://homegenie.it//search/</loc>
-    <lastmod>2023-09-01</lastmod>
   </url>
   <url>
     <loc>https://homegenie.it//content/getting-started/</loc>
@@ -150,12 +130,36 @@
     <lastmod>2024-03-08</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//</loc>
+    <loc>https://homegenie.it//mini/1.2/getting-started/</loc>
     <lastmod>2024-03-09</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//mini/1.2/getting-started/</loc>
-    <lastmod>2024-03-09</lastmod>
+    <loc>https://homegenie.it//mini/1.2/programming/</loc>
+    <lastmod>2024-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//content/devs/widgets/</loc>
+    <lastmod>2024-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//content/docs/configure/</loc>
+    <lastmod>2024-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//content/docs/remotes/</loc>
+    <lastmod>2024-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//content/docs/setup/</loc>
+    <lastmod>2024-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//</loc>
+    <lastmod>2024-03-13</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</loc>
+    <lastmod>2024-03-13</lastmod>
   </url>
   <url>
     <loc>https://homegenie.it//mini/1.2/examples/smart-led/</loc>
@@ -170,11 +174,7 @@
     <lastmod>2024-03-13</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//mini/1.2/programming/</loc>
-    <lastmod>2024-03-13</lastmod>
-  </url>
-  <url>
-    <loc>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</loc>
+    <loc>https://homegenie.it//search/</loc>
     <lastmod>2024-03-13</lastmod>
   </url>
 </urlset>
