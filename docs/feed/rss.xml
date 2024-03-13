@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Wed, 13 Mar 2024 01:55:00 +0100</lastBuildDate>
-    <pubDate>Wed, 13 Mar 2024 01:55:00 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 19:20:58 +0100</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 19:20:58 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -505,6 +505,15 @@
         <description>HomeGenie Mini C++ SDK (Espressif/Arduino)</description>
         <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/programming/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>IR / RF gateway</title>
+        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
+        <description>How to implement a smart IR/RF gateway</description>
+        <pubDate>Wed, 13 Mar 2024 01:55:47 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

@@ -13,32 +13,75 @@ keywords:
 ---
 
 
-## HomeGenie API
+## I/O channels
+
+Communication with the device can happen using one of the following I/O channels.
+
+
+#### HTTP (port 80)
+
+Clear text synchronous I/O channel.
+
+#### HTTP - SSE (port 80)
+
+Clear text JSON-serialized events stream. This channel is output-only.
+
+##### Events stream URL
+
+- `/api/HomeAutomation.HomeGenie/Logging/RealTime.EventStream`
+- `/events` (alias)
+
+
+#### WebSocket (port 8188)
+
+Asynchronous channel supporting both clear-text and binary-packed I/O.
+
+
+#### MQTT (broker port 8000 via WebSocket)
+
+Asynchronous I/O channel using MQTT protocol. A *topic* for each domain/module
+implemented by the device is available for listening to events and issuing API
+commands.
+
+
+#### SerialPort
+
+Clear text I/O channel over serial port link.
+
+
+
+## Modules and API
 
 HomeGenie Mini API is a subset of *HomeGenie Server API* which makes of it a 
 "minified" instance of *HomeGenie Server* specifically designed for microcontrollers.
 
+Regardless the channel used to send API commands they will keep the same syntax:
 
-### `Config` API
+`<domain>/<address>/<command>/<option_1>/.../<option_n>`
 
-#### Base path 
+Commands issued via the HTTP are prefixed with the base url `/api/`.  
 
-`/api/HomeAutomation.HomeGenie/Config/`
+
+### `Config` module
+
+#### Domain / Address 
+
+`HomeAutomation.HomeGenie/Config`
 
 #### Commands
 
+- `Groups.List`
 - `Modules.Get/<domain>/<address>`
 - `Modules.List`
 - `Modules.ParameterSet/<domain>/<address>/<parameter>/<value>`
-- `Groups.List`
 - `WebSocket.GetToken`
 
 
-### `Control` API
+### `Control` module
 
-#### Base path
+#### Domain / Address
 
-`/api/HomeAutomation.HomeGenie/<module_address>/`
+`HomeAutomation.HomeGenie/<module_address>`
 
 depending on the installed firmware version there will be available
 different modules.  
@@ -50,7 +93,7 @@ For example is possible to enable builtin GPIO modules by setting the
 In this case the `<module_address>` will correspond to the GPIO number. So
 to set HIGH the GPIO12 the API command will be:
 
-`/api/HomeAutomation.HomeGenie/12/Control.On`
+`HomeAutomation.HomeGenie/12/Control.On`
 
 #### Commands
 
@@ -72,7 +115,24 @@ Additional `Control` API provided in example code:
 - `Control.SendRaw/<raw_message>`
 
 
-### Example API request (via HTTP)
+### `mini` module
+
+Builtin sensor module.
+
+#### Domain / Address
+
+`HomeAutomation.HomeGenie/mini`
+
+#### Properties
+
+- `System.BytesFree`
+
+
+
+### Example API request via HTTP
+
+Commands issued via HTTP are prefixed with the base url `/api/`, so the
+URL for calling the method `Modules.Get` of the `Config` module will be:
 
 ```
 GET /api/HomeAutomation.HomeGenie/Config/Modules.Get/HomeAutomation.HomeGenie/mini
@@ -90,55 +150,15 @@ GET /api/HomeAutomation.HomeGenie/Config/Modules.Get/HomeAutomation.HomeGenie/mi
   "Properties": [{
     "Name": "Sensor.Luminance",
     "Value": "114",
-    "Description": "",
-    "FieldType": "",
     "UpdateTime": "2019-01-30T13:34:02.293Z"
   },{
     "Name": "Sensor.Temperature",
     "Value": "18.25",
-    "Description": "",
-    "FieldType": "",
     "UpdateTime": "2019-01-30T13:34:02.293Z"
-  }],
-  "RoutingNode": ""
+  },{
+    "Name": "System.BytesFree",
+    "Value": "2243167",
+    "UpdateTime": "2024-03-13T18:06:08.730Z"
+  }]
 }
 ```
-
-
-
-### I/O channels
-
-Regardless the channel (HTTP, WebSocket or MQTT) used to send API commands, commands
-will have the same syntax.
-
-
-#### WebSocket (port 8188)
-
-Asynchronous channel supporting both clear-text and binary-packed I/O.
-
-
-#### MQTT (broker port 8000 via WebSocket)
-
-Asynchronous I/O channel using MQTT protocol. A *topic* for each domain/module
-implemented by the device is available for listening to events and issuing API
-commands.
-
-#### HTTP (port 80)
-
-Clear text synchronous I/O channel.
-
-#### HTTP - SSE (port 80)
-
-Clear text JSON-serialized events stream. This channel is output-only.
-
-##### Events stream URL
-
-- `/api/HomeAutomation.HomeGenie/Logging/RealTime.EventStream/`
-- `/events` (alias)
-
-
-#### SerialPort
-
-Clear text I/O channel over serial port link.
-
-

@@ -85,27 +85,28 @@ See the [Getting started](../../getting-started) and the [Device setup](../../de
 for further information about installing firmware and configuring a *HomeGenie Mini* device.
 
 <a name="api"></a>
-## Implemented API
+## Modules and API
 
-In addition to the common [device API](../../programming/api), the following API commands are implemented by
+In addition to the common [Device API](../../programming/api), the following modules and API are implemented by
 this device.
 
 ### `C1` module
 
 Controls onboard RGB LED connected to GPIO 10.
 
-#### Base path
+#### Domain / Address
 
-`/api/HomeAutomation.HomeGenie/C1/`
+`HomeAutomation.HomeGenie/C1`
+
+#### Properties
+
+- `Status.Level`  
+- `Status.ColorHsb`
 
 #### Commands
 
-##### `Control.ColorHsb/<h>,<s>,<b>,<tansition_ms>`
-
-##### `Control.Level/<level>/<tansition_ms>`
-
-##### `Control.On`
-
-##### `Control.Off`
-
-##### `Control.Toggle`
+- `Control.On`
+- `Control.Off`
+- `Control.Toggle`
+- `Control.Level/<level>/<tansition_ms>`
+- `Control.ColorHsb/<h>,<s>,<b>,<tansition_ms>`

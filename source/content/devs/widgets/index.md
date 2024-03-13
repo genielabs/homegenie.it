@@ -54,7 +54,7 @@ the integrated *Widget Editor*.
 *Widget Editor* is accessible from the **Configure &rarr; Automation** menu.
 The main page lists all widgets that are currently available in the system.
 To edit an existing widget simply tap it from the list, while to create
-a new one select the **<i class="material-icons">add_circle</i>Add widget** option
+a new one select the **<i class="material-icons notranslate">add_circle</i>Add widget** option
 from the *actions menu* located in the bottom-right corner.
 
 <div class="media-container">
@@ -81,7 +81,7 @@ test its functionality.
 In order to test the widget we first have to choose a module to bind to
 from the select menu right above the preview.
 We can also simulate the change of a module parameter, to see how the
-widget reacts, by clicking the **<i class="material-icons">menu</i>**
+widget reacts, by clicking the **<i class="material-icons notranslate">menu</i>**
 button that is located next to the bound module select menu.
 
 
@@ -99,7 +99,7 @@ other frameworks/plugins that can also be used next to [jQuery Mobile](http://jq
 and that are listed at the end of this page
 
 While editing the HTML code, to update the widget preview hit `CTRL+S`
-keys or press the **<i class="material-icons">check_circle</i>Run/Preview** button.
+keys or press the **<i class="material-icons notranslate">check_circle</i>Run/Preview** button.
 
 #### Example - HTML code for a basic widget container
 ```html

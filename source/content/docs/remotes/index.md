@@ -84,12 +84,12 @@ Change MODULES="mceusb" line with your IR transceiver module name.
 
 If you are using Raspberry Pi GPIO IR hardware, change the above mentioned line
 to MODULES="lirc_rpi". For more information about IR GPIO module for Raspberry Pi
-see [<i class="material-icons">link</i> Raspberry Pi lirc_rpi](http://aron.ws/projects/lirc_rpi/). 
+see [<i class="material-icons notranslate">link</i> Raspberry Pi lirc_rpi](http://aron.ws/projects/lirc_rpi/). 
 
 ##### CubieBoard and Banana Pi built-in IR receiver
 
 If you want to use built-in Banana Pi / CubieBoard IR receiver, see the  
-following [<i class="material-icons">link</i> instructions](http://linux-sunxi.org/LIRC#Using_LIRC_with_Cubieboard2_.28A20_SoC.29). 
+following [<i class="material-icons notranslate">link</i> instructions](http://linux-sunxi.org/LIRC#Using_LIRC_with_Cubieboard2_.28A20_SoC.29). 
 
 Restart LIRC 
 

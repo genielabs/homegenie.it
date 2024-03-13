@@ -94,3 +94,23 @@ pio run -e smart-sensor-display-s3 -t upload
 
 See the [Getting started](../../getting-started) and the [Device setup](../../device-setup) pages
 for further information about installing firmware and configuring a *HomeGenie Mini* device.
+
+
+<a name="api"></a>
+## Modules and API
+
+In addition to the common [Device API](../../programming/api), the following modules and API are implemented by
+this device.
+
+### `mini` module
+
+Builtin sensor module.
+
+#### Domain / Address
+
+`HomeAutomation.HomeGenie/mini`
+
+#### Properties
+
+- `Sensor.Humidity`
+- `Sensor.Temperature`

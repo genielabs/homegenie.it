@@ -2,7 +2,7 @@
     <li>
         <a href="{{ product_home |  url }}" class="mdl-js-ripple-effect">
             <div layout="row center-left">
-                <i class="material-icons">home</i>
+                <i class="material-icons notranslate">home</i>
                 <span class="title">{{ product_title }}</span>
             </div>
             <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
@@ -22,7 +22,7 @@
                 {% endif %}
                 <a href="{{ link }}" class="mdl-js-ripple-effect {{ class }}">
                     <div layout="row center-left">
-                        <i class="material-icons">{{ post.data.icon }}</i>
+                        <i class="material-icons notranslate">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>
                     </div>
                     <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
@@ -32,7 +32,7 @@
             <li>
                 <a href="{{ post.data.link | url }}" class="mdl-js-ripple-effect">
                     <div layout="row center-left">
-                        <i class="material-icons">{{ post.data.icon }}</i>
+                        <i class="material-icons notranslate">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>
                     </div>
                     <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
@@ -62,7 +62,7 @@
                 {% endif %}
                 <a href="{{ link }}" class="mdl-js-ripple-effect {{ class }}">
                     <div layout="row center-left">
-                        <i class="material-icons">{{ post.data.icon }}</i>
+                        <i class="material-icons notranslate">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>
                     </div>
                     <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
@@ -72,7 +72,7 @@
             <li>
                 <a href="{{ post.data.link | url }}" class="mdl-js-ripple-effect">
                     <div layout="row center-left">
-                        <i class="material-icons">{{ post.data.icon }}</i>
+                        <i class="material-icons notranslate">{{ post.data.icon }}</i>
                         <span class="title">{{ post.data.title }}</span>
                     </div>
                     <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span>
@@ -90,7 +90,7 @@
     <li {% if page.url == '/search/' %} aria-current="page"{% endif %}>
         <a href="{{ '/search' | url }}" class="mdl-js-ripple-effect">
             <div layout="row center-left">
-                <i class="material-icons">search</i>
+                <i class="material-icons notranslate">search</i>
                 <span>Search</span>
             </div>
             <span class="mdl-button__ripple-container" draggable="false"><span class="mdl-ripple"></span></span>

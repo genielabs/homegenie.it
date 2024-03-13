@@ -22,10 +22,10 @@ keywords:
 Smart devices and services (also simply called *modules*) can be organized
 into *control groups*.
 
-From the **<i class="material-icons">settings</i>Configure** menu
-select the **<i class="material-icons">dashboard</i>Groups** option to
+From the **<i class="material-icons notranslate">settings</i>Configure** menu
+select the **<i class="material-icons notranslate">dashboard</i>Groups** option to
 add and manage groups.
-Click the **<i class="material-icons">add</i>Add Group** button located
+Click the **<i class="material-icons notranslate">add</i>Add Group** button located
 in the *bottom bar* to add a new group.
 
 To edit a group select it from the list. The group configuration page will be opened.
@@ -46,7 +46,7 @@ We call *widget*, that part of the user interface through which a module is pres
 and through which we can interact with it.
 
 Depending on the type, a specific widget will be used to display a *module* (eg. all modules of type "Light" will be presented using the same kind of widget).
-Most widgets will also have a **<i class="material-icons">settings</i>** (settings)
+Most widgets will also have a **<i class="material-icons notranslate">settings</i>** (settings)
 button in the upper right corner that can be used to configure the module.
 Pressing this button a popup dialog will be opened.
 
@@ -67,7 +67,7 @@ on the *OpenWeatherMap* website.
     <img self="size-medium" title="Weather configuration dialog" src="images/weather_options_01.jpg" loading="lazy">
 </div>
 
-After entering the location name and a valid API key, press the **<i class="material-icons">autorenew</i>Restart** button.
+After entering the location name and a valid API key, press the **<i class="material-icons notranslate">autorenew</i>Restart** button.
 The widget will then retrieve updated forecast and other useful data.
 
 This data can then be used to automate various tasks.

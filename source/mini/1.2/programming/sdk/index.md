@@ -6,7 +6,7 @@ tags: devs
 group: devs
 order: 20
 title: Mini SDK
-description: HomeGenie Mini SDK
+description: HomeGenie Mini Software Development Kit
 icon: code
 keywords:
 - setup
