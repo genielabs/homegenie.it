@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Wed, 13 Mar 2024 01:40:47 +0100</lastBuildDate>
-    <pubDate>Wed, 13 Mar 2024 01:40:47 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 01:52:34 +0100</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 01:52:34 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -454,30 +454,12 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Smart sensor</title>
-        <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
-        <description>How to implement a smart multi-sensor device</description>
-        <pubDate>Fri, 08 Mar 2024 16:19:41 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Integrated solution for smart projects 🪄</title>
         <link>https://homegenie.it//</link>
         <guid isPermaLink="true">https://homegenie.it//</guid>
         <description></description>
         <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
         <atom:link href="https://homegenie.it//" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Smart color light</title>
-        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
-        <description>How to create a smart color LED device</description>
-        <pubDate>Sat, 09 Mar 2024 16:33:54 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
@@ -490,12 +472,30 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Programming</title>
-        <link>https://homegenie.it//mini/1.2/programming/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/</guid>
-        <description>HomeGenie Mini C++ SDK (Espressif/Arduino)</description>
-        <pubDate>Sat, 09 Mar 2024 16:46:51 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/programming/" rel="self" />
+        <title>IR and RF gateway</title>
+        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
+        <description>How to implement a smart IR/RF gateway</description>
+        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart color light</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
+        <description>How to create a smart color LED device</description>
+        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart sensor</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
+        <description>How to implement a smart multi-sensor device</description>
+        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
@@ -503,8 +503,17 @@
         <link>https://homegenie.it//mini/1.2/programming/api/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/api/</guid>
         <description>HomeGenie Mini device API</description>
-        <pubDate>Wed, 13 Mar 2024 01:40:45 +0100</pubDate>
+        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Programming</title>
+        <link>https://homegenie.it//mini/1.2/programming/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/</guid>
+        <description>HomeGenie Mini C++ SDK (Espressif/Arduino)</description>
+        <pubDate>Wed, 13 Mar 2024 01:43:26 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/programming/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

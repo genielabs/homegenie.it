@@ -21,7 +21,7 @@ keywords:
 - tv remote
 - ac remote
 - transceiver
-wip: true
+wip: false
 ---
 
 ## Meet Firefly
