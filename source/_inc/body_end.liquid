@@ -33,3 +33,9 @@ Prism.languages.javascript=Prism.languages.extend("clike",{"class-name":[Prism.l
 <!--
 <script async data-id="101411689" src="//static.getclicky.com/js"></script>
 -->
+
+<!-- Google Translate -->
+{% if app.cookiesConsent == true %}
+  <!-- Cookies consent -->
+  {% include "fragments/translate-page.liquid"  %}
+{% endif %}

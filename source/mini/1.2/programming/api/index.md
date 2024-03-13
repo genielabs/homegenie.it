@@ -2,9 +2,9 @@
 layout: side_drawer.liquid
 theme: indigo-deep_purple
 options: mdl highlight ext-links no-title
-tags: main
-group: main
-order: 30
+tags: devs
+group: devs
+order: 10
 title: Device API
 description: HomeGenie Mini device API
 icon: code
@@ -17,42 +17,6 @@ keywords:
 
 HomeGenie Mini API is a subset of *HomeGenie Server API* which makes of it a 
 "minified" instance of *HomeGenie Server* specifically designed for microcontrollers.
-
-### I/O channels
-
-Regardless the channel (HTTP, WebSocket or MQTT) used to send API commands, commands
-will have the same syntax.
-
-
-#### WebSocket (port 8188)
-
-Asynchronous channel supporting both clear-text and binary-packed I/O.
-
-
-#### MQTT (broker port 8000 via WebSocket)
-
-Asynchronous I/O channel using MQTT protocol. A *topic* for each domain/module
-implemented by the device is available for listening to events and issuing API
-commands. 
-
-#### HTTP (port 80)
-
-Clear text synchronous I/O channel.
-
-#### HTTP - SSE (port 80)
-
-Clear text JSON-serialized events stream. This channel is output-only.
-
-##### Events stream URL
-
-- `/api/HomeAutomation.HomeGenie/Logging/RealTime.EventStream/`
-- `/events` (alias)
-
-
-#### SerialPort
-
-Clear text I/O channel over serial port link.
-
 
 
 ### `Config` API
@@ -140,39 +104,41 @@ GET /api/HomeAutomation.HomeGenie/Config/Modules.Get/HomeAutomation.HomeGenie/mi
 }
 ```
 
-<!--
-
-### HomeGenie Mini builtin API
-
-It's possible to control the 4 GPIOs on the `P1` expansion port using the following API:
-
-- `/api/HomeAutomation.HomeGenie/<pin_number>/Control.On`
-- `/api/HomeAutomation.HomeGenie/<pin_number>/Control.Off`
-- `/api/HomeAutomation.HomeGenie/<pin_number>/Control.Level/<level>`
-- `/api/HomeAutomation.HomeGenie/<pin_number>/Control.Toggle`
-
-Where `<pin_name>` can be `D5`, `D6`, `D7` or `D8` and `<level>` a integer between `0` and `100`.
-
-**Examples**
-
-```
-# Set output D6 to 50% (1.65V)
-/api/HomeAutomation.HomeGenie/D6/Control.Level/50
-
-# Set output D5 to 100% (3.3V)
-/api/HomeAutomation.HomeGenie/D5/Control.Level/100
-# or
-/api/HomeAutomation.HomeGenie/D5/Control.On
-
-# Set output D8 to 0% (0V)
-/api/HomeAutomation.HomeGenie/D8/Control.Level/0
-# or
-/api/HomeAutomation.HomeGenie/D8/Control.Off
-```
 
 
+### I/O channels
+
+Regardless the channel (HTTP, WebSocket or MQTT) used to send API commands, commands
+will have the same syntax.
 
 
-...
+#### WebSocket (port 8188)
 
--->
+Asynchronous channel supporting both clear-text and binary-packed I/O.
+
+
+#### MQTT (broker port 8000 via WebSocket)
+
+Asynchronous I/O channel using MQTT protocol. A *topic* for each domain/module
+implemented by the device is available for listening to events and issuing API
+commands.
+
+#### HTTP (port 80)
+
+Clear text synchronous I/O channel.
+
+#### HTTP - SSE (port 80)
+
+Clear text JSON-serialized events stream. This channel is output-only.
+
+##### Events stream URL
+
+- `/api/HomeAutomation.HomeGenie/Logging/RealTime.EventStream/`
+- `/events` (alias)
+
+
+#### SerialPort
+
+Clear text I/O channel over serial port link.
+
+

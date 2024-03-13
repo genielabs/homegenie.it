@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Mon, 11 Mar 2024 14:24:33 +0100</lastBuildDate>
-    <pubDate>Mon, 11 Mar 2024 14:24:33 +0100</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 01:40:47 +0100</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 01:40:47 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -481,21 +481,30 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Device API</title>
-        <link>https://homegenie.it//mini/1.2/device-api/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/device-api/</guid>
-        <description>HomeGenie Mini device API</description>
-        <pubDate>Sat, 09 Mar 2024 16:46:51 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/device-api/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Getting started</title>
         <link>https://homegenie.it//mini/1.2/getting-started/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
         <description>Installing HomeGenie Mini firmware</description>
         <pubDate>Sat, 09 Mar 2024 16:46:51 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/getting-started/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Programming</title>
+        <link>https://homegenie.it//mini/1.2/programming/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/</guid>
+        <description>HomeGenie Mini C++ SDK (Espressif/Arduino)</description>
+        <pubDate>Sat, 09 Mar 2024 16:46:51 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/programming/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Device API</title>
+        <link>https://homegenie.it//mini/1.2/programming/api/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/api/</guid>
+        <description>HomeGenie Mini device API</description>
+        <pubDate>Wed, 13 Mar 2024 01:40:45 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

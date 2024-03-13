@@ -5,9 +5,8 @@
     <div layout="rows top-left" style="gap: 64px">
         
     {% if group != "main" %}
-        <!--
-        <h2>Main</h2>
-        -->
+        <div>
+        <h2>Setup</h2>
         <ul style="margin: 0; padding: 0;list-style: none">
             {% assign posts = collections.main | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}
             {%- for post in posts -%}
@@ -40,6 +39,7 @@
                 {%- endif -%}
             {%- endfor -%}
         </ul>
+        </div>
     {% endif %}
 
     {% assign sections = collections.sections | sort: 'data.pubDate' | reverse | sort: 'data.order' | sort: 'data.major' %}

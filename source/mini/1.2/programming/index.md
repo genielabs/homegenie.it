@@ -11,24 +11,7 @@ icon: build
 keywords:
 - requirements
 - start
-hidden: true
-wip: true
+hidden: false
+wip: false
 ---
 {% include "layouts/side_drawer/items-list.liquid" %}
-
-
-
-
-<!-- TODO: ..
-
-## Creating a smart device with HomeGenie Mini library
-
-```
-pio project init -b esp32dev --project-option="lib_deps=HomeGenieMini"
-```
-
-// TODO: brief API/SDK docs
-
--->
-
-

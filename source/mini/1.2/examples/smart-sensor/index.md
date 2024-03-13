@@ -92,5 +92,5 @@ Original 3D design and artwork by *G-Labs*, title <strong>"India approaching Moo
 pio run -e smart-sensor-display-s3 -t upload
 ```
 
-See the [Getting Started](../../getting-started) and the [Device setup](../../device-setup) pages
+See the [Getting started](../../getting-started) and the [Device setup](../../device-setup) pages
 for further information about installing firmware and configuring a *HomeGenie Mini* device.

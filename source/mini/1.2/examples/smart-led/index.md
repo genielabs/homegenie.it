@@ -81,13 +81,13 @@ options:
 pio run -e color-light-c3 -t upload
 ```
 
-See the [Getting Started](../../getting-started) and the [Device setup](../../device-setup) pages
+See the [Getting started](../../getting-started) and the [Device setup](../../device-setup) pages
 for further information about installing firmware and configuring a *HomeGenie Mini* device.
 
 <a name="api"></a>
 ## Implemented API
 
-In addition to the common [HomeGenie Mini API](../../device-api), the following API commands are implemented by
+In addition to the common [device API](../../programming/api), the following API commands are implemented by
 this device.
 
 ### `C1` module
