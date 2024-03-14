@@ -83,18 +83,6 @@ Commands issued via the HTTP are prefixed with the base url `/api/`.
 
 `HomeAutomation.HomeGenie/<module_address>`
 
-depending on the installed firmware version there will be available
-different modules.  
-For example is possible to enable builtin GPIO modules by setting the
-`CONFIG_GPIO_OUTPUT` flag with the GPIO numbers.
-
-`-D CONFIG_GPIO_OUTPUT={4,5,6,12}`
-
-In this case the `<module_address>` will correspond to the GPIO number. So
-to set HIGH the GPIO12 the API command will be:
-
-`HomeAutomation.HomeGenie/12/Control.On`
-
 #### Commands
 
 - `Control.On`
@@ -102,8 +90,20 @@ to set HIGH the GPIO12 the API command will be:
 - `Control.Level/<level>`
 - `Control.Toggle`
 
+Where `<module_address>` is the GPIO number. So to set HIGH the GPIO12
+the API command will be:
+
+&nbsp;    `HomeAutomation.HomeGenie/12/Control.On`
+
+Depending on the installed firmware version there will be available
+different GPIO modules.  
+GPIO modules are enabled by setting the `CONFIG_GPIO_OUTPUT` preprocessor macro
+with the GPIO numbers:
+
+&nbsp;    `-D CONFIG_GPIO_OUTPUT={4,5,6,12}`
+
 Beside builtin GPIO modules, it is possible to create custom modules like in
-the [`color-light`](../examples/smart-led#api) example where the `C1` module is associated to an RGB-LED
+the [`color-light`](../../examples/smart-led#api) example where the `C1` module is associated to an RGB-LED
 and is used to control it.
 
 Additional `Control` API provided in example code:

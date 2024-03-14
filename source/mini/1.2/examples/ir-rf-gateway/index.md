@@ -44,6 +44,10 @@ media:
   url: images/hg_mini_firefly_kit_05.jpg
 
 - type: image
+  preview: images/hg_mini_firefly_kit_01.jpg
+  url: images/hg_mini_firefly_kit_01.jpg
+
+- type: image
   preview: images/hg_mini_firefly_blender_3d_01.jpg
   url: images/hg_mini_firefly_blender_3d_01.jpg
 
@@ -136,9 +140,7 @@ IR module is associated to IR transceiver hardware.
 - `Receiver.RawData`  
   Captured signal data as hexadecimal bytes string. 
 
-#### API
-
-*Commands*
+#### Commands
 
 - `Control.SendRaw/<raw_hex_string>/<repeat_count>/<repeat_delay_ms>`
 
@@ -157,8 +159,6 @@ RF module is associated to RF transceiver hardware.
 - `Receiver.RawData`  
   Captured signal data as hexadecimal bytes string.
 
-#### API
-
-*Commands*
+#### Commands
 
 - `Control.SendRaw/<raw_hex_string>/<repeat_count>/<repeat_delay_ms>`
