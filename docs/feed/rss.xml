@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Thu, 14 Mar 2024 13:40:38 +0100</lastBuildDate>
-    <pubDate>Thu, 14 Mar 2024 13:40:38 +0100</pubDate>
+    <lastBuildDate>Thu, 14 Mar 2024 20:20:42 +0100</lastBuildDate>
+    <pubDate>Thu, 14 Mar 2024 20:20:42 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -384,7 +384,7 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Examples</title>
+        <title>Recipes</title>
         <link>https://homegenie.it//mini/1.2/examples/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/</guid>
         <description>HomeGenie Mini, examples</description>
@@ -472,15 +472,6 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>IR / RF gateway</title>
-        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
-        <description>How to implement a smart IR/RF gateway</description>
-        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Smart color light</title>
         <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
@@ -499,21 +490,30 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Device API</title>
-        <link>https://homegenie.it//mini/1.2/programming/api/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/api/</guid>
-        <description>HomeGenie Mini device API</description>
-        <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Search</title>
         <link>https://homegenie.it//search/</link>
         <guid isPermaLink="true">https://homegenie.it//search/</guid>
         <description>Search this website</description>
         <pubDate>Wed, 13 Mar 2024 19:22:09 +0100</pubDate>
         <atom:link href="https://homegenie.it//search/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>IR / RF gateway</title>
+        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
+        <description>How to implement a smart IR/RF gateway</description>
+        <pubDate>Thu, 14 Mar 2024 13:42:11 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Device API</title>
+        <link>https://homegenie.it//mini/1.2/programming/api/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/api/</guid>
+        <description>HomeGenie Mini device API</description>
+        <pubDate>Thu, 14 Mar 2024 13:42:11 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

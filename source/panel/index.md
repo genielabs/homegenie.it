@@ -5,6 +5,18 @@ title: Control Panel
 description: HomeGenie Panel app for Android tablets and phones
 keywords:
 - homegenie
+- control panel
+- plus
+- smart home
+- smart devices
+- home automation
+- domotics
+- programmable
+- iot
+- internet of things
+- open source
+- mqtt
+- api
 ---
 
 <!-- SPACER -->

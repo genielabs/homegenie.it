@@ -1,0 +1,31 @@
+{
+  "color": "darkgreen",
+  "tags": "mini",
+  "product": "Mini",
+  "product_title": "HomeGenie Mini",
+  "product_home": "/mini",
+  "major": "1.2",
+  "pubDate": "git Last Modified",
+  "keywords": [
+    "homegenie",
+    "mini",
+    "homegenie mini",
+    "smart device",
+    "esp8266",
+    "esp32",
+    "firmware",
+    "api",
+    "smart home",
+    "iot",
+    "internet of things",
+    "automation",
+    "diy",
+    "create",
+    "build",
+    "mqtt",
+    "sse",
+    "http",
+    "api",
+    "open source"
+  ]
+}

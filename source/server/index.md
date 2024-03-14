@@ -5,6 +5,32 @@ title: Programmable Intelligence
 description: ...
 keywords:
 - homegenie
+- server
+- homegenie server
+- intelligence
+- programmable intelligence
+- smart home
+- home automation
+- domotics
+- automation
+- iot
+- internet of things
+- mqtt
+- sse
+- websocket
+- http
+- open source
+- api
+- gpio
+- spi
+- i2c
+- z-wave
+- zigbee
+- x10
+- knx
+- raspberry pi
+- rpi
+- 1.4
 ---
 
 <!-- SPACER -->
