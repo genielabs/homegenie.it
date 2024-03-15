@@ -68,9 +68,10 @@ options:
 
 ### Ingredients
 
-- Waveshare ESP32-C3-Zero
-- Lithium battery charging module
-- 3.7V 500mAh lithium battery 902030
+- [Waveshare ESP32-C3-Zero](https://www.waveshare.com/wiki/ESP32-C3-Zero)
+- Lithium battery charging module (optional)
+- 3.7V 500mAh lithium battery 902030 (optional)
+- `color-light-c3` firmware
 - 3d printed shell (original design by G-Labs)
 
 

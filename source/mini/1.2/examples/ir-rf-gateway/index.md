@@ -94,9 +94,10 @@ implements the same functionality with the addition of IR/RF transceiver capabil
 
 ### Ingredients
 
-- Waveshare ESP32-C3-Zero
-- IR<small>(940nm)</small> / RF<small>(433/315MHz)</small> receiver module
-- IR<small>(940nm)</small> / RF<small>(433/315MHz)</small> transmitter module
+- [Waveshare ESP32-C3-Zero](https://www.waveshare.com/wiki/ESP32-C3-Zero)
+- IR<small>(940nm)</small> / RF<small>(433/315MHz)</small> receiver module (**GPIO5**, **3V3**)
+- IR<small>(940nm)</small> / RF<small>(433/315MHz)</small> transmitter module (**GPIO7**, **5V**)
+- `xx-transceiver-c3` firmware
 - 3d printed shell (original design by G-Labs)
 
 

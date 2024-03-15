@@ -154,20 +154,8 @@
     <lastmod>2024-03-13</lastmod>
   </url>
   <url>
-    <loc>https://homegenie.it//mini/1.2/examples/smart-led/</loc>
-    <lastmod>2024-03-13</lastmod>
-  </url>
-  <url>
-    <loc>https://homegenie.it//mini/1.2/examples/smart-sensor/</loc>
-    <lastmod>2024-03-13</lastmod>
-  </url>
-  <url>
     <loc>https://homegenie.it//search/</loc>
     <lastmod>2024-03-13</lastmod>
-  </url>
-  <url>
-    <loc>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</loc>
-    <lastmod>2024-03-14</lastmod>
   </url>
   <url>
     <loc>https://homegenie.it//mini/1.2/programming/api/</loc>
@@ -176,5 +164,17 @@
   <url>
     <loc>https://homegenie.it//mini/1.2/examples/</loc>
     <lastmod>2024-03-14</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</loc>
+    <lastmod>2024-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//mini/1.2/examples/smart-led/</loc>
+    <lastmod>2024-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://homegenie.it//mini/1.2/examples/smart-sensor/</loc>
+    <lastmod>2024-03-15</lastmod>
   </url>
 </urlset>

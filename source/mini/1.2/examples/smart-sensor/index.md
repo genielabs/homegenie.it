@@ -80,9 +80,10 @@ Original 3D design and artwork by *G-Labs*, title <strong>"India approaching Moo
 
 ### Ingredients
 
-- Waveshare ESP32-S3 with 1.28inch Round Touch LCD
-- DHT-22 humidity and temperature sensor
-- Motion sensor
+- [Waveshare ESP32-S3 with 1.28inch Round Touch LCD](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-1.28)
+- DHT-22 humidity and temperature sensor (**GPIO21** - violet wire, **3V3** 1st red wire)
+- Motion sensor (**GPIO16** - orange wire, **VSYS** 2nd red wire)
+- `smart-sensor-display-s3` firmware
 - 3d printed shell (original design by G-Labs)
 
 

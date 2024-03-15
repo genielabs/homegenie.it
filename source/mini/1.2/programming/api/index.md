@@ -59,7 +59,7 @@ Regardless the channel used to send API commands they will keep the same syntax:
 
 `<domain>/<address>/<command>/<option_1>/.../<option_n>`
 
-Commands issued via the HTTP are prefixed with the base url `/api/`.  
+Commands issued via HTTP are prefixed with the base url `/api/`.  
 
 
 ### `Config` module
