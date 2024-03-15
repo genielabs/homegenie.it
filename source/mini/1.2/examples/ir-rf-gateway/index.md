@@ -81,17 +81,6 @@ implements the same functionality with the addition of IR/RF transceiver capabil
 
 
 
-<!--
-
-// TODO: pics
-
-- TODO: show Script record/save in HG Panel
-- TODO: show Remote control feature in HG Server (maybe link old video?)
-
--->
-
-
-
 ### Ingredients
 
 - [Waveshare ESP32-C3-Zero](https://www.waveshare.com/wiki/ESP32-C3-Zero)
@@ -116,9 +105,67 @@ RF version
 pio run -e rf-transceiver-c3 -t upload
 ```
 
-
 See the [Getting started](../../getting-started) and the [Device setup](../../device-setup) pages
 for further information about installing firmware and configuring a *HomeGenie Mini* device.
+
+
+
+## Usage examples
+
+### Recording and playing back IR/RF commands
+
+Using [HomeGenie Panel](../../../../panel) app you can record and play back remote
+controls commands. 
+
+
+<div layout="row center-center">
+<div style="min-width: 360px;max-width: 640px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/20">
+{% zx 'media-browser' %}
+
+media:
+
+- type: image
+  preview: images/hg_mini_firefly_record_playback_01.jpg
+  url: images/hg_mini_firefly_record_playback_01.jpg
+  title: 1. Start script recording
+  description: by clicking the record button on the toolbar
+
+- type: image
+  preview: images/hg_mini_firefly_record_playback_02.jpg
+  url: images/hg_mini_firefly_record_playback_02.jpg
+  title: 2. Capture commands
+  description: issuing commands on the remote control(s) and then click
+               the stop button when done.
+
+- type: video
+  preview: images/hg_mini_firefly_record_playback_02.jpg
+  url: images/hg_mini_firefly_record_playback_01.mp4
+
+options:
+#- name: slide
+#  value: 10000
+- name: inline
+  value: true
+
+{% endzx %}
+</div></div></div>
+
+
+<!--
+
+
+### Controlling other devices
+
+...using HG Server
+
+...
+
+
+### Using API to receive and send IR/RF commands 
+
+...
+
+-->
 
 
 <a name="api"></a>
