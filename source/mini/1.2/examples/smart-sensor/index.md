@@ -86,7 +86,7 @@ Original 3D design and artwork by *G-Labs*, title <strong>"India approaching Moo
 - 3d printed shell (original design by G-Labs)
 
 
-### Firmware upload command
+### Firmware install command
 
 ```bash
 pio run -e smart-sensor-display-s3 -t upload

@@ -101,7 +101,7 @@ implements the same functionality with the addition of IR/RF transceiver capabil
 
 
 
-### Firmware upload command
+### Firmware install command
 
 IR version
 

@@ -75,7 +75,7 @@ options:
 
 
 
-### Firmware upload command
+### Firmware install command
 
 ```bash
 pio run -e color-light-c3 -t upload

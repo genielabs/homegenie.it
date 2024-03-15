@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Thu, 14 Mar 2024 20:20:42 +0100</lastBuildDate>
-    <pubDate>Thu, 14 Mar 2024 20:20:42 +0100</pubDate>
+    <lastBuildDate>Fri, 15 Mar 2024 01:29:52 +0100</lastBuildDate>
+    <pubDate>Fri, 15 Mar 2024 01:29:52 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -384,15 +384,6 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Recipes</title>
-        <link>https://homegenie.it//mini/1.2/examples/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/</guid>
-        <description>HomeGenie Mini, examples</description>
-        <pubDate>Fri, 08 Mar 2024 00:32:02 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Getting started</title>
         <link>https://homegenie.it//mini/1.2/getting-started/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/getting-started/</guid>
@@ -514,6 +505,15 @@
         <description>HomeGenie Mini device API</description>
         <pubDate>Thu, 14 Mar 2024 13:42:11 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Recipes</title>
+        <link>https://homegenie.it//mini/1.2/examples/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/</guid>
+        <description>HomeGenie Mini, examples</description>
+        <pubDate>Thu, 14 Mar 2024 20:22:38 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>
