@@ -55,18 +55,6 @@ media:
   preview: images/hg_mini_firefly_kit_04.jpg
   url: images/hg_mini_firefly_kit_04.jpg
 
-- type: video
-  preview: images/hg_mini_firefly_record_playback_02.jpg
-  url: images/hg_mini_firefly_record_playback_01.mp4
-
-- type: image
-  preview: images/hg_mini_firefly_color_led_01.jpg
-  url: images/hg_mini_firefly_color_led_01.jpg
-
-- type: video
-  preview: images/hg_mini_firefly_kit_01.jpg
-  url: images/hg_mini_firefly_color_led_01.webm
-
 options:
 - name: slide
   value: 10000
@@ -82,6 +70,35 @@ other devices or to trigger a script when a specific IR/RF signal is detected.
 
 Firefly employs the same *ESP32-C3* board used for the [Smart color light](../smart-led) and
 implements the same functionality with the addition of IR/RF transceiver capabilities.
+
+
+
+<div layout="row center-center">
+<div style="min-width: 360px;max-width: 640px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/12">
+{% zx 'media-browser' %}
+
+media:
+
+- type: video
+  preview: images/hg_mini_firefly_record_playback_02.jpg
+  url: images/hg_mini_firefly_record_playback_01.mp4
+
+- type: image
+  preview: images/hg_mini_firefly_color_led_01.jpg
+  url: images/hg_mini_firefly_color_led_01.jpg
+
+- type: video
+  preview: images/hg_mini_firefly_kit_01.jpg
+  url: images/hg_mini_firefly_color_led_01.webm
+
+options:
+#- name: slide
+#  value: 60000
+- name: inline
+  value: true
+
+{% endzx %}
+</div></div></div>
 
 
 
