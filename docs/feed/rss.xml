@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Wed, 20 Mar 2024 20:49:21 +0100</lastBuildDate>
-    <pubDate>Wed, 20 Mar 2024 20:49:21 +0100</pubDate>
+    <lastBuildDate>Wed, 20 Mar 2024 21:19:40 +0100</lastBuildDate>
+    <pubDate>Wed, 20 Mar 2024 21:19:40 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -481,24 +481,6 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>Smart color light</title>
-        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
-        <description>How to create a smart color LED device</description>
-        <pubDate>Fri, 15 Mar 2024 15:29:25 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
-        <title>Smart sensor</title>
-        <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
-        <description>How to implement a smart multi-sensor device</description>
-        <pubDate>Fri, 15 Mar 2024 15:29:25 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Device API</title>
         <link>https://homegenie.it//mini/1.2/programming/api/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/programming/api/</guid>
@@ -512,8 +494,26 @@
         <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
         <description>How to implement a smart IR/RF gateway</description>
-        <pubDate>Sat, 16 Mar 2024 00:16:08 +0100</pubDate>
+        <pubDate>Wed, 20 Mar 2024 20:52:08 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart color light</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
+        <description>How to create a smart color LED device</description>
+        <pubDate>Wed, 20 Mar 2024 20:52:08 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-led/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart sensor</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-sensor/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-sensor/</guid>
+        <description>How to implement a smart multi-sensor device</description>
+        <pubDate>Wed, 20 Mar 2024 20:52:08 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-sensor/" rel="self" />
         <dc:creator></dc:creator>
     </item>
     <item>
@@ -521,7 +521,7 @@
         <link>https://homegenie.it//mini/1.2/examples/smart-shutters/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-shutters/</guid>
         <description>How to implement smart shutters</description>
-        <pubDate>Wed, 20 Mar 2024 20:49:19 +0100</pubDate>
+        <pubDate>Wed, 20 Mar 2024 20:52:08 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/examples/smart-shutters/" rel="self" />
         <dc:creator></dc:creator>
     </item>

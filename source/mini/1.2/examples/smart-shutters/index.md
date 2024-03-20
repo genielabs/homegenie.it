@@ -67,7 +67,7 @@ options:
 
 
 Shieldy employs the same *ESP32-C3* board used for the [Smart color light](../smart-led) and
-implements the same functionality with the addition of IR/RF transceiver capabilities.
+implements the same functionality to control the builtin RGB LED.
 
 
 
@@ -106,7 +106,7 @@ Controls servo motor connected to GPIO 5.
 
 #### Domain / Address
 
-`Automation.HomeGenie/C1`
+`Automation.HomeGenie/S1`
 
 #### Properties
 
@@ -122,3 +122,5 @@ Controls servo motor connected to GPIO 5.
 - `Control.Close` / `Control.Off`
 - `Control.Level/<level>` (0-100)
 - `Control.ColorHsb/<h>,<s>,<b>,<tansition_ms>`
+- `Shutter.Calibrate` (wip)
+- `Shutter.Speed` (wip)
