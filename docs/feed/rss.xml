@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Sat, 16 Mar 2024 00:14:18 +0100</lastBuildDate>
-    <pubDate>Sat, 16 Mar 2024 00:14:18 +0100</pubDate>
+    <lastBuildDate>Wed, 20 Mar 2024 20:49:21 +0100</lastBuildDate>
+    <pubDate>Wed, 20 Mar 2024 20:49:21 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -481,15 +481,6 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>IR / RF gateway</title>
-        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
-        <description>How to implement a smart IR/RF gateway</description>
-        <pubDate>Fri, 15 Mar 2024 15:29:25 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Smart color light</title>
         <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
@@ -514,6 +505,24 @@
         <description>HomeGenie Mini device API</description>
         <pubDate>Fri, 15 Mar 2024 15:29:25 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/programming/api/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>IR / RF gateway</title>
+        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
+        <description>How to implement a smart IR/RF gateway</description>
+        <pubDate>Sat, 16 Mar 2024 00:16:08 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>Smart shutters</title>
+        <link>https://homegenie.it//mini/1.2/examples/smart-shutters/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-shutters/</guid>
+        <description>How to implement smart shutters</description>
+        <pubDate>Wed, 20 Mar 2024 20:49:19 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/smart-shutters/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

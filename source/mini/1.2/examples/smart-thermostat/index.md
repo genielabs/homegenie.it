@@ -4,7 +4,7 @@ theme: indigo-deep_purple
 options: mdl highlight ext-links no-title
 tags: examples
 group: examples
-order: 40
+order: 50
 title: Smart thermostat
 description: How to implement a smart thermostat with decentralized intelligence
 icon: thermostat

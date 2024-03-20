@@ -26,7 +26,7 @@ multiple shroomies with your music.
 
 
 <div layout="row center-center">
-<div style="min-width: 360px;max-width: 420px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/12">
+<div style="min-width: 360px;max-width: 640px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/12">
 {% zx 'media-browser' %}
 
 media:

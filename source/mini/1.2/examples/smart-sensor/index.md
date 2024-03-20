@@ -25,7 +25,7 @@ a round touch display with on board *ESP32-S3* chip. The breadboard-friendly 3d 
 with cables holder at the base allows plugging and testing other electronic modules quickly.  
 
 <div layout="row center-center">
-<div style="min-width: 360px;max-width: 420px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 7/6">
+<div style="min-width: 360px;max-width: 640px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 7/6">
 {% zx 'media-browser' %}
 
 media:

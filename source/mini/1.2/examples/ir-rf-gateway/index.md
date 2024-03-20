@@ -26,7 +26,7 @@ wip: false
 
 ## Meet Firefly
 
-Firefly (f-IRF-ly) is a small device that can control HVAC systems, TVs, music and video players,
+Firefly is a small device that can control HVAC systems, TVs, music and video players,
 lights and other things that can be controlled using an IR or RF remote.  
 Firefly captures commands directly from the original remote control so you can
 save, playback or schedule captured commands using [HomeGenie Panel](../../../../panel)
@@ -34,7 +34,7 @@ and/or [HomeGenie Server](../../../../server).
 
 
 <div layout="row center-center">
-<div style="min-width: 360px;max-width: 420px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/12">
+<div style="min-width: 360px;max-width: 640px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/12">
 {% zx 'media-browser' %}
 
 media:
@@ -42,10 +42,6 @@ media:
 - type: image
   preview: images/hg_mini_firefly_kit_05.jpg
   url: images/hg_mini_firefly_kit_05.jpg
-
-- type: image
-  preview: images/hg_mini_firefly_kit_01.jpg
-  url: images/hg_mini_firefly_kit_01.jpg
 
 - type: image
   preview: images/hg_mini_firefly_blender_3d_01.jpg
@@ -56,12 +52,20 @@ media:
   url: images/hg_mini_firefly_kit_02.jpg
 
 - type: image
-  preview: images/hg_mini_firefly_kit_03.jpg
-  url: images/hg_mini_firefly_kit_03.jpg
-
-- type: image
   preview: images/hg_mini_firefly_kit_04.jpg
   url: images/hg_mini_firefly_kit_04.jpg
+
+- type: video
+  preview: images/hg_mini_firefly_record_playback_02.jpg
+  url: images/hg_mini_firefly_record_playback_01.mp4
+
+- type: image
+  preview: images/hg_mini_firefly_color_led_01.jpg
+  url: images/hg_mini_firefly_color_led_01.jpg
+
+- type: video
+  preview: images/hg_mini_firefly_kit_01.jpg
+  url: images/hg_mini_firefly_color_led_01.webm
 
 options:
 - name: slide
@@ -107,65 +111,6 @@ pio run -e rf-transceiver-c3 -t upload
 
 See the [Getting started](../../getting-started) and the [Device setup](../../device-setup) pages
 for further information about installing firmware and configuring a *HomeGenie Mini* device.
-
-
-
-## Usage examples
-
-### Recording and playing back IR/RF commands
-
-Using [HomeGenie Panel](../../../../panel) app you can record and play back remote
-controls commands. 
-
-
-<div layout="row center-center">
-<div style="min-width: 360px;max-width: 640px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 15/20">
-{% zx 'media-browser' %}
-
-media:
-
-- type: image
-  preview: images/hg_mini_firefly_record_playback_01.jpg
-  url: images/hg_mini_firefly_record_playback_01.jpg
-  title: 1. Start script recording
-  description: by clicking the record button on the toolbar
-
-- type: image
-  preview: images/hg_mini_firefly_record_playback_02.jpg
-  url: images/hg_mini_firefly_record_playback_02.jpg
-  title: 2. Capture commands
-  description: issuing commands on the remote control(s) and then click
-               the stop button when done.
-
-- type: video
-  preview: images/hg_mini_firefly_record_playback_02.jpg
-  url: images/hg_mini_firefly_record_playback_01.mp4
-
-options:
-#- name: slide
-#  value: 10000
-- name: inline
-  value: true
-
-{% endzx %}
-</div></div></div>
-
-
-<!--
-
-
-### Controlling other devices
-
-...using HG Server
-
-...
-
-
-### Using API to receive and send IR/RF commands 
-
-...
-
--->
 
 
 <a name="api"></a>
