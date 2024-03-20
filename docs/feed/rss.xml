@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Wed, 20 Mar 2024 21:19:40 +0100</lastBuildDate>
-    <pubDate>Wed, 20 Mar 2024 21:19:40 +0100</pubDate>
+    <lastBuildDate>Wed, 20 Mar 2024 21:35:55 +0100</lastBuildDate>
+    <pubDate>Wed, 20 Mar 2024 21:35:55 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -521,7 +521,7 @@
         <link>https://homegenie.it//mini/1.2/examples/smart-shutters/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-shutters/</guid>
         <description>How to implement smart shutters</description>
-        <pubDate>Wed, 20 Mar 2024 20:52:08 +0100</pubDate>
+        <pubDate>Wed, 20 Mar 2024 21:21:36 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/examples/smart-shutters/" rel="self" />
         <dc:creator></dc:creator>
     </item>

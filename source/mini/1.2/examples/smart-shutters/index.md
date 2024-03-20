@@ -26,7 +26,7 @@ Shieldy is a smart device that can be used to turn regular shutters into fully a
 shell and other parts can be customized to fit different models.  
 Easy to calibrate, fast and reliable positioning, it also auto-detects and reports eventual mechanical issues.  
 Can be automated using [HomeGenie Panel](../../../../panel) and [HomeGenie Server](../../../../server) for instance
-to optimize the light income based on the solar position or simply to suit you daily routines and preferences.  
+to optimize the light income based on solar time or simply to suit you daily routines and preferences.  
 It can be battery-powered and recharged automatically using a small solar panel.
 
 
