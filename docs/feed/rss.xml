@@ -7,8 +7,8 @@
     <description></description>
     <language>en</language>
     <copyright></copyright>
-    <lastBuildDate>Wed, 20 Mar 2024 22:04:32 +0100</lastBuildDate>
-    <pubDate>Wed, 20 Mar 2024 22:04:32 +0100</pubDate>
+    <lastBuildDate>Thu, 21 Mar 2024 02:06:13 +0100</lastBuildDate>
+    <pubDate>Thu, 21 Mar 2024 02:06:13 +0100</pubDate>
     <image>
         <title>HomeGenie</title>
         <url>https://homegenie.it//images/icons/icon-152x152.png</url>
@@ -490,15 +490,6 @@
         <dc:creator></dc:creator>
     </item>
     <item>
-        <title>IR / RF gateway</title>
-        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
-        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
-        <description>How to implement a smart IR/RF gateway</description>
-        <pubDate>Wed, 20 Mar 2024 20:52:08 +0100</pubDate>
-        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
-        <dc:creator></dc:creator>
-    </item>
-    <item>
         <title>Smart color light</title>
         <link>https://homegenie.it//mini/1.2/examples/smart-led/</link>
         <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/smart-led/</guid>
@@ -523,6 +514,15 @@
         <description>How to implement smart shutters</description>
         <pubDate>Wed, 20 Mar 2024 21:38:04 +0100</pubDate>
         <atom:link href="https://homegenie.it//mini/1.2/examples/smart-shutters/" rel="self" />
+        <dc:creator></dc:creator>
+    </item>
+    <item>
+        <title>IR / RF gateway</title>
+        <link>https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</link>
+        <guid isPermaLink="true">https://homegenie.it//mini/1.2/examples/ir-rf-gateway/</guid>
+        <description>How to implement a smart IR/RF gateway</description>
+        <pubDate>Wed, 20 Mar 2024 22:06:34 +0100</pubDate>
+        <atom:link href="https://homegenie.it//mini/1.2/examples/ir-rf-gateway/" rel="self" />
         <dc:creator></dc:creator>
     </item>
 </channel>

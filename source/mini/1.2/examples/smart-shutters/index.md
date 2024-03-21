@@ -78,7 +78,7 @@ implements the same functionality to control the builtin RGB LED.
 - Tactile Button switch (6mm)
 - Lithium battery charging module (optional)
 - 5V 2500mAh lithium battery (optional)
-- Solar panel 5v 200ma (optional) 
+- Solar panel 5v 200mA (optional) 
 - `shutter-c3` firmware
 - 3d printed shell (original design by G-Labs)
 
@@ -122,5 +122,5 @@ Controls servo motor connected to GPIO 5.
 - `Control.Close` / `Control.Off`
 - `Control.Level/<level>` (0-100)
 - `Control.ColorHsb/<h>,<s>,<b>,<tansition_ms>`
-- `Shutter.Calibrate` (wip)
-- `Shutter.Speed` (wip)
+- `Shutter.Calibrate` (WIP)
+- `Shutter.Speed` (WIP)
