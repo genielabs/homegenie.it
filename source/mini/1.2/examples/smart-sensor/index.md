@@ -34,10 +34,6 @@ media:
   preview: images/hg_mini_smart_device_01.jpg
   url: images/hg_mini_smart_device_01.jpg
 
-- type: image
-  preview: images/hg_mini_smart_device_02.jpg
-  url: images/hg_mini_smart_device_02.jpg
-
 - type: video
   preview: images/hg_mini_smart_device_03.jpg
   url: images/hg_mini_smart_device_02.mp4
@@ -53,11 +49,6 @@ media:
 - type: image
   preview: images/hg_mini_smart_device_06.jpg
   url: images/hg_mini_smart_device_06.jpg
-
-- type: video
-  preview: images/hg_mini_smart_device_04.jpg
-  url: images/hg_mini_smart_device_01.mp4
-
 
 options:
 - name: slide
@@ -76,6 +67,41 @@ creations and explore more advanced applications with *HomeGenie Mini*.
 <small style="font-size:65%;">
 Original 3D design and artwork by *G-Labs*, title <strong>"India approaching Moon 23-08-23"</strong>
 </small>
+
+
+
+### User Interface demo
+
+*Lunar* is also an example of how to use *HomeGenie Mini SDK* classes to implement a multitasking
+and touch based user interface.
+
+One of the example shows how to "pair" any switchable smart device or scene to a *Lunar* device,
+so you can control it using the touch UI.
+
+
+<div layout="row center-center">
+<div style="min-width: 360px;max-width: 640px;width: 100%;"><div class="media-container" style="height: auto; aspect-ratio: 7/6">
+{% zx 'media-browser' %}
+
+media:
+
+- type: image
+  preview: images/hg_mini_smart_device_02.jpg
+  url: images/hg_mini_smart_device_02.jpg
+
+- type: video
+  preview: images/hg_mini_smart_device_04.jpg
+  url: images/hg_mini_smart_device_01.mp4
+
+options:
+- name: slide
+  value: 10000
+- name: inline
+  value: true
+
+{% endzx %}
+</div></div></div>
+
 
 
 ### Ingredients
